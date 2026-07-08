@@ -34,3 +34,10 @@ __pycache__/
 # Large SAE intermediate report tables
 reports/*/sae_global_feature_summary_*.csv
 reports/*/sae_prompt_summary_*.csv
+
+# Plot side files
+reports/*/plots/*.pdf
+reports/*/plots/*.meta.json
+
+# Copied Gemma prompt output used locally for inspection
+reports/*/prompt_outputs_*.csv
