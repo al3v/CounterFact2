@@ -1,5 +1,21 @@
 # Top SAE features (selected layers)
 
+## How to interpret this table
+
+After the dense hidden states go through the SAE, each prompt activates only a small number of SAE features. This table shows which SAE features were activated most often in selected layers.
+
+| Column | Meaning |
+|---|---|
+| `layer` | Gemma layer where the SAE feature comes from. |
+| `feature_id` | Numerical ID of the SAE feature. This is not a human label yet. |
+| `active_count` | Number of prompts where this feature activated. |
+| `active_fraction` | Fraction of prompts where this feature activated. For example, `0.5796` means about 58% of prompts. |
+| `total_activation` | Total activation strength across all prompts. |
+| `mean_activation_when_active` | Average activation strength when the feature is active. |
+| `max_activation` | Strongest activation value observed for this feature. |
+| `sae_folder` | Gemma Scope SAE folder used for that layer. |
+
+Important: these feature IDs are not automatically interpretable. They show which sparse features are active often, but qualitative inspection is needed before saying what a feature represents.
 Selected layers: [2, 12, 18]
 
 Top 10 features per layer by active_count.
