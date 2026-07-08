@@ -30,3 +30,7 @@ logs/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# Large SAE intermediate report tables
+reports/*/sae_global_feature_summary_*.csv
+reports/*/sae_prompt_summary_*.csv

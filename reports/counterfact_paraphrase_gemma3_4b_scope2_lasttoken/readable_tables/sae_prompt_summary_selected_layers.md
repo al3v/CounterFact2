@@ -1,0 +1,15 @@
+# SAE prompt summary (selected layers)
+
+Selected layers: [2, 12, 18]
+
+| layer | pair_type | n_prompts | n_facts | correct_rate | mean_n_active_features | mean_sum_active_activation | mean_max_active_activation |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2 | correct_correct | 802 | 401 | 1.0 | 5.9264 | 806.59 | 387.982 |
+| 2 | correct_wrong | 1082 | 541 | 0.5 | 6.6377 | 877.3932 | 374.3562 |
+| 2 | wrong_wrong | 2498 | 1249 | 0.0 | 6.0544 | 826.5144 | 377.8202 |
+| 12 | correct_correct | 802 | 401 | 1.0 | 17.3566 | 4467.6943 | 1009.3064 |
+| 12 | correct_wrong | 1082 | 541 | 0.5 | 17.2292 | 4425.6941 | 974.289 |
+| 12 | wrong_wrong | 2498 | 1249 | 0.0 | 16.8887 | 4378.5415 | 973.3343 |
+| 18 | correct_correct | 802 | 401 | 1.0 | 16.4651 | 8537.9669 | 1804.6897 |
+| 18 | correct_wrong | 1082 | 541 | 0.5 | 16.8567 | 8569.9174 | 1730.8249 |
+| 18 | wrong_wrong | 2498 | 1249 | 0.0 | 16.8046 | 8448.4173 | 1613.5009 |
