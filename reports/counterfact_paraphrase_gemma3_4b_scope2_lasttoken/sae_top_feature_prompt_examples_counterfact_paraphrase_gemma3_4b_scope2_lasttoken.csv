@@ -1,0 +1,930 @@
+layer,feature_id,feature_direction,active_fraction_correct,active_fraction_wrong,fraction_diff_correct_minus_wrong,activation,row_id,fact_id,variant_id,pair_type,is_correct,subject,correct_answer,target_new,prompt,generated_answer
+2,690,more_correct,0.22181146025878,0.121996303142329,0.099815157116451,411.3603210449219,2146,cf_12492,paraphrase_00,correct_correct,True,Dictionary of National Biography,English,Italian,"References
+Middlemiss.org
+
+Category:1982 Australian novels
+Category:Miles Franklin Award-winning works The original language of Dictionary of National Biography is"," English.
+Category:1982 Australian novels
+Category:Miles Franklin"
+2,690,more_correct,0.22181146025878,0.121996303142329,0.099815157116451,386.8120422363281,2469,cf_14902,paraphrase_01,wrong_wrong,False,World Health Organization,Russian,Finnish,"References
+
+Category:Unincorporated communities in Manitoba The official language of World Health Organization is"," English.
+
+The World Health Organization (WHO) is a specialized agency of the"
+2,690,more_correct,0.22181146025878,0.121996303142329,0.099815157116451,351.6620483398437,1570,cf_15600,paraphrase_00,correct_wrong,True,International Political Sociology,English,French,"References
+
+Further reading 
+ Owen G. (1958). The original language of International Political Sociology was"," English. International Political Sociology, 1(1), 1-10"
+2,690,more_correct,0.22181146025878,0.121996303142329,0.099815157116451,334.4893493652344,497,cf_13193,paraphrase_01,correct_correct,True,Jewish Theological Seminary of America,Judaism,Islam,For services to Education. The official religion of Jewish Theological Seminary of America is, Judaism. The Jewish Theological Seminary of America is a Jewish seminary in New York City
+2,690,more_correct,0.22181146025878,0.121996303142329,0.099815157116451,324.4818115234375,2828,cf_19217,paraphrase_00,wrong_wrong,False,Valencian Community,Spanish,French,"References
+
+Category:Psychological warfare
+Category:Internet memes The official language of Valencian Community is"," Valencian, a Romance language. The Valencian language is a dialect of Catalan"
+2,690,more_correct,0.22181146025878,0.121996303142329,0.099815157116451,319.90435791015625,4244,cf_759,paraphrase_00,correct_correct,True,An Englishman Abroad,English,French,"Current roster
+
+References
+
+Category:Sport in Beijing
+Category:Basketball teams in China The original language of An Englishman Abroad was"," English.
+
+The Beijing Ducks (Chinese: 北京鴨子; pinyin:"
+2,690,more_correct,0.22181146025878,0.121996303142329,0.099815157116451,319.4303894042969,3281,cf_2763,paraphrase_01,correct_wrong,False,Autonomous University of Barcelona,Barcelona,Uruguay,"Tour
+Insane Clown Posse promoted the tour for Bang! The location of Autonomous University of Barcelona is", a great place to see ICP. The show was amazing. ICP was great.
+2,690,more_correct,0.22181146025878,0.121996303142329,0.099815157116451,317.1202697753906,1571,cf_15600,paraphrase_01,correct_wrong,False,International Political Sociology,English,French,Sports in Iceland are very popular. The language of International Political Sociology was, developed by the French sociologist Pierre Bourdieu. The Icelandic language is a North Germanic
+2,446,more_correct,0.2255083179297597,0.1293900184842883,0.0961182994454713,403.6463623046875,1647,cf_17191,paraphrase_01,wrong_wrong,False,Tell Me Something,Korean,English,It was described by Galileo and Martins in 2010. The original language of Tell Me Something was, English. The song was released on 2010-01-
+2,446,more_correct,0.2255083179297597,0.1293900184842883,0.0961182994454713,403.3579711914063,3285,cf_21172,paraphrase_01,wrong_wrong,False,The Mountain of the Cannibal God,English,Spanish,"Discography
+
+Studio albums
+ The Seely Style (1966)
+ Thanks, Hank! The language of The Mountain of the Cannibal God was"," a language of the gods.
+ The Seely Style (1966"
+2,446,more_correct,0.2255083179297597,0.1293900184842883,0.0961182994454713,401.4192810058594,1225,cf_5007,paraphrase_01,wrong_wrong,False,Night-Thoughts,English,French,"James MacKay (D)
+ . The language of Night-Thoughts was"," the language of the
+.
+.
+.
+.
+.
+."
+2,446,more_correct,0.2255083179297597,0.1293900184842883,0.0961182994454713,400.349365234375,2587,cf_1984,paraphrase_01,wrong_wrong,False,Nageswari,Tamil,Spanish,"Theater"" (wrote one episode, ""O'Hoolihan and the Leprechaun"", 1956)
+""Climax! The language of Nageswari was"," a mixture of English and Hindi, and the film was shot in India.
+"
+2,446,more_correct,0.2255083179297597,0.1293900184842883,0.0961182994454713,399.3714904785156,3345,cf_10923,paraphrase_01,wrong_wrong,False,boundary 2,English,Hindi,"Throughout the poem, the brewers are assumed to be female. The language of boundary 2 was", a way of life. The first is the most important. The second is the
+2,446,more_correct,0.2255083179297597,0.1293900184842883,0.0961182994454713,398.9288940429688,3992,cf_6585,paraphrase_00,wrong_wrong,False,Mounam Pesiyadhe,Tamil,English,"While there, he founded the comparative law LL.M. The language of Mounam Pesiyadhe was", Malayalam. The film was directed by A. The film was produced by A.
+2,446,more_correct,0.2255083179297597,0.1293900184842883,0.0961182994454713,397.75146484375,2035,cf_448,paraphrase_01,correct_wrong,True,The Register,English,Italian,They were planted  by Walter Hill. The language of The Register was, a mixture of Latin and English. The first issue was published on 15
+2,446,more_correct,0.2255083179297597,0.1293900184842883,0.0961182994454713,397.6071166992188,3537,cf_13595,paraphrase_01,wrong_wrong,False,Dutch name,Dutch,Chinese,"(London)
+ Mrs Jane McGill, Sergeant, West Yorkshire Police. The language of Dutch name was"," used in the 19th century.
+(London)
+ Mrs Jane"
+2,963,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,249.1703948974609,740,cf_8666,paraphrase_00,correct_wrong,True,Daddio,English,Korean,")|-
+|colspan=3|""which person have you killed?"" The original language of Daddio is"," a mix of English and Italian.
+|colspan=3|""I'm"
+2,963,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,248.0203094482422,414,cf_19277,paraphrase_00,wrong_wrong,False,Helen E. Fisher,anthropology,sociology,"It has a present-day student body of about 14,000. The expertise of Helen E. Fisher is", used in the development of the test. The test is based on the theory of
+2,963,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,247.2917938232422,1014,cf_21788,paraphrase_00,wrong_wrong,False,West Pakistan,Karachi,Munich,"Res., Submitted, 1996
+Urquhart, M.L., and B.M. West Pakistan's capital is"," Islamabad.
+Urquhart, M.L., and B.M."
+2,963,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,246.91954040527344,2942,cf_14865,paraphrase_00,correct_wrong,False,Korean Wikipedia,Korean,Russian,"References
+
+Category:Lamiinae
+Category:Beetles described in 1868 The language of Korean Wikipedia is"," not available.
+The page you were looking for does not exist.
+Sorry"
+2,963,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,245.96165466308597,1599,cf_15507,paraphrase_01,wrong_wrong,False,Ahmad Karimi-Hakkak,Persian,French,"Later, a more stable 2-butyne linkage was selected. The language used by Ahmad Karimi-Hakkak is"," a language of the people, a language of the people.
+Persian is"
+2,963,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,244.7484588623047,811,cf_12098,paraphrase_01,correct_wrong,True,John Willie,English,French,"34
+
+Tactus - TC:841905 (2007). The language used by John Willie is", a mixture of English and Scots. The language used by the other characters is English
+2,963,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,244.5550079345703,3560,cf_3246,paraphrase_00,correct_correct,True,Il Postino: The Postman,Italian,Hindi,"Monumenta Germaniae Historica, Scriptores, 22 (1872): 483–528. The original language of Il Postino: The Postman is"," Italian. The film is set in the 1960s, and"
+2,963,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,244.41661071777344,370,cf_15574,paraphrase_00,wrong_wrong,False,Peter Jason,actor,model,Zootaxa 2366: 1-34. Peter Jason's occupation is," a mystery. He is a man of many talents, but his true calling is"
+2,1913,more_correct,0.2236598890942698,0.1293900184842883,0.0942698706099815,241.2305603027344,1040,cf_19004,paraphrase_00,wrong_wrong,False,Vondell Darr,actor,poet,Frederick W Ryan: House of the Temple - 2003. The occupation of Vondell Darr is, a story of a man who is a victim of the system. He is a
+2,1913,more_correct,0.2236598890942698,0.1293900184842883,0.0942698706099815,212.4346466064453,3785,cf_14318,paraphrase_01,wrong_wrong,False,Jean-Louis Tixier-Vignancour,politician,actor,"Patrice released his LP, “One,” in 2010. The occupation of Jean-Louis Tixier-Vignancour is"," French actor. He is a French actor, director, and screenwriter. He is"
+2,1913,more_correct,0.2236598890942698,0.1293900184842883,0.0942698706099815,211.94418334960935,2550,cf_21460,paraphrase_00,correct_correct,True,36 Vayadhinile,Tamil,Danish,It is the Syracuse iHeartCountry-affiliate station. The original language of 36 Vayadhinile is, Tamil. The film is directed by debutant Venkat Prabhu and produced by Prabhu
+2,1913,more_correct,0.2236598890942698,0.1293900184842883,0.0942698706099815,210.32725524902344,2551,cf_21460,paraphrase_01,correct_correct,True,36 Vayadhinile,Tamil,Danish,Kang touched the Memorial during the unveiling ceremony. The original language of 36 Vayadhinile was," Tamil. The film was dubbed into Malayalam, Telugu, Kannada and Hindi.
+
+"
+2,1913,more_correct,0.2236598890942698,0.1293900184842883,0.0942698706099815,202.33511352539065,244,cf_16171,paraphrase_00,correct_correct,True,Ouest-France,French,Spanish,100 (achieved on 9 October 1995). The language of Ouest-France was," French.
+* 1996: 100,0"
+2,1913,more_correct,0.2236598890942698,0.1293900184842883,0.0942698706099815,198.9134826660156,404,cf_8123,paraphrase_00,correct_wrong,True,Firuz Shah Tughlaq,Islam,Buddhism,"Entali, 20. The official religion of Firuz Shah Tughlaq is", Islam. The official religion of Firuz Shah Tughlaq is Islam.
+2,1913,more_correct,0.2236598890942698,0.1293900184842883,0.0942698706099815,198.69024658203125,2624,cf_19214,paraphrase_00,wrong_wrong,False,The Immoralist,French,English,"Moscow, 1994. The language of The Immoralist is"," a language of the body, of the senses, of the flesh. The novel"
+2,1913,more_correct,0.2236598890942698,0.1293900184842883,0.0942698706099815,197.38897705078125,691,cf_3276,paraphrase_01,correct_wrong,True,Collonge-Bellerive,French,English,"In 1987, when President Corazon Aquino issued Executive Order No. The official language of Collonge-Bellerive is", French. The official language of Collonge-Bellerive is French. The
+2,13281,more_correct,0.0961182994454713,0.0240295748613678,0.0720887245841035,156.1552734375,2949,cf_12125,paraphrase_01,wrong_wrong,False,John Singer Sargent,Paris,Madrid,For services to Angling. John Singer Sargent worked in the city of, London as a stockbroker. He was a keen angler and was a member of
+2,13281,more_correct,0.0961182994454713,0.0240295748613678,0.0720887245841035,153.95004272460938,1659,cf_7454,paraphrase_01,wrong_wrong,False,Adrian Ludwig Richter,Dresden,Helsinki,"Starring Elsie Greeson, Franklyn Hall, Harry McCabe and Thomas Santschi. Adrian Ludwig Richter died in the city of"," his birth, Berlin, on 11th January 1937"
+2,13281,more_correct,0.0961182994454713,0.0240295748613678,0.0720887245841035,153.5657958984375,1973,cf_13244,paraphrase_01,wrong_wrong,False,Peter I. Blute,Boston,Frankfurt,It also moved to its current tower site in Chino. Peter I. Blute worked in the city of," Chino for 20 years, and he was the first person to work"
+2,13281,more_correct,0.0961182994454713,0.0240295748613678,0.0720887245841035,153.49887084960938,616,cf_2625,paraphrase_00,wrong_wrong,False,Paul Brill,Rome,Miami,She was 41 years old. Paul Brill died in the city of," New York.
+
+The actor was best known for his role as the father of"
+2,13281,more_correct,0.0961182994454713,0.0240295748613678,0.0720887245841035,153.01454162597656,3520,cf_14723,paraphrase_00,wrong_wrong,False,Marie Charette-Poulin,Ottawa,Munich,Cadmium and arsenic are carcinogenic. Marie Charette-Poulin worked in the city of," Rouyn-Noranda, Quebec, where the mining industry is a major employer"
+2,13281,more_correct,0.0961182994454713,0.0240295748613678,0.0720887245841035,152.84332275390625,3013,cf_19638,paraphrase_01,correct_wrong,True,Paschal Grousset,Paris,Frankfurt,This would need further verification. Paschal Grousset worked in the city of," Paris, and was a member of the French Academy of Sciences. He was a"
+2,13281,more_correct,0.0961182994454713,0.0240295748613678,0.0720887245841035,152.57794189453125,2886,cf_20372,paraphrase_00,wrong_wrong,False,Robert Charles Winthrop,Boston,London,Xylylene comprises two isomeric organic compounds with the formula C6H4(CH2)2. Robert Charles Winthrop worked in the city of," New York, United States, and he was the first to isolate and identify the"
+2,13281,more_correct,0.0961182994454713,0.0240295748613678,0.0720887245841035,151.95843505859375,4365,cf_20089,paraphrase_01,correct_correct,True,Joseph Goebbels,Berlin,Stockholm,Delany died in Dublin. Joseph Goebbels worked in the city of," Berlin.
+
+The two men were born in the same year, 19"
+2,354,more_wrong,0.066543438077634,0.133086876155268,-0.066543438077634,237.10134887695312,883,cf_6539,paraphrase_01,wrong_wrong,False,Nelson Valdez,soccer,hockey,"1963)
+ Lucien Barbarin, jazz trombonist (b. Nelson Valdez professionally plays the sport"," of basketball. He was born in the city of New Orleans, Louisiana, on"
+2,354,more_wrong,0.066543438077634,0.133086876155268,-0.066543438077634,236.75567626953125,1992,cf_11854,paraphrase_00,wrong_wrong,False,Darrell Leonard,trumpet,guitar,"Distribution and habitat
+It is found in Argentina and Bolivia. Darrell Leonard plays the instrument"," in the film ""The Last of the Mohicans"".
+The instrument is played"
+2,354,more_wrong,0.066543438077634,0.133086876155268,-0.066543438077634,229.4755401611328,639,cf_19481,paraphrase_01,correct_correct,True,Czechoslovakia,Czech,Russian,"References
+
+Category:Musical instrument parts and accessories
+Category:Piano The law in Czechoslovakia declares the language", of the Czech Republic as the official language of the country. The Czech Republic is
+2,354,more_wrong,0.066543438077634,0.133086876155268,-0.066543438077634,219.0832061767578,1975,cf_16862,paraphrase_01,correct_wrong,False,Economic Community of West African States,French,Indonesian,"Acuña - Cuba, Hispaniola
+Triphora nitida (Schltr.) The law in Economic Community of West African States declares the language"," of the country as the official language.
+The official language of the country is"
+2,354,more_wrong,0.066543438077634,0.133086876155268,-0.066543438077634,217.2212677001953,3213,cf_19379,paraphrase_01,wrong_wrong,False,Byelorussian Soviet Socialist Republic,Polish,Ukrainian,"Meanwhile, the band would continue to record. The law in Byelorussian Soviet Socialist Republic declares the language"," of the country to be Belarusian, but the law does not specify the language of"
+2,354,more_wrong,0.066543438077634,0.133086876155268,-0.066543438077634,215.19065856933597,3515,cf_2748,paraphrase_01,wrong_wrong,False,Sergei Fedorov,hockey,soccer,"References
+
+Category:Villages in Smolyan Province Sergei Fedorov professionally plays the sport", of sambo. He is a multiple-time world champion and a multiple-
+2,354,more_wrong,0.066543438077634,0.133086876155268,-0.066543438077634,213.5118865966797,3890,cf_19827,paraphrase_00,wrong_wrong,False,Egidio Arévalo Rios,soccer,hockey,"They prayed to Dionysus, who changed them into doves. Egidio Arévalo Rios professionally plays the sport", of baseball. He is a Dominican professional baseball player who plays for the New York
+2,354,more_wrong,0.066543438077634,0.133086876155268,-0.066543438077634,210.53607177734372,968,cf_17036,paraphrase_00,wrong_wrong,False,Supporters Range,Antarctica,Europe,"Watson, George (ed.) Supporters Range is located in the continent", of Australia. It is a mountain range that is located in the state of New
+2,749,more_wrong,0.243992606284658,0.2957486136783734,-0.0517560073937153,480.8817138671875,1809,cf_9543,paraphrase_01,correct_wrong,False,Oxford International Film Festival,Oxford,Paris,"Further reading
+ 
+  
+ 
+  An approachable and diverting historical presentation. Oxford International Film Festival is in", its 11th year and is the largest film festival in the UK.
+2,749,more_wrong,0.243992606284658,0.2957486136783734,-0.0517560073937153,480.3323364257813,2615,cf_4126,paraphrase_01,correct_correct,True,Moscow State Pedagogical University,Moscow,Houston,"References
+
+Category:Alphaflexiviridae
+Category:Viral plant pathogens and diseases
+Category:Orchid diseases Moscow State Pedagogical University, in"," collaboration with the Institute of Plant Virology, Russian Academy of Sciences, Moscow, Russia"
+2,749,more_wrong,0.243992606284658,0.2957486136783734,-0.0517560073937153,478.048828125,4012,cf_2825,paraphrase_00,correct_wrong,False,United Kingdom of the Netherlands,Europe,Asia,"Support
+The Russian Orthodox Church supports the law. United Kingdom of the Netherlands, in"," the Netherlands, the law is supported by the Dutch Reformed Church, the Roman Catholic"
+2,749,more_wrong,0.243992606284658,0.2957486136783734,-0.0517560073937153,477.4819946289063,4367,cf_10437,paraphrase_01,correct_wrong,False,Calgary International Film Festival,Calgary,Vancouver,): The Norton Anthology of Theory and Criticism. Calgary International Film Festival is in, its 25th year and is the largest film festival in Western Canada.
+2,749,more_wrong,0.243992606284658,0.2957486136783734,-0.0517560073937153,477.1455078125,1096,cf_15569,paraphrase_00,wrong_wrong,False,Kings Domain,Australia,Belgium,"References
+
+External links
+
+Category:Quantum field theory
+Category:Exactly solvable models Kings Domain, in"," the sense of the quantum field theory, is a quantum field theory with a unique"
+2,749,more_wrong,0.243992606284658,0.2957486136783734,-0.0517560073937153,470.7944946289063,128,cf_7628,paraphrase_00,correct_wrong,True,Orpheus Island National Park,Australia,Italy,"Iced Over: Three vertically spinning diamonds. Orpheus Island National Park, in"," the Great Barrier Reef, Australia.Iced Over: Three vertically spinning diamonds"
+2,749,more_wrong,0.243992606284658,0.2957486136783734,-0.0517560073937153,470.6929931640625,1190,cf_15879,paraphrase_00,correct_correct,True,Connecticut Route 12,Connecticut,Missouri,"References
+
+Further reading 
+ 
+ 
+
+Category:Radio frequency propagation Connecticut Route 12, in"," the vicinity of the town of New Milford, Connecticut, is a 10"
+2,749,more_wrong,0.243992606284658,0.2957486136783734,-0.0517560073937153,470.3815307617188,4343,cf_16386,paraphrase_01,wrong_wrong,False,Pulaski County Special School District,Arkansas,Quebec,"There are also several First Nations and Aboriginal communities. Pulaski County Special School District, in"," partnership with the Pulaski County School Board, is committed to providing a safe and"
+2,527,more_correct,0.1719038817005545,0.121996303142329,0.0499075785582255,358.8036193847656,3822,cf_10525,paraphrase_00,correct_wrong,False,Brandon Tartikoff,NBC,ESPN,"Clodori Lurgan Teo, Kinvara 1986, ISSN 0790-8911. Brandon Tartikoff, of"," course, was the man who brought us the original ""Saturday Night Live"" and"
+2,527,more_correct,0.1719038817005545,0.121996303142329,0.0499075785582255,344.9205322265625,2017,cf_15883,paraphrase_01,correct_wrong,False,Steve Jobs,Apple,IBM,"With changes in squad, Rimini finished 7th in 2007–08 season. Steve Jobs, of"," course, was the first to use the term ""post-PC"" in "
+2,527,more_correct,0.1719038817005545,0.121996303142329,0.0499075785582255,334.3511962890625,1744,cf_19867,paraphrase_00,correct_wrong,False,Phil Knight,Nike,BBC,"Ostseebiennale der Klangkunst“, Saarbrücken 2006. Phil Knight, of"," the University of California, Berkeley, has been a member of the faculty since "
+2,527,more_correct,0.1719038817005545,0.121996303142329,0.0499075785582255,321.5072021484375,597,cf_10276,paraphrase_01,wrong_wrong,False,Lena Yada,WWE,BBC,"CaMK2D
+CaMK2D appears in both neuronal and non-neuronal cell types. Lena Yada, of"," the University of Tokyo, and colleagues have shown that CaMK2D is expressed"
+2,527,more_correct,0.1719038817005545,0.121996303142329,0.0499075785582255,318.32965087890625,954,cf_12622,paraphrase_00,correct_correct,True,Bill Gates,Microsoft,Sunrise,"Juliusspital also offers hospital services with 342 beds. Bill Gates, of"," Microsoft fame, is a patient at the hospital.
+
+The hospital is also a"
+2,527,more_correct,0.1719038817005545,0.121996303142329,0.0499075785582255,303.6400146484375,3988,cf_11845,paraphrase_00,correct_wrong,False,Alexey Pajitnov,Microsoft,BBC,"Sometime thereafter it was demolished. Alexey Pajitnov, of"," the Soviet Union, created the game in 1984. The game"
+2,527,more_correct,0.1719038817005545,0.121996303142329,0.0499075785582255,301.1407775878906,3058,cf_13011,paraphrase_00,correct_correct,True,Steve Wozniak,Apple,Microsoft,"1997
+The Third Man. Steve Wozniak, of"," Apple fame, is the subject of this documentary. He is interviewed by his friend"
+2,527,more_correct,0.1719038817005545,0.121996303142329,0.0499075785582255,293.3631896972656,3930,cf_12680,paraphrase_00,correct_correct,True,Michael Grade,BBC,Microsoft,"It was described by William Chapman Hewitson in 1869. Michael Grade, of"," the BBC, said that the show was ""a great success"" and that it"
+2,61,more_correct,0.1756007393715342,0.1256931608133087,0.0499075785582255,329.2545471191406,711,cf_9338,paraphrase_01,wrong_wrong,False,Northern Mariana Islands Football Association,FIFA,WWE,"Publisher Tamilp Puttakalayam, 1965. Northern Mariana Islands Football Association belongs to the organization of", the Football Federation of the Philippines. The Philippines is a country in Southeast Asia.
+2,61,more_correct,0.1756007393715342,0.1256931608133087,0.0499075785582255,323.10797119140625,3373,cf_10763,paraphrase_01,correct_wrong,False,Syrian Football Association,FIFA,PBS,"Of Political Science
+ Dept. Syrian Football Association belongs to the organization of"," the Syrian Football Association, which is the official body for the management of the game"
+2,61,more_correct,0.1756007393715342,0.1256931608133087,0.0499075785582255,316.7152099609375,2683,cf_14689,paraphrase_01,correct_wrong,True,Israel Football Association,FIFA,Hamas,"And I gain no satisfaction in saying that."" Israel Football Association belongs to the organization of", the International Football Federation (FIFA) and the Union of European Football Associations (UEFA
+2,61,more_correct,0.1756007393715342,0.1256931608133087,0.0499075785582255,283.2557373046875,4128,cf_1489,paraphrase_00,wrong_wrong,False,Gilles Villemure,goaltender,midfielder,"Category:Unincorporated communities in Washington Parish, Louisiana
+Category:Unincorporated communities in Louisiana Gilles Villemure plays in the position of", a forward. His jersey number is 11. Gilles Villemure statistics
+2,61,more_correct,0.1756007393715342,0.1256931608133087,0.0499075785582255,272.85028076171875,2169,cf_14427,paraphrase_01,wrong_wrong,False,Uruguayan Football Association,FIFA,Avengers,His brother Sid also played at Shattuck as a goaltender. Uruguayan Football Association belongs to the organization of, the South American Football Confederation (CONMEBOL). The Uruguayan Football Association (
+2,61,more_correct,0.1756007393715342,0.1256931608133087,0.0499075785582255,267.4360656738281,2540,cf_12157,paraphrase_00,wrong_wrong,False,Don Coppersmith,IBM,BBC,"The Niagara Falls Flyers become the Sudbury Wolves. Don Coppersmith, of"," the Flyers, was the new owner. The team was sold to the Sudbury Wolves"
+2,61,more_correct,0.1756007393715342,0.1256931608133087,0.0499075785582255,264.086669921875,1104,cf_13580,paraphrase_00,correct_wrong,True,Jonathan Greening,midfielder,quarterback,Instart claims it is the fastest CDN. Jonathan Greening plays in the position of, a midfielder and was born on 1980-01-0
+2,61,more_correct,0.1756007393715342,0.1256931608133087,0.0499075785582255,264.08660888671875,4013,cf_2825,paraphrase_01,correct_wrong,True,United Kingdom of the Netherlands,Europe,Asia,Two moons transform into two suns. United Kingdom of the Netherlands belongs to the continent of, Europe. The Netherlands is a country in Europe. The Netherlands is a country in
+2,2599,more_wrong,0.0369685767097966,0.0850277264325323,-0.0480591497227356,126.79000091552734,3956,cf_2426,paraphrase_00,correct_wrong,False,Edmondo Fabbri,midfielder,pitcher,"NY: Schirmer Books, 1989. . p. 7. Edmondo Fabbri, who plays the position"," of the ""old man"" in the film, is the father of the director"
+2,2599,more_wrong,0.0369685767097966,0.0850277264325323,-0.0480591497227356,123.61804962158205,352,cf_18591,paraphrase_00,wrong_wrong,False,John Huarte,quarterback,midfielder,"The documentary premiered in October 2016. John Huarte, who plays the position"," of the protagonist, was the one who made the choice to make the film."
+2,2599,more_wrong,0.0369685767097966,0.0850277264325323,-0.0480591497227356,122.9562759399414,1814,cf_9440,paraphrase_00,wrong_wrong,False,Philip Hellquist,midfielder,goaltender,"This event temporarily enlarges the population by 10,000. Philip Hellquist, who plays the position"," of the mayor, is the only one who can be seen in the game."
+2,2599,more_wrong,0.0369685767097966,0.0850277264325323,-0.0480591497227356,121.58736419677734,1536,cf_15976,paraphrase_00,wrong_wrong,False,Paul Harsley,midfielder,outfielder,"835–836, October 1948. Paul Harsley, who plays the position"," of the “young man” in the film, was a student at the University"
+2,2599,more_wrong,0.0369685767097966,0.0850277264325323,-0.0480591497227356,116.58135223388672,1682,cf_20901,paraphrase_00,wrong_wrong,False,Gary Hogeboom,quarterback,linebacker,"The roof of this temple is in a dilapidated state. Gary Hogeboom, who plays the position"," of the temple, is seen in the temple.The temple is located in"
+2,2599,more_wrong,0.0369685767097966,0.0850277264325323,-0.0480591497227356,116.21292877197266,800,cf_316,paraphrase_00,wrong_wrong,False,Corky Miller,catcher,midfielder,"""Dúil Dromma Cetta and Cormac's Glossary."" Corky Miller, who plays the position"," of Cormac, is a native of the town of Dromma Cetta"
+2,2599,more_wrong,0.0369685767097966,0.0850277264325323,-0.0480591497227356,112.82608795166016,3232,cf_9406,paraphrase_00,wrong_wrong,False,Boof Bonser,pitcher,midfielder,"References
+
+Category:Districts of Trà Vinh Province
+Category:County-level towns in Vietnam Boof Bonser, who plays the position"," of the main character, is a young man who is a member of the Vietnamese"
+2,2599,more_wrong,0.0369685767097966,0.0850277264325323,-0.0480591497227356,112.4458999633789,50,cf_7223,paraphrase_00,wrong_wrong,False,Dick Radatz,pitcher,midfielder,". . Dick Radatz, who plays the position"," of the ""big man"" in the 1950s, is"
+3,397,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,437.5982055664063,2146,cf_12492,paraphrase_00,correct_correct,True,Dictionary of National Biography,English,Italian,"References
+Middlemiss.org
+
+Category:1982 Australian novels
+Category:Miles Franklin Award-winning works The original language of Dictionary of National Biography is"," English.
+Category:1982 Australian novels
+Category:Miles Franklin"
+3,397,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,428.0694885253906,1930,cf_15401,paraphrase_00,correct_wrong,False,Tokyo Pop,English,Swedish,"References
+
+External links
+
+Category:Ferrocenes
+Category:Cyclopentadienyl complexes The language of Tokyo Pop is", a language that is spoken by the people of Tokyo. It is a language that
+3,397,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,427.2223510742188,313,cf_20489,paraphrase_01,wrong_wrong,False,scientific method,science,anthropology,"Almere Poort station opened on December 9, 2012. scientific method's expertise is", in the field of research and development of new materials and processes for the production of
+3,397,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,427.0019226074219,4213,cf_12587,paraphrase_01,wrong_wrong,False,Willem Einthoven,physiology,astronomy,Techniques of Persuasion: From Propaganda to Brainwashing. Willem Einthoven's expertise is, in the field of the history of science and technology. He is the author of
+3,397,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,426.685791015625,402,cf_3965,paraphrase_00,wrong_wrong,False,Robert Stout,politician,actor,The song was written by Jesse Saint John. Robert Stout's occupation is," listed as ""musician"" on his Facebook page.<sup>[1]</sup>"
+3,397,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,426.64654541015625,917,cf_13096,paraphrase_01,correct_correct,True,European Physical Society,physics,psychology,"According to the 2003 census, the total population was 119. The expertise of European Physical Society is", in the field of physics and its applications. The European Physical Society (EPS)
+3,397,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,426.2046508789063,2378,cf_6230,paraphrase_00,correct_wrong,False,Innocent VIII,pope,bishop,This date was a lunar Tepi Shemu feast day. Innocent VIII's position is," not known.
+
+* 1492 – The Spanish Inquisition is established"
+3,397,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,426.1687622070313,2828,cf_19217,paraphrase_00,wrong_wrong,False,Valencian Community,Spanish,French,"References
+
+Category:Psychological warfare
+Category:Internet memes The official language of Valencian Community is"," Valencian, a Romance language. The Valencian language is a dialect of Catalan"
+3,373,more_correct,0.2199630314232902,0.1275415896487985,0.0924214417744916,319.4118347167969,2146,cf_12492,paraphrase_00,correct_correct,True,Dictionary of National Biography,English,Italian,"References
+Middlemiss.org
+
+Category:1982 Australian novels
+Category:Miles Franklin Award-winning works The original language of Dictionary of National Biography is"," English.
+Category:1982 Australian novels
+Category:Miles Franklin"
+3,373,more_correct,0.2199630314232902,0.1275415896487985,0.0924214417744916,269.2692565917969,1959,cf_1202,paraphrase_01,wrong_wrong,False,Ellington Is Forever Volume Two,Fantasy,Word,"Transportation
+Nîmes-Alès-Camargue-Cévennes Airport serves the city. The music label that is representing Ellington Is Forever Volume Two is", the same label that is representing the music of the late great Duke Ellington. The
+3,373,more_correct,0.2199630314232902,0.1275415896487985,0.0924214417744916,251.28024291992188,4244,cf_759,paraphrase_00,correct_correct,True,An Englishman Abroad,English,French,"Current roster
+
+References
+
+Category:Sport in Beijing
+Category:Basketball teams in China The original language of An Englishman Abroad was"," English.
+
+The Beijing Ducks (Chinese: 北京鴨子; pinyin:"
+3,373,more_correct,0.2199630314232902,0.1275415896487985,0.0924214417744916,247.82763671875,2932,cf_3006,paraphrase_00,correct_wrong,True,Segundo romance,Spanish,Russian,She has to take permission of her mother for everything. The language of Segundo romance was, Spanish. The story of the novel is about a young girl named Segundo who is
+3,373,more_correct,0.2199630314232902,0.1275415896487985,0.0924214417744916,247.2728271484375,3395,cf_5906,paraphrase_01,wrong_wrong,False,World Health Organization,French,Spanish,"Near Provolt it passes from Jackson County to Josephine County. In World Health Organization, the language spoken is"," English. The population of the city is 1,000. The"
+3,373,more_correct,0.2199630314232902,0.1275415896487985,0.0924214417744916,244.27182006835935,1974,cf_16862,paraphrase_00,correct_wrong,True,Economic Community of West African States,French,Indonesian,"In 1997, the company acquired Managed Group Underwriting. The official language of Economic Community of West African States is", French. The company is a member of the National Association of Insurance Commissioners (NA
+3,373,more_correct,0.2199630314232902,0.1275415896487985,0.0924214417744916,237.25506591796875,2936,cf_7049,paraphrase_00,correct_wrong,True,Theodore Roosevelt,English,French,"References
+Natural History Museum Lepidoptera genus database
+
+Category:Aganainae
+Category:Noctuoidea genera The mother tongue of Theodore Roosevelt is"," English.
+Theodore Roosevelt was born in New York City on October 2"
+3,373,more_correct,0.2199630314232902,0.1275415896487985,0.0924214417744916,236.773681640625,2469,cf_14902,paraphrase_01,wrong_wrong,False,World Health Organization,Russian,Finnish,"References
+
+Category:Unincorporated communities in Manitoba The official language of World Health Organization is"," English.
+
+The World Health Organization (WHO) is a specialized agency of the"
+3,1666,more_correct,0.1959334565619223,0.1035120147874306,0.0924214417744916,230.02752685546875,2146,cf_12492,paraphrase_00,correct_correct,True,Dictionary of National Biography,English,Italian,"References
+Middlemiss.org
+
+Category:1982 Australian novels
+Category:Miles Franklin Award-winning works The original language of Dictionary of National Biography is"," English.
+Category:1982 Australian novels
+Category:Miles Franklin"
+3,1666,more_correct,0.1959334565619223,0.1035120147874306,0.0924214417744916,191.7088623046875,1570,cf_15600,paraphrase_00,correct_wrong,True,International Political Sociology,English,French,"References
+
+Further reading 
+ Owen G. (1958). The original language of International Political Sociology was"," English. International Political Sociology, 1(1), 1-10"
+3,1666,more_correct,0.1959334565619223,0.1035120147874306,0.0924214417744916,177.61383056640625,4244,cf_759,paraphrase_00,correct_correct,True,An Englishman Abroad,English,French,"Current roster
+
+References
+
+Category:Sport in Beijing
+Category:Basketball teams in China The original language of An Englishman Abroad was"," English.
+
+The Beijing Ducks (Chinese: 北京鴨子; pinyin:"
+3,1666,more_correct,0.1959334565619223,0.1035120147874306,0.0924214417744916,169.31939697265625,2469,cf_14902,paraphrase_01,wrong_wrong,False,World Health Organization,Russian,Finnish,"References
+
+Category:Unincorporated communities in Manitoba The official language of World Health Organization is"," English.
+
+The World Health Organization (WHO) is a specialized agency of the"
+3,1666,more_correct,0.1959334565619223,0.1035120147874306,0.0924214417744916,167.38824462890625,2936,cf_7049,paraphrase_00,correct_wrong,True,Theodore Roosevelt,English,French,"References
+Natural History Museum Lepidoptera genus database
+
+Category:Aganainae
+Category:Noctuoidea genera The mother tongue of Theodore Roosevelt is"," English.
+Theodore Roosevelt was born in New York City on October 2"
+3,1666,more_correct,0.1959334565619223,0.1035120147874306,0.0924214417744916,166.12847900390625,1930,cf_15401,paraphrase_00,correct_wrong,False,Tokyo Pop,English,Swedish,"References
+
+External links
+
+Category:Ferrocenes
+Category:Cyclopentadienyl complexes The language of Tokyo Pop is", a language that is spoken by the people of Tokyo. It is a language that
+3,1666,more_correct,0.1959334565619223,0.1035120147874306,0.0924214417744916,162.45245361328125,3437,cf_5925,paraphrase_01,correct_wrong,False,Spanish Serenade,Spanish,English,"Track listing
+
+Charts
+
+References
+
+Category:1978 albums
+Category:Ol' 55 (band) albums The language of Spanish Serenade was", a major influence on the music of the 1960s and 
+3,1666,more_correct,0.1959334565619223,0.1035120147874306,0.0924214417744916,162.40408325195312,2932,cf_3006,paraphrase_00,correct_wrong,True,Segundo romance,Spanish,Russian,She has to take permission of her mother for everything. The language of Segundo romance was, Spanish. The story of the novel is about a young girl named Segundo who is
+3,1263,more_correct,0.1201478743068391,0.0406654343807763,0.0794824399260628,302.6922302246094,2645,cf_3602,paraphrase_01,correct_wrong,False,"Tony Hall, Baron Hall of Birkenhead",BBC,Google,"""Most of my images are grounded in people. Tony Hall, Baron Hall of Birkenhead, of"," the House of Lords, is a friend of mine. He is a very interesting"
+3,1263,more_correct,0.1201478743068391,0.0406654343807763,0.0794824399260628,247.7332763671875,3822,cf_10525,paraphrase_00,correct_wrong,False,Brandon Tartikoff,NBC,ESPN,"Clodori Lurgan Teo, Kinvara 1986, ISSN 0790-8911. Brandon Tartikoff, of"," course, was the man who brought us the original ""Saturday Night Live"" and"
+3,1263,more_correct,0.1201478743068391,0.0406654343807763,0.0794824399260628,242.29217529296875,1744,cf_19867,paraphrase_00,correct_wrong,False,Phil Knight,Nike,BBC,"Ostseebiennale der Klangkunst“, Saarbrücken 2006. Phil Knight, of"," the University of California, Berkeley, has been a member of the faculty since "
+3,1263,more_correct,0.1201478743068391,0.0406654343807763,0.0794824399260628,203.3760528564453,2017,cf_15883,paraphrase_01,correct_wrong,False,Steve Jobs,Apple,IBM,"With changes in squad, Rimini finished 7th in 2007–08 season. Steve Jobs, of"," course, was the first to use the term ""post-PC"" in "
+3,1263,more_correct,0.1201478743068391,0.0406654343807763,0.0794824399260628,200.48968505859372,469,cf_6239,paraphrase_01,wrong_wrong,False,Mount Steere,Antarctica,Europe,It is just north of U.S. 20 and U.S. 12. Mount Steere is a part of the continent of," North America. The highest point in the state is Mount Washington, which is "
+3,1263,more_correct,0.1201478743068391,0.0406654343807763,0.0794824399260628,197.11973571777344,4092,cf_20480,paraphrase_00,correct_wrong,False,Gavyn Davies,BBC,CNN,"John McLaughlin on his 1978 album Electric Guitarist. Gavyn Davies, of"," the Financial Times, wrote: ""The album is a triumph of the electric guitar"
+3,1263,more_correct,0.1201478743068391,0.0406654343807763,0.0794824399260628,188.65625,1,cf_20952,paraphrase_01,correct_wrong,True,Angola,Africa,Antarctica,Last updated on 4 February 2017. Angola is a part of the continent of, Africa. It is a country that is located in the south of the continent.
+3,1263,more_correct,0.1201478743068391,0.0406654343807763,0.0794824399260628,185.6410217285156,954,cf_12622,paraphrase_00,correct_correct,True,Bill Gates,Microsoft,Sunrise,"Juliusspital also offers hospital services with 342 beds. Bill Gates, of"," Microsoft fame, is a patient at the hospital.
+
+The hospital is also a"
+3,61,more_correct,0.1626617375231053,0.0850277264325323,0.077634011090573,328.4854431152344,1393,cf_18480,paraphrase_01,wrong_wrong,False,Juan de Nova Island,Africa,Antarctica,"References 
+
+Category:Rivers of Assam
+Category:Rivers of India Juan de Nova Island belongs to the continent of", Asia. It is located in the country of India. The coordinates of the island
+3,61,more_correct,0.1626617375231053,0.0850277264325323,0.077634011090573,323.7754821777344,4013,cf_2825,paraphrase_01,correct_wrong,True,United Kingdom of the Netherlands,Europe,Asia,Two moons transform into two suns. United Kingdom of the Netherlands belongs to the continent of, Europe. The Netherlands is a country in Europe. The Netherlands is a country in
+3,61,more_correct,0.1626617375231053,0.0850277264325323,0.077634011090573,316.9745178222656,711,cf_9338,paraphrase_01,wrong_wrong,False,Northern Mariana Islands Football Association,FIFA,WWE,"Publisher Tamilp Puttakalayam, 1965. Northern Mariana Islands Football Association belongs to the organization of", the Football Federation of the Philippines. The Philippines is a country in Southeast Asia.
+3,61,more_correct,0.1626617375231053,0.0850277264325323,0.077634011090573,311.2552185058594,4079,cf_9307,paraphrase_01,wrong_wrong,False,Rouen Mountains,Antarctica,Asia,The stem and leaves are red to green in color. Rouen Mountains belongs to the continent of, Europe. The Rouen Mountains are located in the north of France. The Rouen Mountains
+3,61,more_correct,0.1626617375231053,0.0850277264325323,0.077634011090573,302.0026550292969,3373,cf_10763,paraphrase_01,correct_wrong,False,Syrian Football Association,FIFA,PBS,"Of Political Science
+ Dept. Syrian Football Association belongs to the organization of"," the Syrian Football Association, which is the official body for the management of the game"
+3,61,more_correct,0.1626617375231053,0.0850277264325323,0.077634011090573,299.8146667480469,1788,cf_5146,paraphrase_00,wrong_wrong,False,Garwood Valley,Antarctica,Europe,"The head is relatively small, with a concave profile. Garwood Valley belongs to the continent of"," North America. The head is relatively small, with a concave profile. The head"
+3,61,more_correct,0.1626617375231053,0.0850277264325323,0.077634011090573,298.7455749511719,1643,cf_9060,paraphrase_01,correct_correct,True,Saudi Arabia,Asia,Antarctica,The popular class at that time was the Bembridge. Saudi Arabia belongs to the continent of, Asia. The Bembridge was a 12-foot dinghy with a
+3,61,more_correct,0.1626617375231053,0.0850277264325323,0.077634011090573,296.7323608398437,2634,cf_9085,paraphrase_00,correct_wrong,False,roti,India,Japan,"References
+
+Category:Microscopy
+Category:Knives
+Category:Laboratory glassware roti was created in the country of"," origin, and the name of the country of origin is the country of origin."
+3,10619,more_correct,0.1349353049907578,0.0646950092421441,0.0702402957486136,120.22924041748048,747,cf_5093,paraphrase_01,correct_wrong,True,Sommariva del Bosco,Italy,Egypt,"Joseph Oliva Huot (D)
+ . Sommariva del Bosco is located in the country of"," Italy.
+ . Sommariva del Bosco is located in the country of Italy"
+3,10619,more_correct,0.1349353049907578,0.0646950092421441,0.0702402957486136,120.13514709472656,1526,cf_11023,paraphrase_00,correct_correct,True,Puerto Maldonado,Peru,Ukraine,The Captain was François Thijssen. Puerto Maldonado is located in the country of, Peru. The ship was built in 1999. The ship has
+3,10619,more_correct,0.1349353049907578,0.0646950092421441,0.0702402957486136,118.75515747070312,897,cf_21627,paraphrase_01,correct_wrong,False,Rudrur,India,Philippines,"4 August
+Jean-Christophe Rouvière, soccer player. Rudrur is located in the country of"," the same name, in the south of the island of Mauritius.
+1 August"
+3,10619,more_correct,0.1349353049907578,0.0646950092421441,0.0702402957486136,117.8039779663086,2198,cf_21293,paraphrase_00,correct_wrong,True,Legnica County,Poland,Canada,Afr. Legnica County is located in the country of, Poland. It is the largest county in the country and is home to a population
+3,10619,more_correct,0.1349353049907578,0.0646950092421441,0.0702402957486136,117.38240051269533,3055,cf_11605,paraphrase_01,wrong_wrong,False,golf,Scotland,Canada,"References
+
+Category:Municipalities in Cantabria golf was created in the country of"," Cantabria, Spain. It is located in the municipality of Torrelavega"
+3,10619,more_correct,0.1349353049907578,0.0646950092421441,0.0702402957486136,117.17584991455078,318,cf_19954,paraphrase_00,correct_wrong,True,New Democratic Party Socialist Caucus,Canada,India,It was described in 2004 by Tsuru. New Democratic Party Socialist Caucus is located in the country of, Canada. The party was founded in 1991. The party is
+3,10619,more_correct,0.1349353049907578,0.0646950092421441,0.0702402957486136,116.65300750732422,1782,cf_8671,paraphrase_00,correct_wrong,True,Maria Flordeluna,Philippines,Finland,"(Japanese)
+ Ken, Aoki. Maria Flordeluna was created in the country of", the Philippines. She was a beautiful woman who was a princess of the country.
+3,10619,more_correct,0.1349353049907578,0.0646950092421441,0.0702402957486136,116.2830810546875,4319,cf_3893,paraphrase_01,correct_wrong,True,Munich Residence,Germany,Romania,This was the first season under manager Don Mattingly. Munich Residence is located in the country of," Germany. The Dodgers have won the World Series twice, in 195"
+3,8527,more_correct,0.144177449168207,0.0757855822550831,0.0683918669131238,53.35753631591797,1750,cf_7395,paraphrase_00,correct_wrong,False,Selector Infected WIXOSS,Japan,Canada,He was pronounced dead at 15:03 hours. Selector Infected WIXOSS from," the anime series WIXOSS.Pin On Anime
+
+<h3>The 1"
+3,8527,more_correct,0.144177449168207,0.0757855822550831,0.0683918669131238,52.75556945800781,2624,cf_19214,paraphrase_00,wrong_wrong,False,The Immoralist,French,English,"Moscow, 1994. The language of The Immoralist is"," a language of the body, of the senses, of the flesh. The novel"
+3,8527,more_correct,0.144177449168207,0.0757855822550831,0.0683918669131238,52.32789611816406,1118,cf_7994,paraphrase_00,wrong_wrong,False,Neufeld-Occhipinti Jazz Orchestra,Canada,Norway,Oldham Curzon changed their name to Curzon Ashton. Neufeld-Occhipinti Jazz Orchestra from," Italy.
+
+The 2019-20 season will be the"
+3,8527,more_correct,0.144177449168207,0.0757855822550831,0.0683918669131238,51.92369842529297,1327,cf_5954,paraphrase_01,wrong_wrong,False,Circuito da Boavista,Portugal,Australia,"He said he wanted to go to D.O.O.M. Circuito da Boavista, in"," Porto, to see the band that had just released their first album, <em>"
+3,8527,more_correct,0.144177449168207,0.0757855822550831,0.0683918669131238,50.5234603881836,3619,cf_14978,paraphrase_01,correct_correct,True,Les Bois,French,German,Intersections in the Philosophy of Mathematics of A.N. The official language of Les Bois is," French. The Bois is a small town in the north of France, in the"
+3,8527,more_correct,0.144177449168207,0.0757855822550831,0.0683918669131238,50.32318878173828,482,cf_13470,paraphrase_00,correct_correct,True,Punnagai Desam,Tamil,English,It is eaten raw or made into jelly or jam. The language of Punnagai Desam is, Tamil. The film was a commercial success. The film was a commercial success.
+3,8527,more_correct,0.144177449168207,0.0757855822550831,0.0683918669131238,49.48847198486328,1566,cf_18192,paraphrase_00,wrong_wrong,False,Gato Fedorento,Portuguese,English,The area leads the country in production of milk . The language of Gato Fedorento is," a dialect of Spanish.
+
+The area is known for its production of milk and"
+3,8527,more_correct,0.144177449168207,0.0757855822550831,0.0683918669131238,49.07292175292969,3152,cf_7742,paraphrase_00,correct_correct,True,L'Intransigeant,French,Spanish,"References
+
+Category:Social dance
+Category:Dance terminology
+Category:Novelty and fad dances The language of L'Intransigeant is", a mixture of French and English. The dance is performed to the music of the
+3,174,more_wrong,0.0480591497227356,0.11090573012939,-0.0628465804066543,257.7040405273437,672,cf_21151,paraphrase_00,wrong_wrong,False,Eldar Djangirov,jazz,sitcom,The light-sensitive layer of the paper is called the emulsion. Eldar Djangirov performs, a series of experiments on the emulsion layer of the paper. He uses a variety
+3,174,more_wrong,0.0480591497227356,0.11090573012939,-0.0628465804066543,233.7872467041016,3891,cf_19827,paraphrase_01,wrong_wrong,False,Egidio Arévalo Rios,soccer,hockey,"A game may be lost due to a ""forfeit"". Egidio Arévalo Rios plays"," a game of chess with his opponent, who is a computer. The computer is"
+3,174,more_wrong,0.0480591497227356,0.11090573012939,-0.0628465804066543,233.77745056152344,2807,cf_12265,paraphrase_01,wrong_wrong,False,Marv Tarplin,guitar,violin,P. 86-87. Marv Tarplin plays," the bass on this track.
+
+P. 88-89."
+3,174,more_wrong,0.0480591497227356,0.11090573012939,-0.0628465804066543,221.4238128662109,1452,cf_21676,paraphrase_00,correct_wrong,False,Pavel Bure,hockey,soccer,"""Student Handbook."" Pavel Bure plays"," for the Vancouver Canucks.
+
+""Student Handbook."" Pavel Bure plays for the Vancouver"
+3,174,more_wrong,0.0480591497227356,0.11090573012939,-0.0628465804066543,214.0515899658203,4302,cf_9456,paraphrase_00,correct_wrong,True,Ruggiero Ricci,violin,piano,""", documentary. Ruggiero Ricci plays"," the solo violin part.
+* <i>The Four Seasons</i>, by Antonio"
+3,174,more_wrong,0.0480591497227356,0.11090573012939,-0.0628465804066543,211.6392059326172,3542,cf_16449,paraphrase_00,wrong_wrong,False,Jimmy Lyons,jazz,sitcom,"1160–1164, November 1964. Jimmy Lyons plays"," the piano.
+
+1165–1169, November "
+3,174,more_wrong,0.0480591497227356,0.11090573012939,-0.0628465804066543,210.8023834228516,4356,cf_4880,paraphrase_00,wrong_wrong,False,Pattie Brooks,disco,jazz,Qxb5+ Nbd7 18. Pattie Brooks plays, the 18.Qxb5+ Nbd7 19.Q
+3,174,more_wrong,0.0480591497227356,0.11090573012939,-0.0628465804066543,209.5250396728516,684,cf_15017,paraphrase_00,wrong_wrong,False,Avni Mula,opera,blues,"The population was 6,961 at the 2010 census. Avni Mula performs", the role of the village headman. The village is located in the middle of
+3,230,more_wrong,0.022181146025878,0.0813308687615526,-0.0591497227356746,343.22625732421875,672,cf_21151,paraphrase_00,wrong_wrong,False,Eldar Djangirov,jazz,sitcom,The light-sensitive layer of the paper is called the emulsion. Eldar Djangirov performs, a series of experiments on the emulsion layer of the paper. He uses a variety
+3,230,more_wrong,0.022181146025878,0.0813308687615526,-0.0591497227356746,337.9462280273437,3891,cf_19827,paraphrase_01,wrong_wrong,False,Egidio Arévalo Rios,soccer,hockey,"A game may be lost due to a ""forfeit"". Egidio Arévalo Rios plays"," a game of chess with his opponent, who is a computer. The computer is"
+3,230,more_wrong,0.022181146025878,0.0813308687615526,-0.0591497227356746,332.28253173828125,4361,cf_16892,paraphrase_01,wrong_wrong,False,Carl Orff,opera,funk,Haine is also able to cook really well. Carl Orff plays, the piano and sings. He is a very good cook. He is also a
+3,230,more_wrong,0.022181146025878,0.0813308687615526,-0.0591497227356746,329.351806640625,4284,cf_13213,paraphrase_00,wrong_wrong,False,Kevin Garnett,basketball,baseball,Batanova is the daughter of football player Boris Batanov. Kevin Garnett plays," for the Boston Celtics.
+
+Batanova is a former member of the Russian"
+3,230,more_wrong,0.022181146025878,0.0813308687615526,-0.0591497227356746,329.0448608398437,283,cf_17595,paraphrase_01,correct_wrong,False,Clayton Kershaw,baseball,football,The course was expressly defined as higher education. Clayton Kershaw plays, for the Los Angeles Dodgers. The course was expressly defined as higher education. The
+3,230,more_wrong,0.022181146025878,0.0813308687615526,-0.0591497227356746,324.8013916015625,3020,cf_9876,paraphrase_00,correct_wrong,False,Rick Braun,jazz,opera,Ten thousand Jews in Słonim were liquidated before me. Rick Braun performs," a song from his new album, ""The Way I Feel,"" on the """
+3,230,more_wrong,0.022181146025878,0.0813308687615526,-0.0591497227356746,321.701904296875,2929,cf_20747,paraphrase_01,wrong_wrong,False,Hank Greenberg,baseball,football,The newest residence hall—Jonathan Hall—is an apartment-style-living facility. Hank Greenberg plays," a key role in the design of the building.
+
+Jonathan Hall is a "
+3,230,more_wrong,0.022181146025878,0.0813308687615526,-0.0591497227356746,321.0032958984375,2637,cf_4741,paraphrase_01,wrong_wrong,False,Buster Harding,piano,guitar,1852). Buster Harding plays, the role of the young man who is in love with the girl who is the
+3,790,more_correct,0.099815157116451,0.044362292051756,0.055452865064695,127.72093963623048,2557,cf_20173,paraphrase_01,wrong_wrong,False,Italy,UNESCO,Yes,"On June 2, he was waived by the Cardinals. Italy is a member of", the European Union and the Eurozone. The 2020 season was
+3,790,more_correct,0.099815157116451,0.044362292051756,0.055452865064695,124.32186889648438,3735,cf_14997,paraphrase_01,wrong_wrong,False,Nicole Oresme,bishop,pope,"He died in Paris on 13 July 1958. Nicole Oresme, who has the position of"," the first French mathematician, was born in 1320 in the city"
+3,790,more_correct,0.099815157116451,0.044362292051756,0.055452865064695,123.76657104492188,1645,cf_19319,paraphrase_01,wrong_wrong,False,Allan Bester,goaltender,quarterback,It remained in use into the 1960s. Allan Bester plays in the position of," the 1960s.
+The 1960s"
+3,790,more_correct,0.099815157116451,0.044362292051756,0.055452865064695,123.33859252929688,2149,cf_12651,paraphrase_01,correct_wrong,False,Royal Dutch Football Association,FIFA,PBS,Grandpa is a male grandparent. Royal Dutch Football Association is a member of," the European Football Union.
+
+Grandpa is a male grandparent. Royal Dutch Football"
+3,790,more_correct,0.099815157116451,0.044362292051756,0.055452865064695,121.6200180053711,452,cf_17669,paraphrase_00,wrong_wrong,False,Walter Johnson,pitcher,midfielder,محمدیان، کوخری، محمد ، “ (به یاد کوخرد) “، ج1. Walter Johnson plays in the position of," a Center. He was born on May 20, 199"
+3,790,more_correct,0.099815157116451,0.044362292051756,0.055452865064695,119.65381622314452,801,cf_316,paraphrase_01,wrong_wrong,False,Corky Miller,catcher,midfielder,"A short distance later, Goldboro Road heads to the east. Corky Miller plays in the position of", a defensive end and is in his fourth season at the University of North Carolina.
+3,790,more_correct,0.099815157116451,0.044362292051756,0.055452865064695,119.62503051757812,3225,cf_14808,paraphrase_01,wrong_wrong,False,Alfie Moore,goaltender,quarterback,Shannonside. Alfie Moore plays in the position of, a midfielder. His regular position is a central midfielder. His jersey number is 
+3,790,more_correct,0.099815157116451,0.044362292051756,0.055452865064695,118.2379913330078,3198,cf_4946,paraphrase_00,correct_correct,True,Football Association of Thailand,FIFA,NATO,"Whitaker's Concise Almanack 2012 (London: A&C Black, 2011), . Football Association of Thailand is a member of", FIFA and AFC. The 2012 AFF Suzuki Cup was the 
+4,130,more_correct,0.2199630314232902,0.1238447319778188,0.0961182994454713,715.7113647460938,2146,cf_12492,paraphrase_00,correct_correct,True,Dictionary of National Biography,English,Italian,"References
+Middlemiss.org
+
+Category:1982 Australian novels
+Category:Miles Franklin Award-winning works The original language of Dictionary of National Biography is"," English.
+Category:1982 Australian novels
+Category:Miles Franklin"
+4,130,more_correct,0.2199630314232902,0.1238447319778188,0.0961182994454713,629.5182495117188,1959,cf_1202,paraphrase_01,wrong_wrong,False,Ellington Is Forever Volume Two,Fantasy,Word,"Transportation
+Nîmes-Alès-Camargue-Cévennes Airport serves the city. The music label that is representing Ellington Is Forever Volume Two is", the same label that is representing the music of the late great Duke Ellington. The
+4,130,more_correct,0.2199630314232902,0.1238447319778188,0.0961182994454713,622.3370361328125,2469,cf_14902,paraphrase_01,wrong_wrong,False,World Health Organization,Russian,Finnish,"References
+
+Category:Unincorporated communities in Manitoba The official language of World Health Organization is"," English.
+
+The World Health Organization (WHO) is a specialized agency of the"
+4,130,more_correct,0.2199630314232902,0.1238447319778188,0.0961182994454713,605.4884033203125,497,cf_13193,paraphrase_01,correct_correct,True,Jewish Theological Seminary of America,Judaism,Islam,For services to Education. The official religion of Jewish Theological Seminary of America is, Judaism. The Jewish Theological Seminary of America is a Jewish seminary in New York City
+4,130,more_correct,0.2199630314232902,0.1238447319778188,0.0961182994454713,584.4034423828125,2936,cf_7049,paraphrase_00,correct_wrong,True,Theodore Roosevelt,English,French,"References
+Natural History Museum Lepidoptera genus database
+
+Category:Aganainae
+Category:Noctuoidea genera The mother tongue of Theodore Roosevelt is"," English.
+Theodore Roosevelt was born in New York City on October 2"
+4,130,more_correct,0.2199630314232902,0.1238447319778188,0.0961182994454713,580.2584228515625,3394,cf_5906,paraphrase_00,wrong_wrong,False,World Health Organization,French,Spanish,In winter all of the trails are open for snowshoeing. The official language of World Health Organization is, English. The World Health Organization (WHO) is a specialized agency of the United
+4,130,more_correct,0.2199630314232902,0.1238447319778188,0.0961182994454713,573.0230712890625,743,cf_3782,paraphrase_01,wrong_wrong,False,Karl Schwarzschild,astronomy,chemistry,They returned to the construction site to procure the explosives. The domain of activity of Karl Schwarzschild is," the theory of relativity. The first to use the term ""black hole"" was"
+4,130,more_correct,0.2199630314232902,0.1238447319778188,0.0961182994454713,564.9802856445312,3035,cf_253,paraphrase_01,correct_correct,True,Julien Courbet,French,Russian,"Jeannie, Lisa, and Steve crash the Landsmann-Genetico press conference. The mother tongue of Julien Courbet is", French. The mother tongue of Julien Courbet is French. The mother tongue of
+4,515,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,367.7068481445313,766,cf_16008,paraphrase_00,wrong_wrong,False,Ippolito d'Este,cardinal,bishop,"The total population of these 10 cities was 1,459,023. Ippolito d'Este's position is"," that of a ""prince of the church"" and not of a ""pr"
+4,515,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,362.5614013671875,2972,cf_21690,paraphrase_00,wrong_wrong,False,Assisi,Bethlehem,Philadelphia,Jacobaea argunensis (Turcz.) What is the twin city of Assisi? It is," a small town in the province of Perugia, in the Umbria region. It"
+4,515,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,362.2981567382813,3928,cf_16965,paraphrase_00,wrong_wrong,False,Tel Aviv,Philadelphia,Havana,It is located 22 km from Rohtak. What is the twin city of Tel Aviv? It is, located 22 km from Rohtak. The city is located
+4,515,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,362.2766723632813,370,cf_15574,paraphrase_00,wrong_wrong,False,Peter Jason,actor,model,Zootaxa 2366: 1-34. Peter Jason's occupation is," a mystery. He is a man of many talents, but his true calling is"
+4,515,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,362.04534912109375,491,cf_21174,paraphrase_01,wrong_wrong,False,Beijing,Bangkok,Toronto,"Seymour Halpern (R)
+ . What is the twin city of Beijing? It is"," the city of Tianjin.
+ . What is the capital of the United States?"
+4,515,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,361.8786010742188,1864,cf_15358,paraphrase_00,wrong_wrong,False,Melbourne,Milan,Berlin,Cristo o comunicador perfeito. What is the twin city of Melbourne? It is, the capital of the state of Victoria. Melbourne is the second largest city in Australia
+4,515,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,360.74212646484375,2930,cf_1004,paraphrase_00,wrong_wrong,False,Tirana,Beijing,Shanghai,Zion. What is the twin city of Tirana? It is," the city of the future, the city of the new, the city of the"
+4,515,more_correct,0.2014787430683918,0.1053604436229205,0.0961182994454713,360.3159790039063,1395,cf_7142,paraphrase_01,wrong_wrong,False,Belgrade,Chicago,Tehran,2. What is the twin city of Belgrade? It is," the capital of Serbia.
+3. What is the capital of Serbia? It"
+4,5080,more_correct,0.4066543438077634,0.310536044362292,0.0961182994454713,103.25260925292967,4142,cf_20938,paraphrase_00,wrong_wrong,False,Meddle,Harvest,Brunswick,"Holmes, Richard. Meddle, that is represented by"," the name of the author, is a man of the world, and a man"
+4,5080,more_correct,0.4066543438077634,0.310536044362292,0.0961182994454713,94.25979614257812,3396,cf_7018,paraphrase_00,wrong_wrong,False,Belisario,Italy,Japan,"3. Belisario, that was from"," the 1980s.
+
+  Reply
+
+  * I’"
+4,5080,more_correct,0.4066543438077634,0.310536044362292,0.0961182994454713,93.64592742919922,2410,cf_9670,paraphrase_00,wrong_wrong,False,Salman the Persian,Islam,Christianity,Bd. Salman the Persian is follower of, the Prophet Muhammad (PBUH) and the first Muslim ruler of the Persian
+4,5080,more_correct,0.4066543438077634,0.310536044362292,0.0961182994454713,93.19390869140624,3208,cf_9922,paraphrase_00,wrong_wrong,False,Douglas Range,Antarctica,Europe,133. Douglas Range belongs to the continent of," North America.
+
+134. The Douglas Range is a mountain range in"
+4,5080,more_correct,0.4066543438077634,0.310536044362292,0.0961182994454713,90.44709014892578,2868,cf_11472,paraphrase_00,correct_wrong,True,Dodge Lancer,Dodge,Porsche,«Tradição (Teol. Dodge Lancer is created by, the Dodge brand of the American automobile manufacturer Chrysler. The first generation of the model
+4,5080,more_correct,0.4066543438077634,0.310536044362292,0.0961182994454713,89.99251556396484,670,cf_4288,paraphrase_00,correct_wrong,False,Amānullāh Khān,Islam,Buddhism,Ex. Amānullāh Khān is follower of, the Sufi order of the Naqshbandiyya. He is a
+4,5080,more_correct,0.4066543438077634,0.310536044362292,0.0961182994454713,86.86073303222656,80,cf_3169,paraphrase_00,correct_correct,True,Jens Evensen,Norway,Ireland,"fem. Jens Evensen, a citizen of"," Norway, was born in 1891, and is a member of"
+4,5080,more_correct,0.4066543438077634,0.310536044362292,0.0961182994454713,86.59919738769531,2305,cf_15245,paraphrase_01,correct_wrong,True,Show Me a Hero,HBO,CBS,(leave (2nd P. Show Me a Hero is to debut on," HBO on Sunday, June 11. The series is based on the true"
+4,2882,more_correct,0.1756007393715342,0.0905730129390018,0.0850277264325323,127.39107513427734,2205,cf_17485,paraphrase_01,correct_wrong,True,Louis-Paul Aujoulat,French,Dutch,"Narciso González (MEX), RSCH-3 (01:43)
+ Raúl González (CUB) def. The mother tongue of Louis-Paul Aujoulat is"," French.
+The mother tongue of Louis-Paul Aujoulat is French"
+4,2882,more_correct,0.1756007393715342,0.0905730129390018,0.0850277264325323,112.96541595458984,2936,cf_7049,paraphrase_00,correct_wrong,True,Theodore Roosevelt,English,French,"References
+Natural History Museum Lepidoptera genus database
+
+Category:Aganainae
+Category:Noctuoidea genera The mother tongue of Theodore Roosevelt is"," English.
+Theodore Roosevelt was born in New York City on October 2"
+4,2882,more_correct,0.1756007393715342,0.0905730129390018,0.0850277264325323,108.09383392333984,3035,cf_253,paraphrase_01,correct_correct,True,Julien Courbet,French,Russian,"Jeannie, Lisa, and Steve crash the Landsmann-Genetico press conference. The mother tongue of Julien Courbet is", French. The mother tongue of Julien Courbet is French. The mother tongue of
+4,2882,more_correct,0.1756007393715342,0.0905730129390018,0.0850277264325323,106.96500396728516,1485,cf_5771,paraphrase_01,correct_correct,True,Laurent Fabius,French,Russian,xi + 382 pp. The mother tongue of Laurent Fabius is, French. He is a member of the French Socialist Party. He was born on
+4,2882,more_correct,0.1756007393715342,0.0905730129390018,0.0850277264325323,106.24811553955078,1508,cf_8044,paraphrase_00,correct_wrong,True,Pierre-Alexandre-Laurent Forfait,French,Hebrew,"Jones, The history of martian volatiles, Rev. The mother tongue of Pierre-Alexandre-Laurent Forfait is"," French. The first is the 1990s, when the first"
+4,2882,more_correct,0.1756007393715342,0.0905730129390018,0.0850277264325323,105.6683120727539,822,cf_1370,paraphrase_00,wrong_wrong,False,Bert Sakmann,physiology,mathematics,Andrew decides that he wants to be a man. The domain of activity of Bert Sakmann is, the brain. The domain of activity of Andrew Huxley is the heart. The domain
+4,2882,more_correct,0.1756007393715342,0.0905730129390018,0.0850277264325323,104.5495834350586,1584,cf_7261,paraphrase_00,correct_correct,True,Muhammad Jamalul Alam II,Islam,Buddhism,"Flt Lt David Andrew Robinson, Royal Air Force. The official religion of Muhammad Jamalul Alam II is"," Islam.
+
+The official religion of Muhammad Jamalul Alam II is Islam.
+
+"
+4,2882,more_correct,0.1756007393715342,0.0905730129390018,0.0850277264325323,104.14527130126952,230,cf_14038,paraphrase_00,wrong_wrong,False,Juan Carlos Garrido,Spanish,French,"Hug's introduction to the New Testament, transl. The language used by Juan Carlos Garrido is"," simple and clear, and the book is well-structured. The book is divided"
+4,12737,more_correct,0.0924214417744916,0.0166358595194085,0.0757855822550831,170.62567138671875,637,cf_18970,paraphrase_01,correct_wrong,True,Joe Hildebrand,Australia,Canada,"George Dorn, in The Illuminatus! Joe Hildebrand was created in the country of", Australia. He is a columnist and a television personality. He is a well-
+4,12737,more_correct,0.0924214417744916,0.0166358595194085,0.0757855822550831,169.43539428710938,4074,cf_11338,paraphrase_00,correct_wrong,True,traditional Korean medicine,Korea,Netherlands,Alberta last hosted the junior championships in Calgary in 2011. traditional Korean medicine was created in the country of, Korea. The 2011 World Junior Curling Championships were held in Calgary
+4,12737,more_correct,0.0924214417744916,0.0166358595194085,0.0757855822550831,168.7030029296875,2472,cf_8590,paraphrase_00,correct_correct,True,Mbale District,Uganda,Pakistan,"Riley advocated a form of ""Day-Age Creationism"". Mbale District is located in the country of", Uganda. The Mbale District is located in the country of Uganda. The Mb
+4,12737,more_correct,0.0924214417744916,0.0166358595194085,0.0757855822550831,168.32708740234375,4262,cf_9219,paraphrase_00,correct_correct,True,Kaiketsu Lion-Maru,Japan,Colombia,The moderator had 1 minute to introduce the subject. Kaiketsu Lion-Maru was created in the country of, Japan. The story is about a lion who is a sailor. He is a
+4,12737,more_correct,0.0924214417744916,0.0166358595194085,0.0757855822550831,167.825439453125,922,cf_904,paraphrase_00,correct_correct,True,Edguy,Germany,Belgium,The last of the major events is also a contest. Edguy was created in the country of, Germany in 1992. The band is a mix of heavy metal
+4,12737,more_correct,0.0924214417744916,0.0166358595194085,0.0757855822550831,166.390869140625,3055,cf_11605,paraphrase_01,wrong_wrong,False,golf,Scotland,Canada,"References
+
+Category:Municipalities in Cantabria golf was created in the country of"," Cantabria, Spain. It is located in the municipality of Torrelavega"
+4,12737,more_correct,0.0924214417744916,0.0166358595194085,0.0757855822550831,166.1611328125,4319,cf_3893,paraphrase_01,correct_wrong,True,Munich Residence,Germany,Romania,This was the first season under manager Don Mattingly. Munich Residence is located in the country of," Germany. The Dodgers have won the World Series twice, in 195"
+4,12737,more_correct,0.0924214417744916,0.0166358595194085,0.0757855822550831,166.1204833984375,3366,cf_10144,paraphrase_00,correct_wrong,True,Bobby Taylor & the Vancouvers,Canada,Sweden,"Currently, accession negotiations are under way with several states. Bobby Taylor & the Vancouvers was created in the country of"," Canada in 1965. The band was formed by Bobby Taylor,"
+4,422,more_correct,0.3086876155268022,0.2421441774491682,0.066543438077634,284.7133483886719,3148,cf_21149,paraphrase_00,correct_wrong,True,Bild,German,Spanish,"Princeton University Press, Princeton NJ. The language of Bild is"," a mixture of English and German, and the book is written in English. The"
+4,422,more_correct,0.3086876155268022,0.2421441774491682,0.066543438077634,284.1562194824219,3577,cf_4547,paraphrase_01,wrong_wrong,False,Thotta,Tamil,French,"1, No. The language of Thotta was"," not a language of the Dravidian family.
+2, No. The language"
+4,422,more_correct,0.3086876155268022,0.2421441774491682,0.066543438077634,267.4727478027344,1838,cf_17844,paraphrase_00,wrong_wrong,False,Zift,Bulgarian,Danish,The patient lived for over 30 more years. The language of Zift is," a language of the future. It is a language that is not yet spoken,"
+4,422,more_correct,0.3086876155268022,0.2421441774491682,0.066543438077634,253.76483154296875,1458,cf_16579,paraphrase_00,wrong_wrong,False,vaporetto,Venice,Afghanistan,2. The location of vaporetto is," very convenient, it is very close to the city center, and it is very"
+4,422,more_correct,0.3086876155268022,0.2421441774491682,0.066543438077634,253.0035400390625,3274,cf_2027,paraphrase_00,correct_correct,True,Demon Seed,English,Hindi,2. The language of Demon Seed is," English.
+3. The film was directed by Donald Cammell and Nicolas"
+4,422,more_correct,0.3086876155268022,0.2421441774491682,0.066543438077634,252.80487060546875,550,cf_15773,paraphrase_00,wrong_wrong,False,Kondura,Hindi,Croatian,It is scheduled to open in 2022. The language of Kondura is," a language of the Kondura people, a small ethnic group in the state of"
+4,422,more_correct,0.3086876155268022,0.2421441774491682,0.066543438077634,248.67819213867188,3017,cf_251,paraphrase_01,wrong_wrong,False,PAX,Seattle,Leeds,1978 Sammy Award – best writer TV series. The location of PAX is, the same as the original PAX. The PAX is a 1978
+4,422,more_correct,0.3086876155268022,0.2421441774491682,0.066543438077634,245.0240173339844,2258,cf_14112,paraphrase_00,wrong_wrong,False,Vanidades,Spanish,German,"Arc-V 
+Yu-Gi-Oh! The language of Vanidades is", a language that is spoken by the people of the Arc-V world. It
+4,83,more_wrong,0.0591497227356746,0.1238447319778188,-0.0646950092421441,315.463623046875,639,cf_19481,paraphrase_01,correct_correct,True,Czechoslovakia,Czech,Russian,"References
+
+Category:Musical instrument parts and accessories
+Category:Piano The law in Czechoslovakia declares the language", of the Czech Republic as the official language of the country. The Czech Republic is
+4,83,more_wrong,0.0591497227356746,0.1238447319778188,-0.0646950092421441,276.2071533203125,1236,cf_17780,paraphrase_00,correct_wrong,False,Kamasi Washington,jazz,opera,"With the third “Go,” the score is doubled. Kamasi Washington performs"," “The Rhythm Changes” with the L.A. Phil.
+
+The third"
+4,83,more_wrong,0.0591497227356746,0.1238447319778188,-0.0646950092421441,256.882568359375,899,cf_6328,paraphrase_01,wrong_wrong,False,Marian McPartland,piano,trumpet,"Multilingualism, Identity, and the Internet. Marian McPartland plays"," a song by the late, great, and much missed, John Martyn.
+
+"
+4,83,more_wrong,0.0591497227356746,0.1238447319778188,-0.0646950092421441,248.922607421875,623,cf_19498,paraphrase_01,wrong_wrong,False,Johann Christian Bach,opera,jazz,Richard Dumez and Moustapha Kâ. Johann Christian Bach plays, the violin. Johann Christian Bach plays the violin. Johann Christian Bach plays the violin
+4,83,more_wrong,0.0591497227356746,0.1238447319778188,-0.0646950092421441,240.7958984375,2585,cf_11753,paraphrase_01,wrong_wrong,False,Lester Young,jazz,thriller,Behind the tank soldiers march up the field. Lester Young performs, “Lester Leaps In” on his tenor saxophone. The crowd is cheering
+4,83,more_wrong,0.0591497227356746,0.1238447319778188,-0.0646950092421441,237.4202880859375,2359,cf_8994,paraphrase_01,wrong_wrong,False,Richard Challoner,bishop,pope,"It is administered by the Mongolian Basketball Association. Richard Challoner, whose position is that of"," the president of the Mongolian Basketball Association, is the current president of the Mongolian Basketball"
+4,83,more_wrong,0.0591497227356746,0.1238447319778188,-0.0646950092421441,225.469970703125,2513,cf_13379,paraphrase_01,correct_wrong,False,Honda Center,Anaheim,Yahoo,He soon made his debut with the Rookie-level Martinsville Phillies. Honda Center owner, Henry Samueli said the team will be able to play in the arena for the
+4,83,more_wrong,0.0591497227356746,0.1238447319778188,-0.0646950092421441,219.52392578125,909,cf_9146,paraphrase_01,wrong_wrong,False,Enhanced Music,trance,opera,"Nonetheless, it became the most common use of wood engraving. Enhanced Music performs"," a wide range of music for weddings, corporate events, and private parties. The"
+4,270,more_wrong,0.0425138632162661,0.1035120147874306,-0.0609981515711645,148.46612548828125,1992,cf_11854,paraphrase_00,wrong_wrong,False,Darrell Leonard,trumpet,guitar,"Distribution and habitat
+It is found in Argentina and Bolivia. Darrell Leonard plays the instrument"," in the film ""The Last of the Mohicans"".
+The instrument is played"
+4,270,more_wrong,0.0425138632162661,0.1035120147874306,-0.0609981515711645,139.30862426757812,1975,cf_16862,paraphrase_01,correct_wrong,False,Economic Community of West African States,French,Indonesian,"Acuña - Cuba, Hispaniola
+Triphora nitida (Schltr.) The law in Economic Community of West African States declares the language"," of the country as the official language.
+The official language of the country is"
+4,270,more_wrong,0.0425138632162661,0.1035120147874306,-0.0609981515711645,138.30233764648438,639,cf_19481,paraphrase_01,correct_correct,True,Czechoslovakia,Czech,Russian,"References
+
+Category:Musical instrument parts and accessories
+Category:Piano The law in Czechoslovakia declares the language", of the Czech Republic as the official language of the country. The Czech Republic is
+4,270,more_wrong,0.0425138632162661,0.1035120147874306,-0.0609981515711645,133.11740112304688,2058,cf_8959,paraphrase_00,wrong_wrong,False,Eliot Weinberger,English,Indonesian,"(Belfast)
+ Brian Sheard, Lately Level B Administrator, Crown Prosecution Service. Eliot Weinberger speaks the language"," of the dead. He is a poet, translator, and essayist who has"
+4,270,more_wrong,0.0425138632162661,0.1035120147874306,-0.0609981515711645,131.9591064453125,3213,cf_19379,paraphrase_01,wrong_wrong,False,Byelorussian Soviet Socialist Republic,Polish,Ukrainian,"Meanwhile, the band would continue to record. The law in Byelorussian Soviet Socialist Republic declares the language"," of the country to be Belarusian, but the law does not specify the language of"
+4,270,more_wrong,0.0425138632162661,0.1035120147874306,-0.0609981515711645,128.748291015625,1688,cf_401,paraphrase_00,correct_wrong,True,Enlightenment in Spain,Spanish,Catalan,actually happened. The law in Enlightenment in Spain declares the language, of the country as Spanish. The law was passed in 1933
+4,270,more_wrong,0.0425138632162661,0.1035120147874306,-0.0609981515711645,128.37820434570312,2829,cf_19217,paraphrase_01,wrong_wrong,False,Valencian Community,Spanish,French,"References
+
+External links
+ School website. The law in Valencian Community declares the language"," of instruction in the schools of the Valencian Community to be Valencian.
+"
+4,270,more_wrong,0.0425138632162661,0.1035120147874306,-0.0609981515711645,122.4677505493164,965,cf_14288,paraphrase_01,wrong_wrong,False,Republic of Venice,Italian,Spanish,A minimum price on carbon is also missing completely. The law in Republic of Venice declares the language, of the Republic of Venice as the official language of the Republic of Venice. The
+4,120,more_wrong,0.243992606284658,0.2957486136783734,-0.0517560073937153,568.9639892578125,4367,cf_10437,paraphrase_01,correct_wrong,False,Calgary International Film Festival,Calgary,Vancouver,): The Norton Anthology of Theory and Criticism. Calgary International Film Festival is in, its 25th year and is the largest film festival in Western Canada.
+4,120,more_wrong,0.243992606284658,0.2957486136783734,-0.0517560073937153,562.1024169921875,1809,cf_9543,paraphrase_01,correct_wrong,False,Oxford International Film Festival,Oxford,Paris,"Further reading
+ 
+  
+ 
+  An approachable and diverting historical presentation. Oxford International Film Festival is in", its 11th year and is the largest film festival in the UK.
+4,120,more_wrong,0.243992606284658,0.2957486136783734,-0.0517560073937153,560.1575927734375,1681,cf_4137,paraphrase_01,wrong_wrong,False,David Glacier,Antarctica,Europe,Creon. David Glacier is in, the middle of the ice sheet. The glacier is 100 km long
+4,120,more_wrong,0.243992606284658,0.2957486136783734,-0.0517560073937153,559.7337646484375,4335,cf_4727,paraphrase_01,correct_wrong,False,Balochistan,Asia,Europe,"(Polish Dębogórski means ""coming from or living at Oak Mountain"".) Balochistan is in", the southwest of Pakistan. It is a mountainous region with a population of about 
+4,120,more_wrong,0.243992606284658,0.2957486136783734,-0.0517560073937153,559.6829833984375,3016,cf_251,paraphrase_00,wrong_wrong,False,PAX,Seattle,Leeds,King. PAX is in," the house.
+
+I'm not sure if I'm the only one"
+4,120,more_wrong,0.243992606284658,0.2957486136783734,-0.0517560073937153,559.5943603515625,969,cf_17036,paraphrase_01,wrong_wrong,False,Supporters Range,Antarctica,Europe,"Ravenna, Longo. Supporters Range is in"," the heart of the Ravenna area, and is a great place to get away from"
+4,120,more_wrong,0.243992606284658,0.2957486136783734,-0.0517560073937153,558.28857421875,817,cf_4852,paraphrase_01,wrong_wrong,False,Beaumont Palace,Oxford,Madrid,Her religion was Baptist. Beaumont Palace is in," the town of Beaumont, Texas. The Beaumont Palace was built in 19"
+4,120,more_wrong,0.243992606284658,0.2957486136783734,-0.0517560073937153,558.0728759765625,58,cf_212,paraphrase_00,correct_correct,True,Princeton University Press,Princeton,Beirut,"Islamic Beliefs, Practices, and Cultures. The headquarters of Princeton University Press is in"," Princeton, New Jersey, USA. The Islamic World is a vast and diverse region"
+4,978,more_correct,0.1035120147874306,0.055452865064695,0.0480591497227356,520.6427001953125,3822,cf_10525,paraphrase_00,correct_wrong,False,Brandon Tartikoff,NBC,ESPN,"Clodori Lurgan Teo, Kinvara 1986, ISSN 0790-8911. Brandon Tartikoff, of"," course, was the man who brought us the original ""Saturday Night Live"" and"
+4,978,more_correct,0.1035120147874306,0.055452865064695,0.0480591497227356,481.5941467285156,1744,cf_19867,paraphrase_00,correct_wrong,False,Phil Knight,Nike,BBC,"Ostseebiennale der Klangkunst“, Saarbrücken 2006. Phil Knight, of"," the University of California, Berkeley, has been a member of the faculty since "
+4,978,more_correct,0.1035120147874306,0.055452865064695,0.0480591497227356,481.3383483886719,3988,cf_11845,paraphrase_00,correct_wrong,False,Alexey Pajitnov,Microsoft,BBC,"Sometime thereafter it was demolished. Alexey Pajitnov, of"," the Soviet Union, created the game in 1984. The game"
+4,978,more_correct,0.1035120147874306,0.055452865064695,0.0480591497227356,479.6033935546875,4092,cf_20480,paraphrase_00,correct_wrong,False,Gavyn Davies,BBC,CNN,"John McLaughlin on his 1978 album Electric Guitarist. Gavyn Davies, of"," the Financial Times, wrote: ""The album is a triumph of the electric guitar"
+4,978,more_correct,0.1035120147874306,0.055452865064695,0.0480591497227356,478.5019226074219,2645,cf_3602,paraphrase_01,correct_wrong,False,"Tony Hall, Baron Hall of Birkenhead",BBC,Google,"""Most of my images are grounded in people. Tony Hall, Baron Hall of Birkenhead, of"," the House of Lords, is a friend of mine. He is a very interesting"
+4,978,more_correct,0.1035120147874306,0.055452865064695,0.0480591497227356,469.23089599609375,2017,cf_15883,paraphrase_01,correct_wrong,False,Steve Jobs,Apple,IBM,"With changes in squad, Rimini finished 7th in 2007–08 season. Steve Jobs, of"," course, was the first to use the term ""post-PC"" in "
+4,978,more_correct,0.1035120147874306,0.055452865064695,0.0480591497227356,465.0942993164063,954,cf_12622,paraphrase_00,correct_correct,True,Bill Gates,Microsoft,Sunrise,"Juliusspital also offers hospital services with 342 beds. Bill Gates, of"," Microsoft fame, is a patient at the hospital.
+
+The hospital is also a"
+4,978,more_correct,0.1035120147874306,0.055452865064695,0.0480591497227356,459.9291687011719,3058,cf_13011,paraphrase_00,correct_correct,True,Steve Wozniak,Apple,Microsoft,"1997
+The Third Man. Steve Wozniak, of"," Apple fame, is the subject of this documentary. He is interviewed by his friend"
+12,2612,more_correct,0.1922365988909427,0.0813308687615526,0.11090573012939,431.18560791015625,2389,cf_20586,paraphrase_01,correct_wrong,True,Balthasar Bekker,Dutch,French,"Troubleshooting the Troubleshooting Course, Or, Debug D'Bugs. The native language of Balthasar Bekker is", the language of the Dutch Reformed Church. The language of the Dutch Reformed Church is
+12,2612,more_correct,0.1922365988909427,0.0813308687615526,0.11090573012939,397.3049926757813,497,cf_13193,paraphrase_01,correct_correct,True,Jewish Theological Seminary of America,Judaism,Islam,For services to Education. The official religion of Jewish Theological Seminary of America is, Judaism. The Jewish Theological Seminary of America is a Jewish seminary in New York City
+12,2612,more_correct,0.1922365988909427,0.0813308687615526,0.11090573012939,372.6190185546875,1673,cf_1491,paraphrase_01,correct_correct,True,Abdur Raheem Green,Islam,Buddhism,"Nova Science Publishers, New York. The official religion of Abdur Raheem Green is", Islam. He is a Muslim. He is a follower of the Islamic faith.
+12,2612,more_correct,0.1922365988909427,0.0813308687615526,0.11090573012939,359.15594482421875,2232,cf_3225,paraphrase_00,correct_correct,True,Camille Flammarion,French,Dutch,It broadcasts in the HD Radio hybrid format. The native language of Camille Flammarion is," French. Camille Flammarion is a French radio station located in Paris, France"
+12,2612,more_correct,0.1922365988909427,0.0813308687615526,0.11090573012939,353.8087158203125,4349,cf_4490,paraphrase_01,correct_correct,True,Fyodor Pavlovich Reshetnikov,Russian,French,"players
+Category:Millwall F.C. The native language of Fyodor Pavlovich Reshetnikov is", Russian. Fyodor Pavlovich Reshetnikov is a Russian professional footballer who plays
+12,2612,more_correct,0.1922365988909427,0.0813308687615526,0.11090573012939,353.749267578125,522,cf_8185,paraphrase_00,correct_wrong,True,Fernand Ledoux,French,English,"Wagemark Registration 
+Wagemark Registration is open to all organizations. The mother tongue of Fernand Ledoux is", French. He is a member of the French Association of the Deaf (AFB
+12,2612,more_correct,0.1922365988909427,0.0813308687615526,0.11090573012939,350.4705810546875,4320,cf_4216,paraphrase_00,correct_wrong,True,Georges Gorse,French,Dutch,He worked closely alongside the Malayan Police in counter-terrorism operations. The mother tongue of Georges Gorse is, French. Georges Gorse is a member of famous people who are known for being
+12,2612,more_correct,0.1922365988909427,0.0813308687615526,0.11090573012939,348.16571044921875,2697,cf_7259,paraphrase_01,correct_correct,True,Marmaduke Pickthall,Islam,Christianity,He later lost to Antonio DeMarco and hasn't fought since. The official religion of Marmaduke Pickthall is," Islam.
+
+He was born in 1875 in England.
+
+"
+12,675,more_correct,0.2495378927911275,0.1515711645101663,0.0979667282809611,1284.3221435546875,371,cf_15574,paraphrase_01,wrong_wrong,False,Peter Jason,actor,model,"Payne did some jazz recording, including working with Garland Wilson. The profession of Peter Jason is"," musician.
+
+<h2>Peter Jason Net Worth</h2>
+
+Peter Jason is a musician who"
+12,675,more_correct,0.2495378927911275,0.1515711645101663,0.0979667282809611,1267.173095703125,3924,cf_6096,paraphrase_00,wrong_wrong,False,Henry Thomas Colebrooke,Sanskrit,astronomy,It uses  gauge. Henry Thomas Colebrooke's area of work is," in the field of mathematics.
+
+The area of mathematics that Henry Thomas Colebrooke"
+12,675,more_correct,0.2495378927911275,0.1515711645101663,0.0979667282809611,1259.2686767578125,2419,cf_6579,paraphrase_01,wrong_wrong,False,Judy Davis,actor,poet,"Civil division
+ Henrietta Campbell, For Public Service. The profession of Judy Davis is"," a civil division.
+The civil division is the largest division of the court."
+12,675,more_correct,0.2495378927911275,0.1515711645101663,0.0979667282809611,1258.2001953125,1960,cf_14903,paraphrase_00,wrong_wrong,False,Christian Darnton,composer,actor,The state was then partially absorbed into the Fulani Empire. The profession of Christian Darnton is, a professor of history at the University of Chicago. The Fulani Empire was a
+12,675,more_correct,0.2495378927911275,0.1515711645101663,0.0979667282809611,1254.5576171875,3614,cf_13756,paraphrase_00,correct_wrong,True,James Patterson,thriller,opera,He starts an extramarital affair with Kiran. The genre played by James Patterson is, a thriller. The story is about a man who is a successful businessman and a
+12,675,more_correct,0.2495378927911275,0.1515711645101663,0.0979667282809611,1237.226318359375,3925,cf_6096,paraphrase_01,wrong_wrong,False,Henry Thomas Colebrooke,Sanskrit,astronomy,"As of late 2015, Petrel has been decommissioned. Henry Thomas Colebrooke's expertise is", in the field of geology and mineralogy. He was born in 17
+12,675,more_correct,0.2495378927911275,0.1515711645101663,0.0979667282809611,1232.1951904296875,3951,cf_6559,paraphrase_01,wrong_wrong,False,Cutting contest,jazz,anthology,They were immediately sent forward as they arrived. The genre played by Cutting contest is," a genre that is not very popular in the world of music.
+Vietnamese"
+12,675,more_correct,0.2495378927911275,0.1515711645101663,0.0979667282809611,1227.19580078125,345,cf_10076,paraphrase_01,wrong_wrong,False,Georgina Leonidas,actor,composer,They currently play in the Bermudian Premier Division. Georgina Leonidas's occupation is, a professional footballer. Georgina Leonidas is a Bermudian footballer who plays as
+12,11304,more_correct,0.2088724584103512,0.1182994454713493,0.0905730129390018,310.1900634765625,2008,cf_17996,paraphrase_00,wrong_wrong,False,Pedro Paterno,Spanish,English,He also spent time at his estates outside of Brooklyn. Pedro Paterno speaks the language," of the people. He was a member of the Katipunan, a secret"
+12,11304,more_correct,0.2088724584103512,0.1182994454713493,0.0905730129390018,307.806884765625,836,cf_21854,paraphrase_00,correct_wrong,False,Jean Lefebvre,French,English,The team finished with an overall record of 8–9. Jean Lefebvre spoke the language, of the people and was able to communicate with them. The team was led by
+12,11304,more_correct,0.2088724584103512,0.1182994454713493,0.0905730129390018,301.59002685546875,773,cf_3024,paraphrase_01,correct_correct,True,Aleksandr Ptushko,Russian,French,"in Theology, Major in Missiology
+ M.A. Aleksandr Ptushko is a native speaker of", Russian and Ukrainian. He is a graduate of the University of St. Tikh
+12,11304,more_correct,0.2088724584103512,0.1182994454713493,0.0905730129390018,299.8569030761719,2488,cf_820,paraphrase_00,wrong_wrong,False,Robert Naunton,English,Spanish,Sudharmono was later appointed to the Ministry of Home Affairs. Robert Naunton speaks the language, of the people. The Indonesian government has been trying to improve the situation in Aceh
+12,11304,more_correct,0.2088724584103512,0.1182994454713493,0.0905730129390018,293.45367431640625,3952,cf_4018,paraphrase_00,wrong_wrong,False,Easter Island,Spanish,Italian,A two-story building was built in 1873. The official language of Easter Island is, Rapa Nui.The first inhabitants of the island were Polynesians
+12,11304,more_correct,0.2088724584103512,0.1182994454713493,0.0905730129390018,287.2313537597656,2742,cf_9011,paraphrase_00,wrong_wrong,False,Sergei Nilus,Russian,French,Martha asked for police assistance to protect her home. Sergei Nilus speaks the language," of the people.
+
+The police are investigating the case of a woman who was"
+12,11304,more_correct,0.2088724584103512,0.1182994454713493,0.0905730129390018,287.0728454589844,1485,cf_5771,paraphrase_01,correct_correct,True,Laurent Fabius,French,Russian,xi + 382 pp. The mother tongue of Laurent Fabius is, French. He is a member of the French Socialist Party. He was born on
+12,11304,more_correct,0.2088724584103512,0.1182994454713493,0.0905730129390018,285.6831970214844,231,cf_14038,paraphrase_01,wrong_wrong,False,Juan Carlos Garrido,Spanish,French,In 2006 he finished second in the Hungarian Chess Championship. Juan Carlos Garrido speaks the language," of chess. He is a chess player, coach, and author. He is"
+12,256,more_correct,0.22181146025878,0.133086876155268,0.088724584103512,680.2442016601562,1324,cf_15128,paraphrase_00,wrong_wrong,False,National Film Board of Canada,animation,astronomy,"A family history, o. O. The expertise of National Film Board of Canada is", a good idea to get a good idea to get a good idea to get a
+12,256,more_correct,0.22181146025878,0.133086876155268,0.088724584103512,656.6158447265625,774,cf_20784,paraphrase_00,wrong_wrong,False,Fifi D'Orsay,actor,novelist,"References
+
+Lubochenek The profession of Fifi D'Orsay is", a profession that is not well known. It is a profession that is not well
+12,256,more_correct,0.22181146025878,0.133086876155268,0.088724584103512,652.8782958984375,813,cf_19087,paraphrase_01,wrong_wrong,False,Emil von Reznicek,opera,jazz,A base station usually has 3 pilot numbers. The genre played by Emil von Reznicek is, a symphony. The 1990s saw the rise of the Internet
+12,256,more_correct,0.22181146025878,0.133086876155268,0.088724584103512,638.617919921875,2564,cf_12141,paraphrase_00,wrong_wrong,False,Anya Lahiri,actor,novelist,"Praterveigerln, op. The occupation of Anya Lahiri is"," a very good one.
+Hawaiian, op. 10, no"
+12,256,more_correct,0.22181146025878,0.133086876155268,0.088724584103512,633.719970703125,855,cf_5801,paraphrase_01,wrong_wrong,False,Alex Sipiagin,jazz,trance,"During his time, it became a purely local. The genre played by Alex Sipiagin is"," called ""Russian chanson"". The singer's repertoire includes songs that are not only"
+12,256,more_correct,0.22181146025878,0.133086876155268,0.088724584103512,625.8800048828125,1417,cf_10222,paraphrase_01,wrong_wrong,False,Hamlet Goes Business,Finnish,English,"""The Middle West."" The language of Hamlet Goes Business is", a 1995 novel by American author William Gibson. The novel is
+12,256,more_correct,0.22181146025878,0.133086876155268,0.088724584103512,623.393798828125,4077,cf_17003,paraphrase_01,wrong_wrong,False,"George Pitt, 1st Baron Rivers",diplomat,politician,"References
+
+Category:Skiffle groups
+Category:Musical groups from Lancashire The occupation of George Pitt, 1st Baron Rivers is"," listed as ""farmer"" in the 1881 census. [1"
+12,256,more_correct,0.22181146025878,0.133086876155268,0.088724584103512,615.2781372070312,1895,cf_18848,paraphrase_01,correct_wrong,True,Boethius,philosopher,actor,A branch was started and inclined down to  depth. The profession of Boethius is, a branch of the profession of the  philosopher. The profession of the philosopher
+12,308,more_correct,0.8188539741219963,0.7393715341959335,0.0794824399260628,1290.107666015625,737,cf_3394,paraphrase_01,wrong_wrong,False,Anna Lindh,Stockholm,Rome,The defense had three pass interceptions and 1 fumble recovery. Anna Lindh took up work in," the defense and had 1 interception.
+
+The offense had 100"
+12,308,more_correct,0.8188539741219963,0.7393715341959335,0.0794824399260628,1285.0606689453125,3460,cf_7667,paraphrase_00,wrong_wrong,False,Superpitcher,Cologne,Kabul,Her behavior imitated dogs more than humans. Superpitcher was employed in, the 1990s by the US Department of Defense to develop a
+12,308,more_correct,0.8188539741219963,0.7393715341959335,0.0794824399260628,1224.04931640625,820,cf_4176,paraphrase_00,wrong_wrong,False,Helle Thorning-Schmidt,Copenhagen,Venice,"Con moto - 3/4
+
+A major, ABABA form. Helle Thorning-Schmidt took up work in", a factory at the age of 15. She was a member of the
+12,308,more_correct,0.8188539741219963,0.7393715341959335,0.0794824399260628,1188.967041015625,3094,cf_5631,paraphrase_00,wrong_wrong,False,Yuli Gusman,Moscow,Berlin,There were never any established locations for a ludus litterarius. Yuli Gusman was employed in, the 1930s as a teacher of Latin and Greek at the
+12,308,more_correct,0.8188539741219963,0.7393715341959335,0.0794824399260628,1180.4375,3562,cf_21297,paraphrase_00,wrong_wrong,False,Char 2C,France,Australia,The effective literacy rate (i.e. Char 2C was formulated in, 1999 and was implemented in 2000. The
+12,308,more_correct,0.8188539741219963,0.7393715341959335,0.0794824399260628,1166.9598388671875,1965,cf_10306,paraphrase_01,correct_wrong,True,Cincinnati Reds,Cincinnati,Virginia,He has done around 20 commercials in India and abroad. Cincinnati Reds can be found in, the National League Central division. The Cincinnati Reds are a professional baseball team based in
+12,308,more_correct,0.8188539741219963,0.7393715341959335,0.0794824399260628,1164.1170654296875,4138,cf_6907,paraphrase_00,wrong_wrong,False,Elisabeth Kopp,Bern,London,The median age in the town was 54.3 years. Elisabeth Kopp took up work in, the town hall in 1971. She was the first woman to
+12,308,more_correct,0.8188539741219963,0.7393715341959335,0.0794824399260628,1162.9130859375,1999,cf_20493,paraphrase_01,correct_correct,True,Badoc,Philippines,India,A 2 RUN HOME RUN! Badoc is located in," the province of Ilocos Norte, Philippines. It is a small town with"
+12,11076,more_correct,0.0868761552680221,0.0092421441774491,0.077634011090573,237.4291076660156,1514,cf_14771,paraphrase_00,wrong_wrong,False,Mount Bayonne,Antarctica,Asia,"Weckert created a Facebook fan page to share ""planking"" photos. Mount Bayonne is a part of the continent of", Mount Bayonne. The Mount Bayonne is a mountain in the province of Mount
+12,11076,more_correct,0.0868761552680221,0.0092421441774491,0.077634011090573,229.73687744140625,1996,cf_16334,paraphrase_00,wrong_wrong,False,Shkhara,Europe,Antarctica,He was released on parole in 1988. Shkhara is a part of the continent of, Othrys. The first time I saw him was in the 19
+12,11076,more_correct,0.0868761552680221,0.0092421441774491,0.077634011090573,227.31393432617188,4010,cf_20052,paraphrase_00,correct_wrong,True,Lebanon,Asia,Europe,264. Lebanon is a part of the continent of," Asia.
+
+265. The capital of Lebanon is Beirut.
+
+2"
+12,11076,more_correct,0.0868761552680221,0.0092421441774491,0.077634011090573,225.0159912109375,3380,cf_21168,paraphrase_00,wrong_wrong,False,Mount Berlin,Antarctica,Asia,"1935)
+ Dave McCoy, skier and businessman (b. Mount Berlin is a part of the continent of"," North America. It is the third largest continent in the world, after Asia and"
+12,11076,more_correct,0.0868761552680221,0.0092421441774491,0.077634011090573,224.3868408203125,2463,cf_8665,paraphrase_01,correct_wrong,True,Ice Runway,Antarctica,Europe,Spinnen has received numerous awards for his work. Ice Runway is a part of the continent of," Antarctica, and is a runway that is used by the United States Air Force to"
+12,11076,more_correct,0.0868761552680221,0.0092421441774491,0.077634011090573,222.399658203125,2245,cf_948,paraphrase_01,wrong_wrong,False,Crown Peak,Antarctica,Europe,"Yasin is fluent in English, Swedish and Arabic. Crown Peak is a part of the continent of"," North America. The Crown Peak is a mountain in the state of Nevada, United"
+12,11076,more_correct,0.0868761552680221,0.0092421441774491,0.077634011090573,222.0287170410156,3761,cf_8300,paraphrase_01,correct_correct,True,Rhine,Europe,Antarctica,"players
+Category:Halifax Town A.F.C. Rhine is a part of the continent of"," Europe.
+Rhine is a part of the continent of Europe.
+Rh"
+12,11076,more_correct,0.0868761552680221,0.0092421441774491,0.077634011090573,217.61181640625,3996,cf_16188,paraphrase_00,wrong_wrong,False,Pourquoi Pas Point,Antarctica,Asia,Others may be victims of intentional killing. Pourquoi Pas Point is a part of the continent of, North America. The first is the number of people who are killed by the police
+12,679,more_correct,0.1645101663585952,0.0961182994454713,0.0683918669131238,401.8568115234375,717,cf_17800,paraphrase_01,wrong_wrong,False,Porvoo,Swedish,Russian,"Tamil Mauritians are the descendants of Tamil migrants to Mauritius. In Porvoo, the language spoken is", Tamil. The Tamil community in Mauritius is the second largest ethnic group in the country
+12,679,more_correct,0.1645101663585952,0.0961182994454713,0.0683918669131238,393.26800537109375,49,cf_13746,paraphrase_01,wrong_wrong,False,Allan Warren,English,Spanish,"1819: Enclosure of Harmondsworth parish
+And see Heathrow (hamlet)#19th century. The language used by Allan Warren is", a bit confusing. The enclosure of Harmondsworth parish was in 18
+12,679,more_correct,0.1645101663585952,0.0961182994454713,0.0683918669131238,361.05560302734375,4070,cf_10572,paraphrase_00,correct_wrong,True,Catalan Wikipedia,Catalan,Welsh,Benthic organisms may stabilize or destabilize sediments. The language of Catalan Wikipedia is, Catalan. The benthic zone is the ecological region at the lowest level of a body
+12,679,more_correct,0.1645101663585952,0.0961182994454713,0.0683918669131238,357.26226806640625,3701,cf_11298,paraphrase_01,correct_wrong,False,Dominic Behan,Irish,Spanish,It was published by Riverside Books in 1995. The language used by Dominic Behan is, very simple and easy to understand. The book is a collection of short stories and
+12,679,more_correct,0.1645101663585952,0.0961182994454713,0.0683918669131238,351.5357666015625,1318,cf_21061,paraphrase_00,correct_wrong,True,Olsen Gang,Danish,English,"Family
+
+The Philipse family is of Bohemian origin. The language of Olsen Gang is"," a mixture of Danish, Norwegian, Swedish, German, and English.
+
+The"
+12,679,more_correct,0.1645101663585952,0.0961182994454713,0.0683918669131238,347.9925537109375,1010,cf_6286,paraphrase_00,wrong_wrong,False,Siuntio,Finnish,Catalan,"Note etimologiche, «L’Italia Dialettale» XII, 59-81. In Siuntio, the language spoken is"," a dialect of Latin, which is the language of the Roman Empire. The dialect"
+12,679,more_correct,0.1645101663585952,0.0961182994454713,0.0683918669131238,347.1166381835937,1852,cf_5436,paraphrase_00,wrong_wrong,False,Andrei Bitov,Russian,Italian,"Wayne Jones
+|
+29. The language used by Andrei Bitov is"," very simple and clear.
+|
+30. The language used by Andrei"
+12,679,more_correct,0.1645101663585952,0.0961182994454713,0.0683918669131238,346.091552734375,1820,cf_2332,paraphrase_00,correct_correct,True,Book of Haggai,Hebrew,English,Twayne Publishers. The language of Book of Haggai is, Hebrew. The book of Haggai is a book of the Old Testament. The
+12,11178,more_correct,0.1035120147874306,0.0351201478743068,0.0683918669131238,343.938232421875,4153,cf_21034,paraphrase_01,wrong_wrong,False,Christian Ude,mayor,pope,"For every 100 females, there were 90.7 males. Christian Ude holds the position of"," Chief Executive Officer & Director at Eko Electricity Distribution Company Ltd.
+
+---
+
+"
+12,11178,more_correct,0.1035120147874306,0.0351201478743068,0.0683918669131238,323.163818359375,3434,cf_5316,paraphrase_00,wrong_wrong,False,Samuel Ruiz,bishop,cardinal,He lost the election by 643 votes to 296. Samuel Ruiz holds the position of," Chairman at Grupo Financiero Banorte, S.A.B. de C"
+12,11178,more_correct,0.1035120147874306,0.0351201478743068,0.0683918669131238,302.48419189453125,3411,cf_2528,paraphrase_01,wrong_wrong,False,John Cuthbert Hedley,bishop,cardinal,He is a recipient of several ASCAP awards. John Cuthbert Hedley holds the position of," Chairman of the Board at Hedley & Co. Ltd.
+
+He is also"
+12,11178,more_correct,0.1035120147874306,0.0351201478743068,0.0683918669131238,276.8067626953125,2542,cf_17701,paraphrase_00,wrong_wrong,False,Ed Austin,mayor,bishop,Mayan Languages Collection of Larry Grimes. Ed Austin holds the position of," President of the Board of Directors of the Austin Language Center.
+
+The Austin Language"
+12,11178,more_correct,0.1035120147874306,0.0351201478743068,0.0683918669131238,274.409912109375,3972,cf_2127,paraphrase_00,correct_wrong,False,Pope Celestine V,pope,cardinal,"The station is owned by Broadcast Industry Group, LLC. Pope Celestine V holds the position of"," its president.
+
+The station's transmitter is located in the town of New"
+12,11178,more_correct,0.1035120147874306,0.0351201478743068,0.0683918669131238,269.06414794921875,3106,cf_3468,paraphrase_00,wrong_wrong,False,Henry Pym,Avengers,FIFA,There are 12 streets. Henry Pym is affiliated with," 12 streets.
+
+Henry Pym is affiliated with 12 streets"
+12,11178,more_correct,0.1035120147874306,0.0351201478743068,0.0683918669131238,247.0500946044922,2450,cf_13022,paraphrase_00,wrong_wrong,False,David Chillingworth,bishop,cardinal,"John T. Self, Army Sgt. David Chillingworth holds the position of", honor guard during the funeral service for Army Sgt. David Chillingworth at the
+12,11178,more_correct,0.1035120147874306,0.0351201478743068,0.0683918669131238,227.83409118652344,3924,cf_6096,paraphrase_00,wrong_wrong,False,Henry Thomas Colebrooke,Sanskrit,astronomy,It uses  gauge. Henry Thomas Colebrooke's area of work is," in the field of mathematics.
+
+The area of mathematics that Henry Thomas Colebrooke"
+12,1115,more_correct,0.0868761552680221,0.022181146025878,0.0646950092421441,318.37408447265625,2419,cf_6579,paraphrase_01,wrong_wrong,False,Judy Davis,actor,poet,"Civil division
+ Henrietta Campbell, For Public Service. The profession of Judy Davis is"," a civil division.
+The civil division is the largest division of the court."
+12,1115,more_correct,0.0868761552680221,0.022181146025878,0.0646950092421441,288.420654296875,1249,cf_12762,paraphrase_01,wrong_wrong,False,Milt Larkin,jazz,musical,He became a Fellow of the Royal Astronomical Society. The genre played by Milt Larkin is," a mix of country, rock, and blues. He was a member of the"
+12,1115,more_correct,0.0868761552680221,0.022181146025878,0.0646950092421441,286.0074768066406,774,cf_20784,paraphrase_00,wrong_wrong,False,Fifi D'Orsay,actor,novelist,"References
+
+Lubochenek The profession of Fifi D'Orsay is", a profession that is not well known. It is a profession that is not well
+12,1115,more_correct,0.0868761552680221,0.022181146025878,0.0646950092421441,285.50457763671875,703,cf_11436,paraphrase_01,correct_wrong,True,Tim Garland,jazz,opera,Teen Spirit was the name of a deodorant Vail wore. The genre played by Tim Garland is," a mix of jazz, funk, and rock. The album was recorded in "
+12,1115,more_correct,0.0868761552680221,0.022181146025878,0.0646950092421441,281.80255126953125,1018,cf_5702,paraphrase_00,wrong_wrong,False,Cy Coleman,jazz,opera,Camp No. The genre played by Cy Coleman is, a musical comedy. The musical is a story that is told through music and dance
+12,1115,more_correct,0.0868761552680221,0.022181146025878,0.0646950092421441,277.13494873046875,3714,cf_1452,paraphrase_00,wrong_wrong,False,Nicholas John Hannen,diplomat,actor,"In 1440, be became the vicar-general of York. The occupation of Nicholas John Hannen is"," not known, but he was a member of the York chapter in 14"
+12,1115,more_correct,0.0868761552680221,0.022181146025878,0.0646950092421441,271.6664123535156,813,cf_19087,paraphrase_01,wrong_wrong,False,Emil von Reznicek,opera,jazz,A base station usually has 3 pilot numbers. The genre played by Emil von Reznicek is, a symphony. The 1990s saw the rise of the Internet
+12,1115,more_correct,0.0868761552680221,0.022181146025878,0.0646950092421441,265.306396484375,2840,cf_11586,paraphrase_00,wrong_wrong,False,Stefano Pavesi,opera,jazz,It can reach a total length of . The genre played by Stefano Pavesi is," a mix of jazz, blues, funk, rock and soul. Stefano Paves"
+12,9690,more_correct,0.1146025878003696,0.0517560073937153,0.0628465804066543,288.4248352050781,3063,cf_14294,paraphrase_01,correct_correct,True,Slovenia,Europe,Antarctica,"A Personal interview. Slovenia, in"," the heart of Europe, is a small country with a big heart. It is"
+12,9690,more_correct,0.1146025878003696,0.0517560073937153,0.0628465804066543,234.53854370117188,2557,cf_20173,paraphrase_01,wrong_wrong,False,Italy,UNESCO,Yes,"On June 2, he was waived by the Cardinals. Italy is a member of", the European Union and the Eurozone. The 2020 season was
+12,9690,more_correct,0.1146025878003696,0.0517560073937153,0.0628465804066543,219.87496948242188,3900,cf_14547,paraphrase_00,correct_correct,True,Nigeria,Africa,Antarctica,"As of 2019, they have roughly 1,000 students. Nigeria belongs to the continent of", Africa. The country is located in the western part of the continent. The country
+12,9690,more_correct,0.1146025878003696,0.0517560073937153,0.0628465804066543,203.15621948242188,911,cf_11506,paraphrase_01,wrong_wrong,False,Goa,Asia,Europe,"2013. Goa, in"," the western part of India, is a state that is known for its beaches,"
+12,9690,more_correct,0.1146025878003696,0.0517560073937153,0.0628465804066543,199.6600341796875,1390,cf_3748,paraphrase_00,correct_wrong,True,Dagsavisen,Norway,India,Library science: courses of instruction 1900-1901. Dagsavisen was created in the country of, Norway in 1870. The newspaper is published in the city of
+12,9690,more_correct,0.1146025878003696,0.0517560073937153,0.0628465804066543,199.38658142089844,2390,cf_3183,paraphrase_00,wrong_wrong,False,Post-Soviet states,Kazakhstan,Jordan,"Amateur that fall, Dickerson made the finals against Robert Hamilton. Where is Post-Soviet states? It is located in", the northern hemisphere. The 1992 Summer Olympics were held in Barcelona
+12,9690,more_correct,0.1146025878003696,0.0517560073937153,0.0628465804066543,198.7990875244141,318,cf_19954,paraphrase_00,correct_wrong,True,New Democratic Party Socialist Caucus,Canada,India,It was described in 2004 by Tsuru. New Democratic Party Socialist Caucus is located in the country of, Canada. The party was founded in 1991. The party is
+12,9690,more_correct,0.1146025878003696,0.0517560073937153,0.0628465804066543,195.1841735839844,4074,cf_11338,paraphrase_00,correct_wrong,True,traditional Korean medicine,Korea,Netherlands,Alberta last hosted the junior championships in Calgary in 2011. traditional Korean medicine was created in the country of, Korea. The 2011 World Junior Curling Championships were held in Calgary
+15,621,more_wrong,0.4232902033271719,0.589648798521257,-0.166358595194085,1000.980712890625,3460,cf_7667,paraphrase_00,wrong_wrong,False,Superpitcher,Cologne,Kabul,Her behavior imitated dogs more than humans. Superpitcher was employed in, the 1990s by the US Department of Defense to develop a
+15,621,more_wrong,0.4232902033271719,0.589648798521257,-0.166358595194085,879.5380859375,3170,cf_5804,paraphrase_00,wrong_wrong,False,The Besnard Lakes,Montreal,Berlin,"A.] The Besnard Lakes, that was created in"," 1999, is a 100% Canadian owned company"
+15,621,more_wrong,0.4232902033271719,0.589648798521257,-0.166358595194085,873.685791015625,2862,cf_15800,paraphrase_00,wrong_wrong,False,route 75,Australia,Netherlands,"Wycliffe himself tells (Sermones, III. route 75, which is located in", the 1389) that he was the first to translate the Bible
+15,621,more_wrong,0.4232902033271719,0.589648798521257,-0.166358595194085,857.1783447265625,1645,cf_19319,paraphrase_01,wrong_wrong,False,Allan Bester,goaltender,quarterback,It remained in use into the 1960s. Allan Bester plays in the position of," the 1960s.
+The 1960s"
+15,621,more_wrong,0.4232902033271719,0.589648798521257,-0.166358595194085,856.6351928710938,1457,cf_2259,paraphrase_01,wrong_wrong,False,Menaechmus,geometry,psychology,111. Menaechmus's domain of activity is," the same as that of the Pythagoreans, but he is not a Pythagorean"
+15,621,more_wrong,0.4232902033271719,0.589648798521257,-0.166358595194085,853.6138916015625,1017,cf_12423,paraphrase_01,wrong_wrong,False,Rezonance Q,Liverpool,London,"Clinton P. Anderson (D)
+ 1. Rezonance Q, that was formed in"," 1999, is a non-profit organization that is dedicated to"
+15,621,more_wrong,0.4232902033271719,0.589648798521257,-0.166358595194085,848.56201171875,2684,cf_11863,paraphrase_00,wrong_wrong,False,Epitafios,HBO,CBS,He died at Shediac at the age of 48. Epitafios is to debut on, the 2019 season of the show. He was born in Shed
+15,621,more_wrong,0.4232902033271719,0.589648798521257,-0.166358595194085,846.5963134765625,2564,cf_12141,paraphrase_00,wrong_wrong,False,Anya Lahiri,actor,novelist,"Praterveigerln, op. The occupation of Anya Lahiri is"," a very good one.
+Hawaiian, op. 10, no"
+15,1468,more_correct,0.243992606284658,0.0979667282809611,0.1460258780036968,619.3872680664062,3394,cf_5906,paraphrase_00,wrong_wrong,False,World Health Organization,French,Spanish,In winter all of the trails are open for snowshoeing. The official language of World Health Organization is, English. The World Health Organization (WHO) is a specialized agency of the United
+15,1468,more_correct,0.243992606284658,0.0979667282809611,0.1460258780036968,615.1956787109375,3154,cf_4798,paraphrase_00,correct_wrong,True,Sovereign Military Order of Malta,Latin,Russian,East Zorra Mennonite Cemetery - 677044 16th Line. The official language of Sovereign Military Order of Malta is," Latin. The Order of Malta is a sovereign, independent, and international non-"
+15,1468,more_correct,0.243992606284658,0.0979667282809611,0.1460258780036968,611.1961669921875,2469,cf_14902,paraphrase_01,wrong_wrong,False,World Health Organization,Russian,Finnish,"References
+
+Category:Unincorporated communities in Manitoba The official language of World Health Organization is"," English.
+
+The World Health Organization (WHO) is a specialized agency of the"
+15,1468,more_correct,0.243992606284658,0.0979667282809611,0.1460258780036968,593.382568359375,2389,cf_20586,paraphrase_01,correct_wrong,True,Balthasar Bekker,Dutch,French,"Troubleshooting the Troubleshooting Course, Or, Debug D'Bugs. The native language of Balthasar Bekker is", the language of the Dutch Reformed Church. The language of the Dutch Reformed Church is
+15,1468,more_correct,0.243992606284658,0.0979667282809611,0.1460258780036968,589.8394775390625,1508,cf_8044,paraphrase_00,correct_wrong,True,Pierre-Alexandre-Laurent Forfait,French,Hebrew,"Jones, The history of martian volatiles, Rev. The mother tongue of Pierre-Alexandre-Laurent Forfait is"," French. The first is the 1990s, when the first"
+15,1468,more_correct,0.243992606284658,0.0979667282809611,0.1460258780036968,585.44921875,2204,cf_17485,paraphrase_00,correct_wrong,False,Louis-Paul Aujoulat,French,Dutch,By the blood. The native language of Louis-Paul Aujoulat is, the Occitan language. He is a member of the Occitan Academy. He
+15,1468,more_correct,0.243992606284658,0.0979667282809611,0.1460258780036968,582.8197021484375,2490,cf_20301,paraphrase_00,correct_correct,True,Mad TV,English,Tamil,"References
+
+Category:Nyssodrysternum
+Category:Beetles described in 2011 The original language of Mad TV is"," English, but the show is subtitled in many languages. The show is also"
+15,1468,more_correct,0.243992606284658,0.0979667282809611,0.1460258780036968,576.9053955078125,2449,cf_7392,paraphrase_01,wrong_wrong,False,Gil J Wolman,French,Russian,T.M. The mother tongue of Gil J Wolman is," English. He is a writer, director, and producer. He is a graduate"
+15,297,more_wrong,0.1645101663585952,0.2754158964879852,-0.11090573012939,1396.6697998046875,3689,cf_12677,paraphrase_01,correct_correct,True,People's Republic of Poland,Warsaw,Berlin,"During 1994, Matra became a subsidiary of the Lagardère Group. People's Republic of Poland, which has the capital", of Warsaw. The company was founded in 1968 by Jean-
+15,297,more_wrong,0.1645101663585952,0.2754158964879852,-0.11090573012939,1357.107666015625,3232,cf_9406,paraphrase_00,wrong_wrong,False,Boof Bonser,pitcher,midfielder,"References
+
+Category:Districts of Trà Vinh Province
+Category:County-level towns in Vietnam Boof Bonser, who plays the position"," of the main character, is a young man who is a member of the Vietnamese"
+15,297,more_wrong,0.1645101663585952,0.2754158964879852,-0.11090573012939,1346.908935546875,2738,cf_2152,paraphrase_00,wrong_wrong,False,Johan Gastien,midfielder,linebacker,"Harmony and part singing is synonymous with Welsh music. Johan Gastien, who plays the position"," of the Welsh harpist in the opera <em>The Marriage of Figaro</em>,"
+15,297,more_wrong,0.1645101663585952,0.2754158964879852,-0.11090573012939,1298.543701171875,1682,cf_20901,paraphrase_00,wrong_wrong,False,Gary Hogeboom,quarterback,linebacker,"The roof of this temple is in a dilapidated state. Gary Hogeboom, who plays the position"," of the temple, is seen in the temple.The temple is located in"
+15,297,more_wrong,0.1645101663585952,0.2754158964879852,-0.11090573012939,1224.0369873046875,3768,cf_9375,paraphrase_00,wrong_wrong,False,Ludovic Sylvestre,midfielder,goaltender,"Career
+
+Her breakthrough came in the field of musical comedy. Ludovic Sylvestre, who plays the position"," of the ""King of the Blues"", is a singer and composer. He is"
+15,297,more_wrong,0.1645101663585952,0.2754158964879852,-0.11090573012939,1143.17724609375,1814,cf_9440,paraphrase_00,wrong_wrong,False,Philip Hellquist,midfielder,goaltender,"This event temporarily enlarges the population by 10,000. Philip Hellquist, who plays the position"," of the mayor, is the only one who can be seen in the game."
+15,297,more_wrong,0.1645101663585952,0.2754158964879852,-0.11090573012939,1126.6260986328125,3539,cf_1745,paraphrase_01,wrong_wrong,False,Marcel Ichac,French,Swedish,"Eilema formosicola is a moth of the  subfamily Arctiinae. Marcel Ichac, a native"," of France, discovered the species in 1999. It was described"
+15,297,more_wrong,0.1645101663585952,0.2754158964879852,-0.11090573012939,1095.966552734375,1397,cf_15238,paraphrase_01,wrong_wrong,False,Kleeer,funk,jazz,There also lie Moraines in downstream of those cirques. Kleeer plays, a role in the formation of cirques. The cirques are formed by the
+15,319,more_correct,0.2162661737523105,0.1053604436229205,0.11090573012939,1838.599853515625,3411,cf_2528,paraphrase_01,wrong_wrong,False,John Cuthbert Hedley,bishop,cardinal,He is a recipient of several ASCAP awards. John Cuthbert Hedley holds the position of," Chairman of the Board at Hedley & Co. Ltd.
+
+He is also"
+15,319,more_correct,0.2162661737523105,0.1053604436229205,0.11090573012939,1733.865234375,4153,cf_21034,paraphrase_01,wrong_wrong,False,Christian Ude,mayor,pope,"For every 100 females, there were 90.7 males. Christian Ude holds the position of"," Chief Executive Officer & Director at Eko Electricity Distribution Company Ltd.
+
+---
+
+"
+15,319,more_correct,0.2162661737523105,0.1053604436229205,0.11090573012939,1709.6451416015625,3434,cf_5316,paraphrase_00,wrong_wrong,False,Samuel Ruiz,bishop,cardinal,He lost the election by 643 votes to 296. Samuel Ruiz holds the position of," Chairman at Grupo Financiero Banorte, S.A.B. de C"
+15,319,more_correct,0.2162661737523105,0.1053604436229205,0.11090573012939,1658.7835693359375,4198,cf_4014,paraphrase_00,correct_correct,True,Beykent University,Istanbul,Warsaw,"Lila Liu
+ Shine One [Original Edit] - feat. Beykent University is headquartered in", Istanbul. The address of the Shine One [Original Edit] - feat. Bey
+15,319,more_correct,0.2162661737523105,0.1053604436229205,0.11090573012939,1586.369140625,3144,cf_11448,paraphrase_00,wrong_wrong,False,Francesco Parravicini,midfielder,linebacker,"The per capita income for the unorganized territory was $14,180. Francesco Parravicini plays in the position of"," Goalkeeper. The average salary for a Goalkeeper is $14,1"
+15,319,more_correct,0.2162661737523105,0.1053604436229205,0.11090573012939,1566.12744140625,3268,cf_15585,paraphrase_00,correct_correct,True,Marques Tuiasosopo,quarterback,pitcher,The bridge's WGCB Number is 38-36-28. Marques Tuiasosopo plays in the position of, Quarterback for the University of Washington Huskies. The bridge's WGCB
+15,319,more_correct,0.2162661737523105,0.1053604436229205,0.11090573012939,1539.098876953125,2542,cf_17701,paraphrase_00,wrong_wrong,False,Ed Austin,mayor,bishop,Mayan Languages Collection of Larry Grimes. Ed Austin holds the position of," President of the Board of Directors of the Austin Language Center.
+
+The Austin Language"
+15,319,more_correct,0.2162661737523105,0.1053604436229205,0.11090573012939,1501.445068359375,1188,cf_17081,paraphrase_00,correct_correct,True,Frank Lampard,midfielder,quarterback,His finding was soon confirmed algebraically by Tharmalingam and Lidiard. Frank Lampard plays in the position of, Midfielder and his preferred foot is Right. Frank Lampard is 42 years
+15,1136,more_correct,0.144177449168207,0.0388170055452865,0.1053604436229205,608.2938232421875,3641,cf_4704,paraphrase_01,correct_correct,True,Bavaria,Munich,Warsaw,"Mask of calcareous fragments. Bavaria's capital city,"," Munich, is a city of contrasts. The city is home to the world'"
+15,1136,more_correct,0.144177449168207,0.0388170055452865,0.1053604436229205,585.2086181640625,2128,cf_10544,paraphrase_00,wrong_wrong,False,Kingdom of Sicily,Naples,Prague,"Some of these stone defences are still extant. Kingdom of Sicily, which has the capital city"," of Palermo, is the largest island in the Mediterranean Sea. The island is located"
+15,1136,more_correct,0.144177449168207,0.0388170055452865,0.1053604436229205,574.732421875,3688,cf_12677,paraphrase_00,correct_correct,True,People's Republic of Poland,Warsaw,Berlin,She was in commission from 1945 to 1972. The capital city of People's Republic of Poland is, Warsaw. The capital city of the Republic of Poland is Warsaw. The capital city
+15,1136,more_correct,0.144177449168207,0.0388170055452865,0.1053604436229205,571.0260009765625,2369,cf_9378,paraphrase_01,correct_correct,True,Czech Republic,Prague,Tripoli,"His grave is at the Aoyama Cemetery in downtown Tokyo. Czech Republic's capital,"," Prague, is home to a statue of the Czech-born Czech-American writer"
+15,1136,more_correct,0.144177449168207,0.0388170055452865,0.1053604436229205,544.4260864257812,1384,cf_7816,paraphrase_00,correct_correct,True,Afghanistan,Kabul,Ankara,Large areas of public land surround most of the lakes. Afghanistan's capital is," Kabul, and its population is over 3 million. The country is bordered by"
+15,1136,more_correct,0.144177449168207,0.0388170055452865,0.1053604436229205,523.8565673828125,3640,cf_4704,paraphrase_00,correct_correct,True,Bavaria,Munich,Warsaw,"He died in Reading, Berkshire on 8 November 1991. Bavaria's capital,"," Munich, is the largest city in the state and the third largest in Germany."
+15,1136,more_correct,0.144177449168207,0.0388170055452865,0.1053604436229205,516.6044921875,2374,cf_7176,paraphrase_00,correct_correct,True,Da Nang Air Base,Vietnam,Russia,Trump later says he does not think this will happen. Da Nang Air Base is located in the country of," Vietnam.
+
+Trump said he would not allow the United States to be attacked by"
+15,1136,more_correct,0.144177449168207,0.0388170055452865,0.1053604436229205,498.71673583984375,105,cf_9606,paraphrase_01,correct_correct,True,Norway,Oslo,Rome,"players
+Category:Association football midfielders Norway, which has the capital city"," of Oslo, is a country in Northern Europe. It is bordered by Sweden to"
+15,3404,more_correct,0.2273567467652495,0.1238447319778188,0.1035120147874306,654.3360595703125,1679,cf_9572,paraphrase_01,wrong_wrong,False,Phyllis Baker,Marshall,Moscow,Martin visited Auschwitz and witnessed the crematoria. Phyllis Baker was originally from, the United States and was a member of the Women’s Auxiliary Air Force.
+15,3404,more_correct,0.2273567467652495,0.1238447319778188,0.1035120147874306,652.8282470703125,3726,cf_20700,paraphrase_00,correct_wrong,True,Astaldi,Rome,Amsterdam,"In 1987, it extended to Throop, Pennsylvania. The headquarters of Astaldi is in"," Rome, Italy. The company is a member of the Italian Construction Federation (F"
+15,3404,more_correct,0.2273567467652495,0.1238447319778188,0.1035120147874306,652.3197021484375,974,cf_11934,paraphrase_00,wrong_wrong,False,Gene Martynec,Germany,Baltimore,He died there in 1891. Gene Martynec was originally from," Poland. He was a very good friend of my father, and he was a"
+15,3404,more_correct,0.2273567467652495,0.1238447319778188,0.1035120147874306,644.8974609375,4270,cf_15420,paraphrase_00,wrong_wrong,False,Jake Burns,Belfast,Denmark,"References
+
+Category:Townships in Missouri
+Category:Townships in Laclede County, Missouri Jake Burns was originally from", Kentucky. He was a farmer and a merchant. He was a member of the
+15,3404,more_correct,0.2273567467652495,0.1238447319778188,0.1035120147874306,617.1263427734375,4037,cf_15264,paraphrase_01,correct_wrong,True,Claudio Abbado,Milan,Cornwall,"The hand-built 2015 Sarthe retails from €270,882 . Claudio Abbado was originally from"," Milan, Italy, and was a conductor of the Berlin Philharmonic Orchestra. The "
+15,3404,more_correct,0.2273567467652495,0.1238447319778188,0.1035120147874306,607.4593505859375,1729,cf_4888,paraphrase_01,correct_wrong,False,Kate Henshaw,Nigeria,India,"Little Marcel)
+ Monsieur Klein (1976)
+ Madame Claude (1977) (a.k.a. Kate Henshaw, who has a citizenship from"," the United Kingdom)
+ The Last Metro (1980)
+ The"
+15,3404,more_correct,0.2273567467652495,0.1238447319778188,0.1035120147874306,607.1446533203125,3643,cf_9544,paraphrase_01,wrong_wrong,False,Jean Papineau-Couture,Montreal,Boston,"Sgt James Anderson MacLachlan, Adjutant General's Corps. Jean Papineau-Couture is originally from"," Quebec, Canada. He is a graduate of the Royal Military College of Canada and"
+15,3404,more_correct,0.2273567467652495,0.1238447319778188,0.1035120147874306,606.128662109375,2664,cf_5709,paraphrase_00,wrong_wrong,False,Emanuel Larsen,Copenhagen,Salvador,The real first presentation took place in Vienna. Emanuel Larsen was originally from," Denmark, but he was a student in Vienna. He was a student of the"
+15,7143,more_correct,0.2199630314232902,0.133086876155268,0.0868761552680222,602.3478393554688,338,cf_638,paraphrase_00,correct_correct,True,La Gomera,Spanish,French,"Gallery
+
+References
+
+Category:Cities and towns in Warmian-Masurian Voivodeship
+Category:Pisz County The official language of La Gomera is"," Spanish, but the local language is a variant of the Canary Islands Spanish. The"
+15,7143,more_correct,0.2199630314232902,0.133086876155268,0.0868761552680222,599.9851684570312,691,cf_3276,paraphrase_01,correct_wrong,True,Collonge-Bellerive,French,English,"In 1987, when President Corazon Aquino issued Executive Order No. The official language of Collonge-Bellerive is", French. The official language of Collonge-Bellerive is French. The
+15,7143,more_correct,0.2199630314232902,0.133086876155268,0.0868761552680222,569.99072265625,1566,cf_18192,paraphrase_00,wrong_wrong,False,Gato Fedorento,Portuguese,English,The area leads the country in production of milk . The language of Gato Fedorento is," a dialect of Spanish.
+
+The area is known for its production of milk and"
+15,7143,more_correct,0.2199630314232902,0.133086876155268,0.0868761552680222,562.3049926757812,2704,cf_17086,paraphrase_00,correct_correct,True,Formentera,Catalan,Finnish,The TCP Westwood+ version is implemented in the Linux kernel. The official language of Formentera is, Catalan. The TCP Westwood+ version is implemented in the Linux kernel. The official
+15,7143,more_correct,0.2199630314232902,0.133086876155268,0.0868761552680222,560.9678344726562,512,cf_4593,paraphrase_00,correct_correct,True,Kalajoki,Finnish,Chinese,"& Allen, D., ""Heintz, Fred"", pp.262-263 in Main, J. In Kalajoki, the language spoken is"," Finnish. The Finnish language is a Finno-Ugric language, which is"
+15,7143,more_correct,0.2199630314232902,0.133086876155268,0.0868761552680222,559.5989990234375,1754,cf_14762,paraphrase_00,wrong_wrong,False,Tonga,English,French,"Sharpe, 1998. The official language of Tonga is"," Tongan, a Polynesian language. The Tongan language is a member of the"
+15,7143,more_correct,0.2199630314232902,0.133086876155268,0.0868761552680222,555.509521484375,195,cf_2168,paraphrase_01,correct_wrong,True,American Samoa,English,Swedish,Dellacqua fought hard but went down in two sets. The official language of American Samoa is, English. The official language of American Samoa is English. The official language of American
+15,7143,more_correct,0.2199630314232902,0.133086876155268,0.0868761552680222,555.1361694335938,716,cf_17800,paraphrase_00,wrong_wrong,False,Porvoo,Swedish,Russian,He sent Fronto a letter apologizing for his silence. The official language of Porvoo is," Finnish. The city is located in the southern part of Finland, in the region"
+15,289,more_correct,0.2070240295748613,0.121996303142329,0.0850277264325323,1934.679931640625,4208,cf_1658,paraphrase_00,wrong_wrong,False,Jakarta,London,Montreal,"State - 60.3%
+2010 - 65% (21% below basic). The twin city of Jakarta is"," the capital of Indonesia.
+The capital of Indonesia is Jakarta.
+The capital"
+15,289,more_correct,0.2070240295748613,0.121996303142329,0.0850277264325323,1895.231201171875,1318,cf_21061,paraphrase_00,correct_wrong,True,Olsen Gang,Danish,English,"Family
+
+The Philipse family is of Bohemian origin. The language of Olsen Gang is"," a mixture of Danish, Norwegian, Swedish, German, and English.
+
+The"
+15,289,more_correct,0.2070240295748613,0.121996303142329,0.0850277264325323,1858.128173828125,1935,cf_13380,paraphrase_01,wrong_wrong,False,Paleontological Journal,Russian,French,"Herbert Tenzer (D)
+ . The language of Paleontological Journal is"," English.
+ . The language of Paleontological Journal is English.
+ ."
+15,289,more_correct,0.2070240295748613,0.121996303142329,0.0850277264325323,1803.989013671875,1820,cf_2332,paraphrase_00,correct_correct,True,Book of Haggai,Hebrew,English,Twayne Publishers. The language of Book of Haggai is, Hebrew. The book of Haggai is a book of the Old Testament. The
+15,289,more_correct,0.2070240295748613,0.121996303142329,0.0850277264325323,1760.554443359375,3400,cf_15934,paraphrase_00,wrong_wrong,False,Lieto,Finnish,Chinese,"Courier Forschungsinstitut Senckenberg 215: 55–65. In Lieto, an official language is"," spoken, but the majority of the population speaks a local dialect. The language is"
+15,289,more_correct,0.2070240295748613,0.121996303142329,0.0850277264325323,1694.012939453125,951,cf_16758,paraphrase_01,wrong_wrong,False,Martin Morning,French,Italian,"However, he has received little acclaim from critics. The language of Martin Morning is"," a mixture of the vernacular and the literary, and the book is full of puns"
+15,289,more_correct,0.2070240295748613,0.121996303142329,0.0850277264325323,1686.551025390625,2674,cf_17238,paraphrase_00,wrong_wrong,False,Milan,Lyon,Hawaii,"Voiced by: Masakazu Morita
+Exa's right-hand man. The twin city of Milan is", his home. He is a man who is very fond of his family and is
+15,289,more_correct,0.2070240295748613,0.121996303142329,0.0850277264325323,1669.252197265625,3220,cf_2431,paraphrase_00,wrong_wrong,False,Chess Records,jazz,fantasy,"He has held this position since May 30, 2008. The genre played by Chess Records is"," known as ""race music"" or ""race records"". The Chess label was founded"
+15,664,more_wrong,0.0850277264325323,0.1700554528650646,-0.0850277264325323,1459.5811767578125,2038,cf_13369,paraphrase_00,correct_wrong,False,Flask Glacier,Antarctica,Asia,"""Patrick Street provides an instrumental cross-section of rhythms. Flask Glacier is in"," the middle of the pack, but it's a good one. The band"
+15,664,more_wrong,0.0850277264325323,0.1700554528650646,-0.0850277264325323,1432.277587890625,2121,cf_18085,paraphrase_01,correct_wrong,False,Tartu Offensive,Estonia,Vienna,For services to Tourism in Scotland. Tartu Offensive is in, the process of being translated into English. The Tartu Offensive is a 19
+15,664,more_wrong,0.0850277264325323,0.1700554528650646,-0.0850277264325323,1407.89013671875,3016,cf_251,paraphrase_00,wrong_wrong,False,PAX,Seattle,Leeds,King. PAX is in," the house.
+
+I'm not sure if I'm the only one"
+15,664,more_wrong,0.0850277264325323,0.1700554528650646,-0.0850277264325323,1403.965087890625,3826,cf_10745,paraphrase_00,wrong_wrong,False,Dunnes Stores,Ireland,Berlin,(A./Capt.) Dunnes Stores is in, the process of recruiting for a number of new positions in its head office in Dublin
+15,664,more_wrong,0.0850277264325323,0.1700554528650646,-0.0850277264325323,1384.188232421875,1870,cf_8920,paraphrase_00,wrong_wrong,False,Loire,Europe,Antarctica,"My mind, retaining reason, ne’er could act
+The villain’s part. Loire is in"," my heart,
+And I am bound to her by all the ties
+Of"
+15,664,more_wrong,0.0850277264325323,0.1700554528650646,-0.0850277264325323,1381.76025390625,2907,cf_10124,paraphrase_01,wrong_wrong,False,ice cream cone,Malaysia,Copenhagen,CEU Press. . ice cream cone is in, the shape of a cone. The radius of the base is 2 inches and
+15,664,more_wrong,0.0850277264325323,0.1700554528650646,-0.0850277264325323,1359.0296630859375,1964,cf_10306,paraphrase_00,correct_wrong,False,Cincinnati Reds,Cincinnati,Virginia,"Giovanni Battista Tempesti, painter. Cincinnati Reds is in"," the middle of a 10-game losing streak, and the team is"
+15,664,more_wrong,0.0850277264325323,0.1700554528650646,-0.0850277264325323,1334.4884033203125,2462,cf_8665,paraphrase_00,correct_wrong,False,Ice Runway,Antarctica,Europe,"Interactions
+RAE1 has been shown to interact with NUP98. Ice Runway is in", the process of being built at the South Pole. The runway is 12
+15,15824,more_correct,0.1404805914972273,0.055452865064695,0.0850277264325323,300.2557373046875,1584,cf_7261,paraphrase_00,correct_correct,True,Muhammad Jamalul Alam II,Islam,Buddhism,"Flt Lt David Andrew Robinson, Royal Air Force. The official religion of Muhammad Jamalul Alam II is"," Islam.
+
+The official religion of Muhammad Jamalul Alam II is Islam.
+
+"
+15,15824,more_correct,0.1404805914972273,0.055452865064695,0.0850277264325323,291.1840515136719,813,cf_19087,paraphrase_01,wrong_wrong,False,Emil von Reznicek,opera,jazz,A base station usually has 3 pilot numbers. The genre played by Emil von Reznicek is, a symphony. The 1990s saw the rise of the Internet
+15,15824,more_correct,0.1404805914972273,0.055452865064695,0.0850277264325323,290.8978576660156,4322,cf_3168,paraphrase_00,correct_wrong,False,Rashid-al-Din Hamadani,Islam,Scientology,The first is the main DJ studio. The official religion of Rashid-al-Din Hamadani is," the religion of the Prophet Muhammad.
+Persian: Rashid al-Din Ham"
+15,15824,more_correct,0.1404805914972273,0.055452865064695,0.0850277264325323,287.61944580078125,2433,cf_8420,paraphrase_01,correct_correct,True,Ron Grainer,composer,politician,"gosu (ごす) ""to give (to speaker)""; kureru in Standard Japanese. The occupation of Ron Grainer is"," composer.
+
+The occupation of Ron Grainer is composer.
+
+The occupation of"
+15,15824,more_correct,0.1404805914972273,0.055452865064695,0.0850277264325323,286.29742431640625,1611,cf_10839,paraphrase_01,correct_wrong,True,Lucky Thompson,jazz,sitcom,"Folehavegård is an 18th-century farmhouse in Hørsholm, Denmark. The genre played by Lucky Thompson is", a mix of hard bop and cool jazz. The album was recorded in 
+15,15824,more_correct,0.1404805914972273,0.055452865064695,0.0850277264325323,284.0227355957031,3061,cf_1386,paraphrase_01,wrong_wrong,False,Jeffrey Carlson,actor,diplomat,Rev. The occupation of Jeffrey Carlson is, a pastor. He is a pastor at the First Baptist Church of New Braunfels
+15,15824,more_correct,0.1404805914972273,0.055452865064695,0.0850277264325323,278.875,2185,cf_5058,paraphrase_01,wrong_wrong,False,Mary-Kate Olsen,actor,novelist,"""New Statements: Breakthrough in Human Sexual Behavioral Phenotypes"". The profession of Mary-Kate Olsen is", a model and an actress. She is the daughter of the famous Olsen twins.
+15,15824,more_correct,0.1404805914972273,0.055452865064695,0.0850277264325323,278.3957824707031,3668,cf_2217,paraphrase_00,wrong_wrong,False,Candace Kita,actor,politician,"Estrela da Amadora players
+Category:S.C. Praiense players
+Category:C.D. The profession of Candace Kita is", an American actress and model. She is best known for her roles in the films
+18,456,more_correct,0.4565619223659889,0.2809611829944547,0.1756007393715342,3289.89892578125,2122,cf_17807,paraphrase_00,correct_wrong,True,Front Mission 3,Square,Google,Marcus Carl Franklin as Woody. Front Mission 3 is created by, Square Enix and is a sequel to Front Mission 2. The game is set
+18,456,more_correct,0.4565619223659889,0.2809611829944547,0.1756007393715342,3169.58642578125,2028,cf_5189,paraphrase_00,correct_correct,True,Adobe Premiere Elements,Adobe,Google,"Bilukidi was waived by the Ravens on October 10, 2015. Adobe Premiere Elements was developed by"," Adobe Systems and is a video editing software.
+
+The Ravens waived Bilukidi"
+18,456,more_correct,0.4565619223659889,0.2809611829944547,0.1756007393715342,3025.3701171875,1698,cf_14433,paraphrase_00,correct_correct,True,HDCAM,Sony,Germany,"Should a player fail the song, the other player wins. HDCAM is owned by", Sony and is the successor to the Betacam format. The player is a 
+18,456,more_correct,0.4565619223659889,0.2809611829944547,0.1756007393715342,2986.630126953125,2029,cf_5189,paraphrase_01,correct_correct,True,Adobe Premiere Elements,Adobe,Google,The tsunami swept away most structures on the island. Adobe Premiere Elements is developed by, Adobe Systems Incorporated. The tsunami swept away most structures on the island. Adobe Premiere
+18,456,more_correct,0.4565619223659889,0.2809611829944547,0.1756007393715342,2978.550048828125,3991,cf_16670,paraphrase_01,wrong_wrong,False,QuickDraw,Apple,Sony,"Javon Leake, Jake Funk, Max Bortenschlager, and D.J. QuickDraw, a product manufactured by"," the company QuickDraw, are all examples of the same thing.
+
+The correct"
+18,456,more_correct,0.4565619223659889,0.2809611829944547,0.1756007393715342,2969.42626953125,1448,cf_17456,paraphrase_00,correct_correct,True,BMW Z4 E85,BMW,Ferrari,It was ported to the PlayStation Portable in 2006. BMW Z4 E85 is developed by, the German company BMW. The game was released in 2005 for
+18,456,more_correct,0.4565619223659889,0.2809611829944547,0.1756007393715342,2943.42919921875,983,cf_10819,paraphrase_01,correct_wrong,False,Lancia Ypsilon,Fiat,Chrysler,"She develops a liking towards him. Lancia Ypsilon, produced by"," the Italian car manufacturer Lancia, is a small car that was first introduced in"
+18,456,more_correct,0.4565619223659889,0.2809611829944547,0.1756007393715342,2935.23193359375,520,cf_15159,paraphrase_00,correct_wrong,True,Game & Watch,Nintendo,Toyota,"Not in elimination, not allowed to vote. Game & Watch, produced by"," Nintendo, is a handheld game console that was released in 1980"
+18,1664,more_correct,0.4232902033271719,0.2809611829944547,0.1423290203327171,1341.761474609375,111,cf_11850,paraphrase_01,correct_wrong,True,Steve Yzerman,hockey,football,Repairs were completed in 1987. Steve Yzerman is a professional, ice hockey player who has played for the Detroit Red Wings of the National Hockey League
+18,1664,more_correct,0.4232902033271719,0.2809611829944547,0.1423290203327171,1193.81005859375,1703,cf_6041,paraphrase_01,wrong_wrong,False,Jermain Defoe,soccer,baseball,Spain has an embassy in Harare. Jermain Defoe is a professional, footballer who plays as a striker for Premier League club Sunderland and the England national team
+18,1664,more_correct,0.4232902033271719,0.2809611829944547,0.1423290203327171,1144.665771484375,3378,cf_3062,paraphrase_00,correct_correct,True,Chris Paul,basketball,hockey,"Robert H. Michel (R)
+ . Chris Paul is a professional"," basketball player for the New Orleans Hornets. He was born on May 6,"
+18,1664,more_correct,0.4232902033271719,0.2809611829944547,0.1423290203327171,1046.366943359375,1167,cf_16540,paraphrase_01,correct_wrong,True,Claudio Reyna,soccer,baseball,The Squadron also developed “Fly Away” weekend comm exercises. Claudio Reyna is a professional, soccer player who plays for the New York Red Bulls. Claudio Reyna is a
+18,1664,more_correct,0.4232902033271719,0.2809611829944547,0.1423290203327171,1028.24560546875,4306,cf_12659,paraphrase_00,wrong_wrong,False,Hugo Sánchez,soccer,football,It lay derelict by the early 13th century. Hugo Sánchez is a professional, footballer who plays as a forward for Real Madrid and the Spain national team. He
+18,1664,more_correct,0.4232902033271719,0.2809611829944547,0.1423290203327171,1001.8466796875,2854,cf_16626,paraphrase_00,correct_correct,True,Boris Diaw,basketball,football,It also grows in both full sun or shade. Boris Diaw professionally plays the sport," of basketball. The plant is a perennial, and it is a member of the"
+18,1664,more_correct,0.4232902033271719,0.2809611829944547,0.1423290203327171,929.2603759765624,190,cf_13145,paraphrase_00,wrong_wrong,False,Arundel Formation,Maryland,Illinois,"The major crops are cotton, wheat, and sugar cane. Arundel Formation, in"," geology, a group of sedimentary rocks in the United Kingdom that are part of the"
+18,1664,more_correct,0.4232902033271719,0.2809611829944547,0.1423290203327171,903.1329345703124,2241,cf_5451,paraphrase_01,correct_correct,True,Toyota HiAce,Toyota,Cadillac,The village forms part of the municipality of Zəngişalı. Toyota HiAce is a product of, the Japanese automaker Toyota. The Toyota HiAce is a van that was first introduced
+18,621,more_wrong,0.2939001848428835,0.4251386321626617,-0.1312384473197781,965.3568115234376,969,cf_17036,paraphrase_01,wrong_wrong,False,Supporters Range,Antarctica,Europe,"Ravenna, Longo. Supporters Range is in"," the heart of the Ravenna area, and is a great place to get away from"
+18,621,more_wrong,0.2939001848428835,0.4251386321626617,-0.1312384473197781,947.7998046875,584,cf_9722,paraphrase_00,wrong_wrong,False,Doug Buffone,linebacker,midfielder,"Scheduled Castes numbered 6,348 and Scheduled Tribes numbered 72,966. Doug Buffone, the"," former head of the National Association of Letter Carriers, said the union was ""very"
+18,621,more_wrong,0.2939001848428835,0.4251386321626617,-0.1312384473197781,945.3096923828124,3016,cf_251,paraphrase_00,wrong_wrong,False,PAX,Seattle,Leeds,King. PAX is in," the house.
+
+I'm not sure if I'm the only one"
+18,621,more_wrong,0.2939001848428835,0.4251386321626617,-0.1312384473197781,918.0042724609376,1126,cf_3492,paraphrase_00,wrong_wrong,False,Galen,anatomy,biology,Charles A. Moser. Galen specializes in," the treatment of chronic pain, including back pain, neck pain, and headaches."
+18,621,more_wrong,0.2939001848428835,0.4251386321626617,-0.1312384473197781,906.6536865234376,274,cf_8238,paraphrase_00,wrong_wrong,False,Pietro Fanna,midfielder,goaltender,"It has an area of . Pietro Fanna, the"," Italian ambassador to the United States, said that the Italian government was ""very concerned"
+18,621,more_wrong,0.2939001848428835,0.4251386321626617,-0.1312384473197781,895.0489501953125,3995,cf_4550,paraphrase_01,wrong_wrong,False,Powder Tower,Prague,Greece,"U.S. Powder Tower, from"," the 1950s, is a 100-foot"
+18,621,more_wrong,0.2939001848428835,0.4251386321626617,-0.1312384473197781,894.9888916015625,3145,cf_11448,paraphrase_01,wrong_wrong,False,Francesco Parravicini,midfielder,linebacker,"created. Francesco Parravicini, the"," Italian ambassador to the United States, said that the Italian government was “very concerned"
+18,621,more_wrong,0.2939001848428835,0.4251386321626617,-0.1312384473197781,890.2188720703125,2740,cf_4135,paraphrase_00,wrong_wrong,False,Vivian Girls,Brooklyn,Leeds,"Jardine, Matthew. Vivian Girls, created in"," 1999, is a band from the UK. The band is"
+18,15497,more_correct,0.199630314232902,0.0905730129390018,0.1090573012939001,1330.8951416015625,2146,cf_12492,paraphrase_00,correct_correct,True,Dictionary of National Biography,English,Italian,"References
+Middlemiss.org
+
+Category:1982 Australian novels
+Category:Miles Franklin Award-winning works The original language of Dictionary of National Biography is"," English.
+Category:1982 Australian novels
+Category:Miles Franklin"
+18,15497,more_correct,0.199630314232902,0.0905730129390018,0.1090573012939001,1243.4766845703125,976,cf_14132,paraphrase_00,wrong_wrong,False,Vincent Moscato,French,Dutch,Miguel de Guevara (c. 1586 – after 1646). The mother tongue of Vincent Moscato is, Italian. He was born in 1942 in the city of Naples
+18,15497,more_correct,0.199630314232902,0.0905730129390018,0.1090573012939001,1237.32373046875,3414,cf_3314,paraphrase_00,correct_correct,True,Great Soviet Encyclopedia,Russian,Hebrew,Landslides also occurred in the area. The original language of Great Soviet Encyclopedia is, Russian. The first edition of the Great Soviet Encyclopedia was published in 19
+18,15497,more_correct,0.199630314232902,0.0905730129390018,0.1090573012939001,1234.4248046875,4340,cf_13152,paraphrase_00,wrong_wrong,False,The Possible,Thai,French,It has a population of 805 (2006). The original language of The Possible is, the local dialect of the local dialect of the local dialect of the local dialect of
+18,15497,more_correct,0.199630314232902,0.0905730129390018,0.1090573012939001,1231.29931640625,3244,cf_16615,paraphrase_00,wrong_wrong,False,Michael Albert,English,French,The gorge has been a protected natural monument since 1992. The mother tongue of Michael Albert is, the German language. The gorge is located in the municipality of St. Michael in
+18,15497,more_correct,0.199630314232902,0.0905730129390018,0.1090573012939001,1217.225341796875,495,cf_1986,paraphrase_01,correct_wrong,False,La Jornada,Spanish,English,Formerly Latur was in Osmanabad District. The original language of La Jornada was, Marathi. The city is located in the Marathwada region of Maharashtra.
+18,15497,more_correct,0.199630314232902,0.0905730129390018,0.1090573012939001,1215.3218994140625,1281,cf_7190,paraphrase_01,wrong_wrong,False,Nazi Boni,French,Dutch,"St. Thomas, Barbados: Miller, 2004. The native language of Nazi Boni is", the language of the people of the island of Barbados. The language is spoken by
+18,15497,more_correct,0.199630314232902,0.0905730129390018,0.1090573012939001,1210.087646484375,210,cf_21064,paraphrase_00,correct_wrong,True,Marie Dorval,French,Chinese,"Programs
+
+Horn Cable TV broadcasts around-the-clock across Somaliland and Somalia. The native language of Marie Dorval is"," French, and she is a native of Quebec. The Horn Cable TV channel is"
+18,647,more_correct,0.2402957486136783,0.133086876155268,0.1072088724584103,1080.51611328125,4270,cf_15420,paraphrase_00,wrong_wrong,False,Jake Burns,Belfast,Denmark,"References
+
+Category:Townships in Missouri
+Category:Townships in Laclede County, Missouri Jake Burns was originally from", Kentucky. He was a farmer and a merchant. He was a member of the
+18,647,more_correct,0.2402957486136783,0.133086876155268,0.1072088724584103,1002.57861328125,3944,cf_20049,paraphrase_00,correct_correct,True,Koichi Ishii,Japan,Constantinople,English Heritage have deemed this an underground national ancient monument. Koichi Ishii is originally from, Japan and has been living in the UK for 15 years. He is
+18,647,more_correct,0.2402957486136783,0.133086876155268,0.1072088724584103,983.7568359375,2646,cf_21661,paraphrase_00,wrong_wrong,False,James Gomez,Singapore,London,"""Fallow Yet Fertile: The Field of Indiana Women's History."" James Gomez is originally from", the Philippines and has been living in the United States for the past 20
+18,647,more_correct,0.2402957486136783,0.133086876155268,0.1072088724584103,922.4610595703124,4176,cf_11147,paraphrase_00,correct_wrong,False,Sola Aoi,Japan,Iran,"It is one of eight constituencies in Machakos County. Sola Aoi, who has a citizenship from"," the United States of America, is the current MP.
+
+The constituency is located"
+18,647,more_correct,0.2402957486136783,0.133086876155268,0.1072088724584103,887.6649169921875,1383,cf_4993,paraphrase_01,wrong_wrong,False,Norris Turney,Wilmington,London,This resulted in a considerable refinement of Western canon law. Norris Turney is originally from, the United States and has been living in the UK for over 20 years
+18,647,more_correct,0.2402957486136783,0.133086876155268,0.1072088724584103,867.5377197265625,1914,cf_14490,paraphrase_00,correct_correct,True,Moreno Mannini,Italy,Greece,"At first, Eisenmann worked as a research assistant. Moreno Mannini, who has a citizenship from"," Italy, was born in 1980 in the city of Milan."
+18,647,more_correct,0.2402957486136783,0.133086876155268,0.1072088724584103,848.17724609375,3317,cf_1715,paraphrase_01,wrong_wrong,False,Roger Chartier,Lyon,Manchester,The Frys homeschooled their daughter for the 2010-2011 school year. Roger Chartier is originally from, Canada and has been living in the United States for the past 10 years
+18,647,more_correct,0.2402957486136783,0.133086876155268,0.1072088724584103,847.2646484375,3176,cf_15202,paraphrase_00,wrong_wrong,False,Cristian Alexanda,Perth,Seattle,"Margaret Curran (1887–1962) was an Australian poet, editor, and journalist. Cristian Alexanda originated from"," Romania and is a poet, translator, and editor. He is the author of"
+18,493,more_correct,0.1478743068391867,0.0573012939001848,0.0905730129390018,2292.3193359375,131,cf_3309,paraphrase_01,wrong_wrong,False,Dino Saluzzi,composer,actor,The fangs of vampires are one of their defining characteristics. Dino Saluzzi's occupation is, to make fangs for the film industry. He has been making fangs for
+18,493,more_correct,0.1478743068391867,0.0573012939001848,0.0905730129390018,2266.98193359375,730,cf_18173,paraphrase_00,correct_wrong,True,Homi Jehangir Bhabha,physics,animation,The background to this was as follows. Homi Jehangir Bhabha's area of work is, nuclear physics. He was a great scientist and a great administrator. He was the
+18,493,more_correct,0.1478743068391867,0.0573012939001848,0.0905730129390018,2172.693359375,814,cf_18105,paraphrase_00,wrong_wrong,False,octane,chemistry,mathematics,"You can work in extremely low light situations, for example."" octane's domain of work is"," the creation of high-end visual effects for film and television.
+
+The company"
+18,493,more_correct,0.1478743068391867,0.0573012939001848,0.0905730129390018,2101.23046875,1545,cf_11152,paraphrase_01,wrong_wrong,False,Carlo Lizzani,actor,politician,"More than 205,000 individual negatives and growing. Carlo Lizzani's occupation is", a photographer. He is a freelance photographer and has been working for the Italian news
+18,493,more_correct,0.1478743068391867,0.0573012939001848,0.0905730129390018,1964.60107421875,3042,cf_4233,paraphrase_00,wrong_wrong,False,Herbert A. Hauptman,mathematics,terrorism,Prime Minister Certificate of Merit. The domain of activity of Herbert A. Hauptman is, the field of chemistry. He is a professor of chemistry at the State University of
+18,493,more_correct,0.1478743068391867,0.0573012939001848,0.0905730129390018,1937.9375,2836,cf_4005,paraphrase_00,wrong_wrong,False,George Volkoff,physics,medicine,"The leaves are alternate, 5–6 cm long, 1 cm wide. George Volkoff's domain of activity is"," the field of plant taxonomy, especially the taxonomy of the genus <i>Echin"
+18,493,more_correct,0.1478743068391867,0.0573012939001848,0.0905730129390018,1925.25048828125,2306,cf_9425,paraphrase_00,wrong_wrong,False,David G. Bromley,sociology,medicine,1351-043: Historic center of the Durango City. David G. Bromley's domain of activity is," the historic center of the city of Durango, which is the most important in the"
+18,493,more_correct,0.1478743068391867,0.0573012939001848,0.0905730129390018,1923.671875,823,cf_1370,paraphrase_01,wrong_wrong,False,Bert Sakmann,physiology,mathematics,Alton practices Bridge with her. Bert Sakmann's domain of activity is, the brain. He is a professor of neurobiology at the Max Planck Institute for
+18,2578,more_wrong,0.0646950092421441,0.155268022181146,-0.0905730129390018,607.6185302734375,672,cf_21151,paraphrase_00,wrong_wrong,False,Eldar Djangirov,jazz,sitcom,The light-sensitive layer of the paper is called the emulsion. Eldar Djangirov performs, a series of experiments on the emulsion layer of the paper. He uses a variety
+18,2578,more_wrong,0.0646950092421441,0.155268022181146,-0.0905730129390018,606.2086181640625,1313,cf_21725,paraphrase_01,wrong_wrong,False,RuneScape,fantasy,disco,The U.S. withdrew from the ITER consortium in 2000. RuneScape performs, a vital position in the lives of many gamers. The sport has been around for
+18,2578,more_wrong,0.0646950092421441,0.155268022181146,-0.0905730129390018,591.505126953125,200,cf_10311,paraphrase_00,wrong_wrong,False,Eureka Brass Band,jazz,opera,"The Cowboys beat the Tigers 60 to 55. Eureka Brass Band, who plays"," at the game, was the halftime entertainment.
+
+The Cowboys are now 1"
+18,2578,more_wrong,0.0646950092421441,0.155268022181146,-0.0905730129390018,575.9132080078125,1618,cf_10047,paraphrase_00,wrong_wrong,False,Stan Musial,baseball,hockey,John thought that Pete was the Mole. What sport does Stan Musial play? They play, a game of hide and seek. Pete is the Mole. Stan Musial is
+18,2578,more_wrong,0.0646950092421441,0.155268022181146,-0.0905730129390018,573.0665283203125,436,cf_1029,paraphrase_00,wrong_wrong,False,Steve Swell,jazz,opera,Ronald Legg was a British basketball player. What does Steve Swell play? They play, in the same position. Steve Swell is a British basketball player. Steve Sw
+18,2578,more_wrong,0.0646950092421441,0.155268022181146,-0.0905730129390018,569.1143798828125,3350,cf_21745,paraphrase_00,correct_wrong,True,Fermin,Spanish,Russian,He is married to Temilade. Fermin speaks," English, Spanish, and French. He is a member of the American Society of"
+18,2578,more_wrong,0.0646950092421441,0.155268022181146,-0.0905730129390018,567.6455078125,3021,cf_9876,paraphrase_01,correct_wrong,True,Rick Braun,jazz,opera,January 1998 for Her Wild American Self. What does Rick Braun play? They play," a lot of jazz standards, but they also play a lot of their own compositions"
+18,2578,more_wrong,0.0646950092421441,0.155268022181146,-0.0905730129390018,561.97509765625,283,cf_17595,paraphrase_01,correct_wrong,False,Clayton Kershaw,baseball,football,The course was expressly defined as higher education. Clayton Kershaw plays, for the Los Angeles Dodgers. The course was expressly defined as higher education. The
+18,126,more_correct,0.210720887245841,0.1275415896487985,0.0831792975970425,5159.19873046875,49,cf_13746,paraphrase_01,wrong_wrong,False,Allan Warren,English,Spanish,"1819: Enclosure of Harmondsworth parish
+And see Heathrow (hamlet)#19th century. The language used by Allan Warren is", a bit confusing. The enclosure of Harmondsworth parish was in 18
+18,126,more_correct,0.210720887245841,0.1275415896487985,0.0831792975970425,4818.51904296875,3303,cf_11924,paraphrase_01,wrong_wrong,False,Jonas Mekas,English,Russian,1999. The language used by Jonas Mekas is," a language of the body, of the senses, of the emotions, of the"
+18,126,more_correct,0.210720887245841,0.1275415896487985,0.0831792975970425,4783.60791015625,2727,cf_14534,paraphrase_01,wrong_wrong,False,"Charles du Fresne, sieur du Cange",Latin,French,"merger; b.) The language used by Charles du Fresne, sieur du Cange is"," not the language of the 18th century, but the language of the"
+18,126,more_correct,0.210720887245841,0.1275415896487985,0.0831792975970425,4746.81005859375,4045,cf_18065,paraphrase_01,correct_wrong,True,L'Expansion,French,Czech,"My ""War"" with Israel. The language of L'Expansion is", not the language of the French people. The French people are not the people of
+18,126,more_correct,0.210720887245841,0.1275415896487985,0.0831792975970425,4732.79052734375,3701,cf_11298,paraphrase_01,correct_wrong,False,Dominic Behan,Irish,Spanish,It was published by Riverside Books in 1995. The language used by Dominic Behan is, very simple and easy to understand. The book is a collection of short stories and
+18,126,more_correct,0.210720887245841,0.1275415896487985,0.0831792975970425,4704.08251953125,2296,cf_15059,paraphrase_00,correct_correct,True,Plamen Oresharski,Bulgarian,French,in a letter to come out. The language used by Plamen Oresharski is, very clear. He says that the Bulgarian government is not going to allow the Bulgarian
+18,126,more_correct,0.210720887245841,0.1275415896487985,0.0831792975970425,4695.99560546875,728,cf_21884,paraphrase_00,wrong_wrong,False,Louis Riel,French,Italian,A boy arrested for thievery. The language used by Louis Riel is, very formal and serious. He is trying to convince the judge that he is not
+18,126,more_correct,0.210720887245841,0.1275415896487985,0.0831792975970425,4687.51025390625,2898,cf_21555,paraphrase_00,wrong_wrong,False,James Sully,English,Latin,"from Somerville College, Oxford in 1931. The language used by James Sully is"," that of the 19th century, and the book is a valuable record"
+18,4929,more_correct,0.1164510166358595,0.0425138632162661,0.0739371534195933,1010.9495239257812,395,cf_12236,paraphrase_01,wrong_wrong,False,Francis X. DiLorenzo,bishop,pope,"Public transport in Dunedin, New Zealand is mainly by bus. Francis X. DiLorenzo, whose position is that of"," a bus driver, is a bus driver in Dunedin. He is a bus driver"
+18,4929,more_correct,0.1164510166358595,0.0425138632162661,0.0739371534195933,937.7323608398438,2359,cf_8994,paraphrase_01,wrong_wrong,False,Richard Challoner,bishop,pope,"It is administered by the Mongolian Basketball Association. Richard Challoner, whose position is that of"," the president of the Mongolian Basketball Association, is the current president of the Mongolian Basketball"
+18,4929,more_correct,0.1164510166358595,0.0425138632162661,0.0739371534195933,930.7977294921876,3800,cf_12037,paraphrase_00,wrong_wrong,False,Antony Selvanayagam,bishop,cardinal,"He was survived by his wife and six-year-old daughter. Antony Selvanayagam, whose position is that of"," a senior manager at the company, was arrested on 11th May "
+18,4929,more_correct,0.1164510166358595,0.0425138632162661,0.0739371534195933,895.4696044921875,1480,cf_5013,paraphrase_00,correct_wrong,True,Karl Lueger,mayor,pope,"He was baptized at the Kington Parish Church. Karl Lueger, whose position is that of"," a mayor, is a man of the people. He is a man of the"
+18,4929,more_correct,0.1164510166358595,0.0425138632162661,0.0739371534195933,869.6445922851562,396,cf_14355,paraphrase_00,wrong_wrong,False,Marinus II,pope,bishop,"Norman Cook, a.k.a. Marinus II, whose position is that of"," a “rebel” in the Roman Catholic Church, has been a member of"
+18,4929,more_correct,0.1164510166358595,0.0425138632162661,0.0739371534195933,813.981201171875,394,cf_12236,paraphrase_00,wrong_wrong,False,Francis X. DiLorenzo,bishop,pope,"References
+
+Category:Villages in Krotoszyn County Francis X. DiLorenzo, who has the position of"," the president of the company, is the son of the founder of the company,"
+18,4929,more_correct,0.1164510166358595,0.0425138632162661,0.0739371534195933,813.4246826171875,1110,cf_6371,paraphrase_00,wrong_wrong,False,Hank Bassen,goaltender,midfielder,Finding aid in pdf format. Hank Bassen plays in the position of, a bass player. Hank Bassen is a member of the following bands: Hank
+18,4929,more_correct,0.1164510166358595,0.0425138632162661,0.0739371534195933,805.1651611328125,3801,cf_12037,paraphrase_01,wrong_wrong,False,Antony Selvanayagam,bishop,cardinal,The Wife of an Important Man). Antony Selvanayagam has the position of," a man who is a man of the world, a man who is a man"
+18,7619,more_correct,0.1737523105360443,0.099815157116451,0.0739371534195933,623.3912353515625,639,cf_19481,paraphrase_01,correct_correct,True,Czechoslovakia,Czech,Russian,"References
+
+Category:Musical instrument parts and accessories
+Category:Piano The law in Czechoslovakia declares the language", of the Czech Republic as the official language of the country. The Czech Republic is
+18,7619,more_correct,0.1737523105360443,0.099815157116451,0.0739371534195933,623.1588134765625,199,cf_18585,paraphrase_01,correct_wrong,True,Jamshedpur,Hindi,English,It lies within the KR/Konkan Zone under the Karwar Division. The law in Jamshedpur declares the language," of the city as Hindi. The city is also known as the ""Steel City"
+18,7619,more_correct,0.1737523105360443,0.099815157116451,0.0739371534195933,620.0064697265625,3213,cf_19379,paraphrase_01,wrong_wrong,False,Byelorussian Soviet Socialist Republic,Polish,Ukrainian,"Meanwhile, the band would continue to record. The law in Byelorussian Soviet Socialist Republic declares the language"," of the country to be Belarusian, but the law does not specify the language of"
+18,7619,more_correct,0.1737523105360443,0.099815157116451,0.0739371534195933,614.538330078125,389,cf_6591,paraphrase_01,correct_correct,True,Turkmenistan,Asia,Antarctica,He deployed his parachute and landed safely. Turkmenistan is located in the continent," of Asia. The country is bordered by Kazakhstan to the north, Uzbekistan to the"
+18,7619,more_correct,0.1737523105360443,0.099815157116451,0.0739371534195933,605.9468994140625,3949,cf_16095,paraphrase_01,wrong_wrong,False,Kiran Kumar,Hindi,French,The treaties did not result in a lasting peace. Kiran Kumar speaks the language," of the people. The treaty of Versailles was signed on June 28,"
+18,7619,more_correct,0.1737523105360443,0.099815157116451,0.0739371534195933,603.17041015625,3062,cf_14294,paraphrase_00,correct_correct,True,Slovenia,Europe,Antarctica,R. R. Srinivasan. Slovenia is located in the continent, of Europe. It is a small country with a population of 2 million people
+18,7619,more_correct,0.1737523105360443,0.099815157116451,0.0739371534195933,599.9990234375,1362,cf_7347,paraphrase_00,correct_wrong,False,Vatican City,Italian,Russian,1 on the Billboard chart. The law in Vatican City declares the language, of the Holy See to be Latin. The Vatican is the smallest country in the
+18,7619,more_correct,0.1737523105360443,0.099815157116451,0.0739371534195933,599.03955078125,2805,cf_8352,paraphrase_01,wrong_wrong,False,Peter Cowie,English,French,"In 3 dimensions, the probability decreases to roughly 34%. Peter Cowie speaks the language"," of the people.
+
+The probability of a 3-dimensional cube being a"
