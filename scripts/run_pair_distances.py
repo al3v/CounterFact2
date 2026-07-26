@@ -1,15 +1,14 @@
+from adl_sae.config import get_counterfact_gemma3_config
 from adl_sae.analysis.pair_distances import PairDistanceAnalyzer
 
 
-EXPERIMENT_NAME = "counterfact_paraphrase_gemma3_4b_scope2_lasttoken"
-REPORTS_DIR = f"reports/{EXPERIMENT_NAME}"
-
-
 def main():
+    config = get_counterfact_gemma3_config()
+
     analyzer = PairDistanceAnalyzer(
-        experiment_name=EXPERIMENT_NAME,
-        reports_dir=REPORTS_DIR,
-        sae_width=16384,
+        experiment_name=config.experiment_name,
+        reports_dir=config.reports_dir,
+        sae_width=config.sae_width,
     )
 
     analyzer.run()
