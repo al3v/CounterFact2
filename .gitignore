@@ -41,3 +41,6 @@ reports/*/plots/*.meta.json
 
 # Copied Gemma prompt output used locally for inspection
 reports/*/prompt_outputs_*.csv
+
+# Python packaging artifacts
+*.egg-info/
