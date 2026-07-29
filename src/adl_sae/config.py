@@ -38,6 +38,14 @@ class ExperimentConfig:
         return f"{self.outputs_dir}/hidden_states_{self.experiment_name}.pt"
 
     @property
+    def hidden_states_metadata_path(self) -> str:
+        return f"{self.reports_dir}/hidden_states_metadata_{self.experiment_name}.csv"
+
+    @property
+    def hidden_states_metadata_path(self) -> str:
+        return f"{self.reports_dir}/hidden_states_metadata_{self.experiment_name}.csv"
+
+    @property
     def sae_active_features_path(self) -> str:
         return f"{self.outputs_dir}/sae_active_features_{self.experiment_name}.csv"
 
