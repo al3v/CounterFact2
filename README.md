@@ -710,3 +710,93 @@ After testing, the temporary folder can be deleted with:
 cd ~
 rm -rf "$TEST_DIR"
 ```
+
+## Running in a new environment
+
+A new user can set up the repository like this:
+
+```bash
+git clone https://github.com/al3v/CounterFact2.git
+cd CounterFact2
+
+python -m venv ~/venvs/adl-sae
+source ~/venvs/adl-sae/bin/activate
+
+pip install --upgrade pip
+pip install -r requirements.txt
+pip install -e .
+```
+
+If large files are tracked with Git LFS, the following should also be run:
+
+```bash
+git lfs install
+git lfs pull
+```
+
+The package installation can be tested with:
+
+```bash
+python - <<'PY'
+from adl_sae.config import get_counterfact_gemma3_config
+from adl_sae.model.registry import create_model_wrapper
+
+config = get_counterfact_gemma3_config()
+wrapper = create_model_wrapper(config)
+
+print(config.model_name)
+print(type(wrapper).__name__)
+print(config.layers)
+PY
+```
+
+Expected output:
+
+```text
+google/gemma-3-4b-pt
+GemmaWrapper
+(2, 3, 4, 12, 15, 18)
+```
+
+Before running the full pipeline, a dry run should be done:
+
+```bash
+python -u scripts/run_pipeline.py
+```
+
+This only prints the planned pipeline steps. It does not run the heavy GPU parts.
+
+The full pipeline can be run with:
+
+```bash
+python -u scripts/run_pipeline.py --execute
+```
+
+The full pipeline runs the following steps:
+
+```text
+pair_types
+hidden_states
+sae_extraction
+sae_feature_analysis
+pair_distances
+plots
+```
+
+Important requirements:
+
+```text
+GPU node
+Hugging Face access to google/gemma-3-4b-pt
+Hugging Face access to google/gemma-scope-2-4b-pt
+required input CSV files
+enough disk space
+```
+
+At the moment, the refactored pipeline starts from the generated Gemma prompt-output CSV:
+
+```text
+outputs/prompt_outputs_counterfact_paraphrase_gemma3_4b_scope2_lasttoken.csv
+```
+
+So this file must exist before the pipeline is executed. The pipeline can then recreate pair types, hidden states, SAE activations, analysis tables, and plots.
