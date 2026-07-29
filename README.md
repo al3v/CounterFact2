@@ -589,3 +589,124 @@ The `.gitignore` should include:
 ```text
 *.egg-info/
 ```
+
+## Environment setup
+
+For a new environment, the package can be installed like this:
+
+```bash
+python -m venv ~/venvs/adl-sae
+source ~/venvs/adl-sae/bin/activate
+
+pip install --upgrade pip
+pip install -r requirements.txt
+pip install -e .
+```
+
+After installation, the package import can be tested with:
+
+```bash
+python - <<'PY'
+from adl_sae.config import get_counterfact_gemma3_config
+from adl_sae.model.registry import create_model_wrapper
+
+config = get_counterfact_gemma3_config()
+wrapper = create_model_wrapper(config)
+
+print("model_family:", config.model_family)
+print("model_name:", config.model_name)
+print("wrapper_class:", type(wrapper).__name__)
+print("layers:", config.layers)
+PY
+```
+
+Expected output:
+
+```text
+model_family: gemma
+model_name: google/gemma-3-4b-pt
+wrapper_class: GemmaWrapper
+layers: (2, 3, 4, 12, 15, 18)
+```
+
+## Running the pipeline
+
+A dry run can be used first. This only prints the planned steps and does not execute the heavy GPU parts:
+
+```bash
+python -u scripts/run_pipeline.py
+```
+
+Expected pipeline order:
+
+```text
+pair_types
+hidden_states
+sae_extraction
+sae_feature_analysis
+pair_distances
+plots
+```
+
+A lightweight execution can be run with only the analysis steps:
+
+```bash
+python -u scripts/run_pipeline.py \
+  --steps pair_types pair_distances plots \
+  --execute
+```
+
+The full pipeline can be run with:
+
+```bash
+python -u scripts/run_pipeline.py --execute
+```
+
+This full command runs:
+
+```text
+pair_types
+hidden_states
+sae_extraction
+sae_feature_analysis
+pair_distances
+plots
+```
+
+The full pipeline is GPU-heavy because hidden-state extraction and SAE extraction are included.
+
+For safer testing, the full pipeline can be run in a temporary copy of the repo so the original outputs are not overwritten:
+
+```bash
+cd ~/CounterFact2-upload
+
+TEST_DIR=~/CounterFact2-pipeline-test-$(date +%Y%m%d_%H%M)
+
+rsync -a \
+  --exclude ".git" \
+  --exclude "logs" \
+  --exclude "src/adl_sae.egg-info" \
+  ~/CounterFact2-upload/ "$TEST_DIR"/
+
+cd "$TEST_DIR"
+
+pip install -e .
+
+mkdir -p logs
+
+python -u scripts/run_pipeline.py --execute \
+  2>&1 | tee logs/full_pipeline_test.log
+```
+
+A successful full run should end with:
+
+```text
+Pipeline finished.
+```
+
+After testing, the temporary folder can be deleted with:
+
+```bash
+cd ~
+rm -rf "$TEST_DIR"
+```
