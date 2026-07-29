@@ -1,7 +1,12 @@
+numpy
+pandas
+scipy
+tqdm
 torch
 transformers
-pandas
-numpy
+datasets
+huggingface-hub
+safetensors
+accelerate
 matplotlib
-tqdm
 scikit-learn
