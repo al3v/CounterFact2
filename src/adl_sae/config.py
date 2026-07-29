@@ -12,6 +12,10 @@ class ExperimentConfig:
     outputs_dir: str = "outputs"
     reports_root: str = "reports"
     data_dir: str = "data/counterfact"
+    torch_dtype: str = "bfloat16"
+    device_map: str = "auto"
+    padding_side: str = "left"
+    trust_remote_code: bool = False
 
     @property
     def reports_dir(self) -> str:
