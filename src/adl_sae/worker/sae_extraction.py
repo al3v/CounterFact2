@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from pathlib import Path
 import runpy
+import sys
 
 
 @dataclass
@@ -44,4 +45,9 @@ class SAEExtractionWorker:
             return
 
         print("Running SAE extraction via legacy script...")
-        runpy.run_path(self.legacy_script_path, run_name="__main__")
+        old_argv = sys.argv
+        try:
+            sys.argv = [self.legacy_script_path]
+            runpy.run_path(self.legacy_script_path, run_name="__main__")
+        finally:
+            sys.argv = old_argv

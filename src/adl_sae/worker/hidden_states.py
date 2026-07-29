@@ -1,5 +1,6 @@
 import os
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Optional
 
 import pandas as pd
@@ -65,6 +66,9 @@ class HiddenStateWorker:
     def prompt_outputs_path(self) -> str:
         return self.config.prompt_outputs_path
 
+    def pair_types_path(self) -> str:
+        return self.config.all_pair_types_path
+
     def hidden_states_path(self) -> str:
         if self.output_suffix is None:
             return self.config.hidden_states_path
@@ -80,14 +84,30 @@ class HiddenStateWorker:
         return f"{base}_{self.output_suffix}.csv"
 
     def load_prompt_outputs(self) -> pd.DataFrame:
-        print("Loading prompt outputs:")
-        print(self.prompt_outputs_path())
+        """
+        Load prompt rows for hidden-state extraction.
 
-        df = pd.read_csv(self.prompt_outputs_path())
+        The pair-type file is preferred when available, because the legacy
+        SAE extraction script expects row_metadata to contain pair_type.
+        """
+        pair_types_path = Path(self.pair_types_path())
+        prompt_outputs_path = Path(self.prompt_outputs_path())
+
+        if pair_types_path.exists():
+            print("Loading pair-type prompt rows:")
+            print(pair_types_path)
+            df = pd.read_csv(pair_types_path)
+        else:
+            print("Loading prompt outputs:")
+            print(prompt_outputs_path)
+            df = pd.read_csv(prompt_outputs_path)
 
         if self.max_rows is not None:
             df = df.head(self.max_rows).copy()
             print(f"Using only first {self.max_rows} rows for test run.")
+
+        if "row_id" not in df.columns:
+            df["row_id"] = df.index
 
         print("Prompt rows:", len(df))
         print("Columns:", list(df.columns))
@@ -163,6 +183,9 @@ class HiddenStateWorker:
         torch.save(
             {
                 "hidden_states": hidden_tensor,
+                # Backward-compatible keys expected by the legacy SAE extraction script
+                "activations": hidden_tensor,
+                "row_metadata": prompt_df.to_dict("records"),
                 "layers": list(self.config.layers),
                 "model_name": self.config.model_name,
                 "experiment_name": self.config.experiment_name,
