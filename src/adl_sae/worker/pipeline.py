@@ -90,12 +90,21 @@ class ExperimentPipeline:
                 worker.run()
 
             elif step == "sae_extraction":
+                if not execute:
+                    print("Would extract SAE features from hidden states.")
+                    print("This step is currently Gemma/Gemma-Scope specific.")
+                    continue
+
                 worker = SAEExtractionWorker(config=self.config)
-                worker.run(dry_run=not execute)
+                worker.run(dry_run=False)
 
             elif step == "sae_feature_analysis":
+                if not execute:
+                    print("Would analyze SAE features by correctness group.")
+                    continue
+
                 analysis = SAEFeatureAnalysis(config=self.config)
-                analysis.run(dry_run=not execute)
+                analysis.run(dry_run=False)
 
             elif step == "pair_distances":
                 if not execute:
@@ -110,8 +119,12 @@ class ExperimentPipeline:
                 analyzer.run()
 
             elif step == "plots":
+                if not execute:
+                    print("Would create pair-distance plots.")
+                    continue
+
                 plotter = PairDistancePlotter(config=self.config)
-                plotter.run(dry_run=not execute)
+                plotter.run(dry_run=False)
 
         print()
         print("Pipeline finished.")

@@ -1,6 +1,6 @@
 import argparse
 
-from adl_sae.config import get_counterfact_gemma3_config
+from adl_sae.config_registry import add_config_argument, get_config
 from adl_sae.worker.hidden_states import HiddenStateWorker
 
 
@@ -8,6 +8,8 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description="Extract last-token hidden states for selected layers."
     )
+
+    add_config_argument(parser)
 
     parser.add_argument(
         "--batch-size",
@@ -35,7 +37,7 @@ def parse_args():
 
 def main():
     args = parse_args()
-    config = get_counterfact_gemma3_config()
+    config = get_config(args.config)
 
     worker = HiddenStateWorker(
         config=config,

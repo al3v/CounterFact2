@@ -1,6 +1,6 @@
 import argparse
 
-from adl_sae.config import get_counterfact_gemma3_config
+from adl_sae.config_registry import add_config_argument, get_config
 from adl_sae.worker.pipeline import ALL_STEPS, ExperimentPipeline
 
 
@@ -8,6 +8,8 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description="Run the ADL SAE experiment pipeline."
     )
+
+    add_config_argument(parser)
 
     parser.add_argument(
         "--steps",
@@ -49,7 +51,7 @@ def parse_args():
 
 def main():
     args = parse_args()
-    config = get_counterfact_gemma3_config()
+    config = get_config(args.config)
 
     pipeline = ExperimentPipeline(
         config=config,
