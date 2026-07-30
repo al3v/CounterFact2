@@ -800,3 +800,57 @@ outputs/prompt_outputs_counterfact_paraphrase_gemma3_4b_scope2_lasttoken.csv
 ```
 
 So this file must exist before the pipeline is executed. The pipeline can then recreate pair types, hidden states, SAE activations, analysis tables, and plots.
+
+## Current model support status
+
+The refactored code supports multiple experiment configs through the config registry.
+
+Available configs:
+
+- gemma3
+- qwen25
+- llama32
+
+Example dry runs:
+
+    python -u scripts/run_pipeline.py --config gemma3
+    python -u scripts/run_pipeline.py --config qwen25 --steps hidden_states
+    python -u scripts/run_pipeline.py --config llama32 --steps hidden_states
+
+The current full SAE pipeline has been tested for the Gemma experiment:
+
+    python -u scripts/run_pipeline.py --config gemma3 --execute
+
+This Gemma pipeline uses:
+
+- google/gemma-3-4b-pt
+- google/gemma-scope-2-4b-pt
+
+The Qwen and Llama configs are included to prepare the model side of the refactor. They use the same config/model-wrapper interface and are intended for generation and hidden-state extraction tests.
+
+Important limitation:
+
+The full SAE analysis is currently Gemma-specific.
+
+This is because SAE extraction currently depends on Gemma Scope SAE files, Gemma-specific layer choices, and Gemma-specific SAE folder names. Running full SAE analysis for Qwen or Llama would require matching SAE releases, correct layer mappings, and compatible activation dimensions.
+
+Current status:
+
+Gemma:
+- full SAE pipeline tested
+
+Qwen/Llama:
+- structurally prepared through config registry and model wrappers
+- hidden-state smoke tests can be run
+- full SAE analysis not integrated yet
+
+Optional smoke test for Qwen hidden states:
+
+    python -u scripts/run_hidden_states.py --config qwen25 --max-rows 2 --batch-size 2 --output-suffix qwen_smoke_test
+
+Optional smoke test for Llama hidden states:
+
+    python -u scripts/run_hidden_states.py --config llama32 --max-rows 2 --batch-size 2 --output-suffix llama_smoke_test
+
+A Llama smoke test may require Hugging Face access approval/login because some Llama models are gated.
+
