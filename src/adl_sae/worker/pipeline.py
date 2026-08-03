@@ -5,12 +5,15 @@ from typing import Iterable, Optional
 from adl_sae.analysis.dense_pair_distances import DensePairDistanceAnalyzer
 from adl_sae.analysis.pair_distances import PairDistanceAnalyzer
 from adl_sae.analysis.plots import PairDistancePlotter
+from adl_sae.analysis.generic_pair_distance_plots import GenericPairDistancePlotter
 from adl_sae.analysis.sae_features import SAEFeatureAnalysis
+from adl_sae.analysis.generic_sae_features import GenericSAEFeatureAnalysis
 from adl_sae.config import ExperimentConfig
 from adl_sae.data.pair_types import CounterFactPairTypeBuilder
 from adl_sae.worker.generation import GenerationWorker
 from adl_sae.worker.hidden_states import HiddenStateWorker
 from adl_sae.worker.sae_extraction import SAEExtractionWorker
+from adl_sae.worker.qwen_sae_extraction import QwenScopeSAEExtractionWorker
 
 
 ALL_STEPS = (
@@ -106,26 +109,39 @@ class ExperimentPipeline:
             elif step == "sae_extraction":
                 if not execute:
                     print("Would extract SAE features from hidden states.")
-                    print("This step is currently Gemma/Gemma-Scope specific.")
+                    print("Gemma configs use Gemma Scope.")
+                    print("Qwen SAE configs use Qwen-Scope.")
                     continue
 
-                worker = SAEExtractionWorker(config=self.config)
-                worker.run(dry_run=False)
+                if str(self.config.sae_release).startswith("Qwen/SAE-"):
+                    worker = QwenScopeSAEExtractionWorker(config=self.config, top_k=100)
+                    worker.run()
+                else:
+                    worker = SAEExtractionWorker(config=self.config)
+                    worker.run(dry_run=False)
 
             elif step == "sae_feature_analysis":
                 if not execute:
                     print("Would analyze SAE features by correctness group.")
                     continue
 
-                analysis = SAEFeatureAnalysis(config=self.config)
-                analysis.run(dry_run=False)
+                if str(self.config.sae_release).startswith("Qwen/SAE-"):
+                    analysis = GenericSAEFeatureAnalysis(config=self.config)
+                    analysis.run()
+                else:
+                    analysis = SAEFeatureAnalysis(config=self.config)
+                    analysis.run(dry_run=False)
 
             elif step == "pair_distances":
                 if not execute:
                     print("Would compute pairwise SAE distances between paraphrases.")
                     continue
 
-                analyzer = PairDistanceAnalyzer(config=self.config)
+                analyzer = PairDistanceAnalyzer(
+                    self.config.experiment_name,
+                    self.config.reports_dir,
+                    self.config.sae_width,
+                )
                 analyzer.run()
 
             elif step == "dense_pair_distances":
@@ -141,8 +157,12 @@ class ExperimentPipeline:
                     print("Would create pair-distance plots.")
                     continue
 
-                plotter = PairDistancePlotter(config=self.config)
-                plotter.run(dry_run=False)
+                if str(self.config.sae_release).startswith("Qwen/SAE-"):
+                    plotter = GenericPairDistancePlotter(config=self.config)
+                    plotter.run()
+                else:
+                    plotter = PairDistancePlotter(config=self.config)
+                    plotter.run(dry_run=False)
 
         print()
         print("Pipeline finished.")
