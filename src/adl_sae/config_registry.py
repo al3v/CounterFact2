@@ -1,14 +1,14 @@
 from adl_sae.config import (
     get_counterfact_gemma3_config,
-    get_counterfact_qwen25_config,
     get_counterfact_llama32_config,
+    get_counterfact_qwen3_17b_sae_config,
 )
 
 
 CONFIG_REGISTRY = {
     "gemma3": get_counterfact_gemma3_config,
-    "qwen25": get_counterfact_qwen25_config,
     "llama32": get_counterfact_llama32_config,
+    "qwen3_sae": get_counterfact_qwen3_17b_sae_config,
 }
 
 

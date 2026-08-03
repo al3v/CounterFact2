@@ -61,17 +61,6 @@ def get_counterfact_gemma3_config() -> ExperimentConfig:
     )
 
 
-def get_counterfact_qwen25_config() -> ExperimentConfig:
-    return ExperimentConfig(
-        experiment_name="counterfact_paraphrase_qwen25_3b_lasttoken",
-        model_family="qwen",
-        model_name="Qwen/Qwen2.5-3B-Instruct",
-        sae_release="none",
-        sae_width=0,
-        layers=(2, 3, 4, 12, 18, 24),
-        trust_remote_code=True,
-    )
-
 
 def get_counterfact_llama32_config() -> ExperimentConfig:
     return ExperimentConfig(
@@ -83,3 +72,15 @@ def get_counterfact_llama32_config() -> ExperimentConfig:
         layers=(2, 3, 4, 12, 18, 24),
     )
 
+
+
+def get_counterfact_qwen3_17b_sae_config() -> ExperimentConfig:
+    return ExperimentConfig(
+        experiment_name="counterfact_paraphrase_qwen3_17b_sae_lasttoken",
+        model_family="qwen",
+        model_name="Qwen/Qwen3-1.7B-Base",
+        sae_release="Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0_100",
+        sae_width=32768,
+        layers=(2, 3, 4, 12, 18, 24),
+        trust_remote_code=False,
+    )

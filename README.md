@@ -808,13 +808,13 @@ The refactored code supports multiple experiment configs through the config regi
 Available configs:
 
 - gemma3
-- qwen25
+- qwen3_sae
 - llama32
 
 Example dry runs:
 
     python -u scripts/run_pipeline.py --config gemma3
-    python -u scripts/run_pipeline.py --config qwen25 --steps hidden_states
+    python -u scripts/run_pipeline.py --config qwen3_sae --steps hidden_states
     python -u scripts/run_pipeline.py --config llama32 --steps hidden_states
 
 The current full SAE pipeline has been tested for the Gemma experiment:
@@ -846,7 +846,7 @@ Qwen/Llama:
 
 Optional smoke test for Qwen hidden states:
 
-    python -u scripts/run_hidden_states.py --config qwen25 --max-rows 2 --batch-size 2 --output-suffix qwen_smoke_test
+    python -u scripts/run_pipeline.py --config qwen3_sae --steps generation pair_types hidden_states sae_extraction pair_distances --execute --max-rows 20 --batch-size 2 --max-new-tokens 16
 
 Optional smoke test for Llama hidden states:
 
