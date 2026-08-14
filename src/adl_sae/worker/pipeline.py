@@ -14,6 +14,7 @@ from adl_sae.worker.generation import GenerationWorker
 from adl_sae.worker.hidden_states import HiddenStateWorker
 from adl_sae.worker.sae_extraction import SAEExtractionWorker
 from adl_sae.worker.qwen_sae_extraction import QwenScopeSAEExtractionWorker
+from adl_sae.worker.llama_sae_extraction import LlamaScopeSAEExtractionWorker
 
 
 ALL_STEPS = (
@@ -116,6 +117,9 @@ class ExperimentPipeline:
                 if str(self.config.sae_release).startswith("Qwen/SAE-"):
                     worker = QwenScopeSAEExtractionWorker(config=self.config, top_k=100)
                     worker.run()
+                elif str(self.config.sae_release).startswith("fnlp/Llama"):
+                    worker = LlamaScopeSAEExtractionWorker(config=self.config)
+                    worker.run()
                 else:
                     worker = SAEExtractionWorker(config=self.config)
                     worker.run(dry_run=False)
@@ -125,7 +129,10 @@ class ExperimentPipeline:
                     print("Would analyze SAE features by correctness group.")
                     continue
 
-                if str(self.config.sae_release).startswith("Qwen/SAE-"):
+                if (
+                    str(self.config.sae_release).startswith("Qwen/SAE-")
+                    or str(self.config.sae_release).startswith("fnlp/Llama")
+                ):
                     analysis = GenericSAEFeatureAnalysis(config=self.config)
                     analysis.run()
                 else:
@@ -157,7 +164,10 @@ class ExperimentPipeline:
                     print("Would create pair-distance plots.")
                     continue
 
-                if str(self.config.sae_release).startswith("Qwen/SAE-"):
+                if (
+                    str(self.config.sae_release).startswith("Qwen/SAE-")
+                    or str(self.config.sae_release).startswith("fnlp/Llama")
+                ):
                     plotter = GenericPairDistancePlotter(config=self.config)
                     plotter.run()
                 else:

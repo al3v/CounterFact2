@@ -84,3 +84,25 @@ def get_counterfact_qwen3_17b_sae_config() -> ExperimentConfig:
         layers=(2, 3, 4, 12, 18, 24),
         trust_remote_code=False,
     )
+
+
+def get_counterfact_llama31_8b_config() -> ExperimentConfig:
+    return ExperimentConfig(
+        experiment_name="counterfact_paraphrase_llama31_8b_lasttoken",
+        model_family="llama",
+        model_name="meta-llama/Llama-3.1-8B",
+        sae_release="none",
+        sae_width=0,
+        layers=(2, 3, 4, 12, 18, 24),
+    )
+
+
+def get_counterfact_llama31_8b_sae_config() -> ExperimentConfig:
+    return ExperimentConfig(
+        experiment_name="counterfact_paraphrase_llama31_8b_sae_lasttoken",
+        model_family="llama",
+        model_name="meta-llama/Llama-3.1-8B",
+        sae_release="fnlp/Llama3_1-8B-Base-LXR-8x",
+        sae_width=32768,
+        layers=(2, 3, 4, 12, 18, 24),
+    )
