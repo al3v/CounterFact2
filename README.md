@@ -809,13 +809,11 @@ Available configs:
 
 - gemma3
 - qwen3_sae
-- llama32
 
 Example dry runs:
 
     python -u scripts/run_pipeline.py --config gemma3
     python -u scripts/run_pipeline.py --config qwen3_sae --steps hidden_states
-    python -u scripts/run_pipeline.py --config llama32 --steps hidden_states
 
 The current full SAE pipeline has been tested for the Gemma experiment:
 
@@ -850,7 +848,6 @@ Optional smoke test for Qwen hidden states:
 
 Optional smoke test for Llama hidden states:
 
-    python -u scripts/run_hidden_states.py --config llama32 --max-rows 2 --batch-size 2 --output-suffix llama_smoke_test
 
 A Llama smoke test may require Hugging Face access approval/login because some Llama models are gated.
 
