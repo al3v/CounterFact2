@@ -1,0 +1,3 @@
+fact_id,success_original_row_id,failure_original_row_id,success_variant_id,failure_variant_id,M_success,M_failure,delta_M,S_true_success,S_true_failure,S_counterfactual_success,S_counterfactual_failure,pair_type
+cf_7314,13,12,paraphrase_01,paraphrase_00,2.625,3.625,-1.0,-6.290063858032227,-3.1159048080444336,-8.915063858032227,-6.740904808044434,correct_wrong
+cf_819,16,17,paraphrase_00,paraphrase_01,15.750000238418579,11.625000476837158,4.124999761581421,-0.5681130886077881,-2.4999499320983887,-16.318113327026367,-14.124950408935547,correct_wrong

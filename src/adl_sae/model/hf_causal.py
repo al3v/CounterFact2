@@ -103,13 +103,39 @@ class HFCausalLMWrapper(BaseModelWrapper):
 
         return decoded
 
+    def _select_last_nonpad_hidden(self, hidden, attention_mask):
+        """
+        Select the hidden state at the final real token, not at padding.
+
+        This helper is padding-side agnostic:
+        - right padding: [1, 1, 1, 0, 0] -> position 2
+        - left padding:  [0, 0, 1, 1, 1] -> position 4
+
+        The largest sequence index with attention_mask value 1 is selected.
+        """
+        mask = attention_mask.to(hidden.device).long()
+
+        positions = torch.arange(
+            mask.shape[1],
+            device=hidden.device,
+        ).unsqueeze(0)
+
+        last_nonpad = (mask * positions).max(dim=1).values.long()
+
+        batch_indices = torch.arange(
+            hidden.shape[0],
+            device=hidden.device,
+        )
+
+        return hidden[batch_indices, last_nonpad, :]
+
     def extract_last_token_hidden_states(self, prompts, layers):
         """
-        Extract hidden states at the last prompt token.
+        Extract hidden states at the last real prompt token.
 
-        Important:
-        We use left padding, so the final sequence position is the real
-        last prompt token for every prompt in the batch.
+        Padding side is not assumed.
+        The attention mask is used to select the final non-padding token
+        for each prompt in the batch.
 
         Hugging Face hidden_states indexing:
         hidden_states[0] is embedding output.
@@ -126,6 +152,7 @@ class HFCausalLMWrapper(BaseModelWrapper):
         )
 
         inputs = {k: v.to(self._get_input_device()) for k, v in inputs.items()}
+        attention_mask = inputs["attention_mask"]
 
         with torch.no_grad():
             outputs = self.model(
@@ -138,9 +165,10 @@ class HFCausalLMWrapper(BaseModelWrapper):
 
         for layer in layers:
             hidden = outputs.hidden_states[layer + 1]
-
-            # left padding means the last position is the last real prompt token
-            last_token_hidden = hidden[:, -1, :]
+            last_token_hidden = self._select_last_nonpad_hidden(
+                hidden=hidden,
+                attention_mask=attention_mask,
+            )
 
             selected_hidden_states.append(last_token_hidden)
 
