@@ -128,8 +128,16 @@ def score_batch(model, tokenizer, batch_df, device):
                 "answer_token_offsets": json.dumps(token_offsets),
                 "answer_token_logprobs": json.dumps(token_logprobs),
                 "n_answer_tokens": len(token_logprobs),
+
+                # Raw sequence log likelihood of the answer tokens.
+                # This is the sum across answer-token log-probabilities.
                 "sum_answer_logprob": sum_logprob,
+                "sequence_log_likelihood": sum_logprob,
+
+                # Length-normalized answer log likelihood.
+                # This corresponds to S in the analysis notes.
                 "score_S": score,
+                "length_normalized_log_likelihood": score,
             }
         )
 
@@ -144,13 +152,29 @@ def build_margin_tables(scores_df: pd.DataFrame, config):
 
     key = "original_row_id"
 
-    true_small = true_df[[key, "score_S"]].rename(columns={"score_S": "S_true"})
-    cf_small = cf_df[[key, "score_S"]].rename(columns={"score_S": "S_counterfactual"})
+    true_small = true_df[[key, "score_S", "sum_answer_logprob"]].rename(
+        columns={
+            "score_S": "S_true",
+            "sum_answer_logprob": "sequence_log_likelihood_true",
+        }
+    )
+    cf_small = cf_df[[key, "score_S", "sum_answer_logprob"]].rename(
+        columns={
+            "score_S": "S_counterfactual",
+            "sum_answer_logprob": "sequence_log_likelihood_counterfactual",
+        }
+    )
 
     margins = true_df.drop(columns=["score_S"]).merge(true_small, on=key, how="left")
     margins = margins.merge(cf_small, on=key, how="left")
 
+    margins["length_normalized_log_likelihood_true"] = margins["S_true"]
+    margins["length_normalized_log_likelihood_counterfactual"] = margins["S_counterfactual"]
     margins["M_cf"] = margins["S_true"] - margins["S_counterfactual"]
+    margins["sequence_log_likelihood_margin"] = (
+        margins["sequence_log_likelihood_true"]
+        - margins["sequence_log_likelihood_counterfactual"]
+    )
 
     # Keep one row per original prompt.
     keep_cols_first = [
@@ -172,6 +196,11 @@ def build_margin_tables(scores_df: pd.DataFrame, config):
         "S_true",
         "S_counterfactual",
         "M_cf",
+        "length_normalized_log_likelihood_true",
+        "length_normalized_log_likelihood_counterfactual",
+        "sequence_log_likelihood_true",
+        "sequence_log_likelihood_counterfactual",
+        "sequence_log_likelihood_margin",
     ]
     keep_cols = [c for c in keep_cols_first if c in margins.columns]
     margins = margins[keep_cols].copy()

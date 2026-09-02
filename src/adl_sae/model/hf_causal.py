@@ -129,6 +129,62 @@ class HFCausalLMWrapper(BaseModelWrapper):
 
         return hidden[batch_indices, last_nonpad, :]
 
+    def get_prompt_token_metadata(self, prompts):
+        """
+        Return token-level metadata for the prompt batch.
+
+        The same tokenizer settings as hidden-state extraction are used.
+        The final prompt token is selected from the last non-padding position.
+        """
+        if self.tokenizer is None:
+            raise RuntimeError("Tokenizer is not loaded. Call .load() first.")
+
+        inputs = self.tokenizer(
+            prompts,
+            return_tensors="pt",
+            padding=True,
+            truncation=True,
+        )
+
+        input_ids = inputs["input_ids"]
+        attention_mask = inputs["attention_mask"].long()
+
+        positions = torch.arange(
+            attention_mask.shape[1],
+            device=attention_mask.device,
+        ).unsqueeze(0)
+
+        last_nonpad = (attention_mask * positions).max(dim=1).values.long()
+
+        metadata = []
+
+        for i in range(input_ids.shape[0]):
+            mask_i = attention_mask[i].bool()
+            prompt_token_ids = input_ids[i][mask_i].tolist()
+            last_pos = int(last_nonpad[i].item())
+            final_token_id = int(input_ids[i, last_pos].item())
+
+            try:
+                final_prompt_token_text = self.tokenizer.decode(
+                    [final_token_id],
+                    skip_special_tokens=False,
+                )
+            except Exception:
+                final_prompt_token_text = ""
+
+            metadata.append(
+                {
+                    "prompt_token_ids": prompt_token_ids,
+                    "n_prompt_tokens": len(prompt_token_ids),
+                    "last_nonpad_position": last_pos,
+                    "final_prompt_token_id": final_token_id,
+                    "final_prompt_token_text": final_prompt_token_text,
+                }
+            )
+
+        return metadata
+
+
     def extract_last_token_hidden_states(self, prompts, layers):
         """
         Extract hidden states at the last real prompt token.

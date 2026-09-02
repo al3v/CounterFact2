@@ -1,3 +1,4 @@
+import json
 import os
 from dataclasses import dataclass
 from pathlib import Path
@@ -115,10 +116,12 @@ class HiddenStateWorker:
 
         return df
 
-    def build_metadata_rows(self, batch_df, layers, n_tokens):
+    def build_metadata_rows(self, batch_df, layers, prompt_token_metadata):
         metadata_rows = []
 
         for i, (_, row) in enumerate(batch_df.iterrows()):
+            token_meta = prompt_token_metadata[i]
+
             for layer in layers:
                 metadata_rows.append(
                     {
@@ -130,7 +133,11 @@ class HiddenStateWorker:
                         "is_correct": row.get("is_correct", None),
                         "layer": layer,
                         "hf_hidden_state_index": layer + 1,
-                        "n_tokens": n_tokens[i],
+                        "n_tokens": token_meta["n_prompt_tokens"],
+                        "prompt_token_ids": json.dumps(token_meta["prompt_token_ids"]),
+                        "last_nonpad_position": token_meta["last_nonpad_position"],
+                        "final_prompt_token_id": token_meta["final_prompt_token_id"],
+                        "final_prompt_token_text": token_meta["final_prompt_token_text"],
                         "model_name": self.config.model_name,
                         "experiment_name": self.config.experiment_name,
                     }
@@ -155,6 +162,7 @@ class HiddenStateWorker:
 
         all_hidden_states = []
         all_metadata_rows = []
+        all_prompt_token_metadata = []
 
         for start in tqdm(range(0, len(prompt_df), self.batch_size), desc="Extracting hidden states"):
             end = start + self.batch_size
@@ -166,26 +174,35 @@ class HiddenStateWorker:
                 layers=self.config.layers,
             )
 
-            n_tokens = count_prompt_tokens(model_wrapper.tokenizer, prompts)
+            prompt_token_metadata = model_wrapper.get_prompt_token_metadata(prompts)
 
             all_hidden_states.append(batch_hidden)
+            all_prompt_token_metadata.extend(prompt_token_metadata)
 
             batch_metadata = self.build_metadata_rows(
                 batch_df=batch_df,
                 layers=self.config.layers,
-                n_tokens=n_tokens,
+                prompt_token_metadata=prompt_token_metadata,
             )
             all_metadata_rows.extend(batch_metadata)
 
         hidden_tensor = torch.cat(all_hidden_states, dim=0)
         metadata_df = pd.DataFrame(all_metadata_rows)
 
+        prompt_metadata_df = prompt_df.reset_index(drop=True).copy()
+        for i, token_meta in enumerate(all_prompt_token_metadata):
+            prompt_metadata_df.loc[i, "n_tokens"] = token_meta["n_prompt_tokens"]
+            prompt_metadata_df.loc[i, "prompt_token_ids"] = json.dumps(token_meta["prompt_token_ids"])
+            prompt_metadata_df.loc[i, "last_nonpad_position"] = token_meta["last_nonpad_position"]
+            prompt_metadata_df.loc[i, "final_prompt_token_id"] = token_meta["final_prompt_token_id"]
+            prompt_metadata_df.loc[i, "final_prompt_token_text"] = token_meta["final_prompt_token_text"]
+
         torch.save(
             {
                 "hidden_states": hidden_tensor,
-                # Backward-compatible keys expected by the legacy SAE extraction script
+                # Backward-compatible key expected by older extraction code.
                 "activations": hidden_tensor,
-                "row_metadata": prompt_df.to_dict("records"),
+                "row_metadata": prompt_metadata_df.to_dict("records"),
                 "layers": list(self.config.layers),
                 "model_name": self.config.model_name,
                 "experiment_name": self.config.experiment_name,

@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import json
+import math
 from pathlib import Path
+from typing import Optional
 
 import pandas as pd
 import torch
@@ -13,8 +15,13 @@ from adl_sae.config import ExperimentConfig
 
 
 class LlamaScopeSAEExtractionWorker:
-    def __init__(self, config: ExperimentConfig) -> None:
+    def __init__(
+        self,
+        config: ExperimentConfig,
+        max_rows: Optional[int] = None,
+    ) -> None:
         self.config = config
+        self.max_rows = max_rows
 
     @property
     def hidden_states_path(self) -> Path:
@@ -65,9 +72,18 @@ class LlamaScopeSAEExtractionWorker:
                 raise FileNotFoundError(f"Metadata CSV not found: {metadata_path}")
             metadata = pd.read_csv(metadata_path)
 
-        layers = obj.get("layers", list(self.config.layers))
+            if "layer" in metadata.columns:
+                metadata = metadata.drop_duplicates(subset=["row_id"]).reset_index(drop=True)
 
-        return hidden_states.cpu().float(), metadata, list(layers)
+        layers = [int(x) for x in obj.get("layers", list(self.config.layers))]
+
+        if self.max_rows is not None:
+            hidden_states = hidden_states[: self.max_rows]
+            metadata = metadata.head(self.max_rows).copy()
+
+        metadata = metadata.reset_index(drop=True)
+
+        return hidden_states.cpu().float(), metadata, layers
 
     def load_sae_for_layer(self, layer: int):
         folder = self.layer_folder(layer)
@@ -99,10 +115,51 @@ class LlamaScopeSAEExtractionWorker:
 
         W_enc = tensors["encoder.weight"].float()
         b_enc = tensors["encoder.bias"].float()
+        W_dec = tensors["decoder.weight"].float()
+
+        # decoder.weight has shape d_model x d_sae.
+        # Each SAE feature corresponds to one decoder column.
+        decoder_norms = W_dec.norm(dim=0)
 
         threshold = float(hyperparams.get("jump_relu_threshold", 0.0))
 
-        return W_enc, b_enc, threshold, hyperparams, ckpt_path
+        return W_enc, b_enc, decoder_norms, threshold, hyperparams, ckpt_path
+
+    def activation_normalization_scale(self, hyperparams: dict) -> tuple[float, float]:
+        """
+        Llama-Scope uses norm_activation='dataset-wise'.
+
+        The cached hyperparams store the dataset average activation norm.
+        During SAE encoding, hidden states are rescaled to average norm sqrt(d_model).
+        """
+        norm_mode = hyperparams.get("norm_activation")
+
+        if norm_mode != "dataset-wise":
+            return 1.0, float("nan")
+
+        avg_norm = hyperparams.get("dataset_average_activation_norm", {}).get("in")
+        if avg_norm is None:
+            raise ValueError(
+                "Llama-Scope hyperparams use dataset-wise normalization, "
+                "but dataset_average_activation_norm['in'] is missing."
+            )
+
+        avg_norm = float(avg_norm)
+        if avg_norm <= 0:
+            raise ValueError(f"Invalid dataset average activation norm: {avg_norm}")
+
+        d_model = int(hyperparams.get("d_model", 0))
+        if d_model <= 0:
+            raise ValueError(f"Invalid d_model in hyperparams: {d_model}")
+
+        scale = math.sqrt(d_model) / avg_norm
+        return scale, avg_norm
+
+    def safe_meta(self, meta: dict, key: str, default=""):
+        value = meta.get(key, default)
+        if pd.isna(value):
+            return default
+        return value
 
     def run(self):
         hidden_states, metadata, layers = self.load_hidden_states()
@@ -127,13 +184,22 @@ class LlamaScopeSAEExtractionWorker:
         for layer_pos, layer in enumerate(layers):
             print()
             print(f"Loading Llama-Scope SAE for layer {layer}...")
-            W_enc, b_enc, threshold, hyperparams, ckpt_path = self.load_sae_for_layer(layer)
+
+            W_enc, b_enc, decoder_norms, threshold, hyperparams, ckpt_path = self.load_sae_for_layer(layer)
+
+            norm_scale, dataset_avg_norm_in = self.activation_normalization_scale(hyperparams)
+            decoder_norm_scaling_applied = bool(hyperparams.get("sparsity_include_decoder_norm", False))
 
             print("SAE file:", ckpt_path)
             print("W_enc shape:", tuple(W_enc.shape))
             print("b_enc shape:", tuple(b_enc.shape))
+            print("decoder_norms shape:", tuple(decoder_norms.shape))
             print("JumpReLU threshold:", threshold)
             print("act_fn:", hyperparams.get("act_fn"))
+            print("norm_activation:", hyperparams.get("norm_activation"))
+            print("dataset_average_activation_norm_in:", dataset_avg_norm_in)
+            print("activation_normalization_scale:", norm_scale)
+            print("sparsity_include_decoder_norm:", decoder_norm_scaling_applied)
 
             layer_hidden = hidden_states[:, layer_pos, :]
 
@@ -143,24 +209,37 @@ class LlamaScopeSAEExtractionWorker:
                     f"hidden dim {layer_hidden.shape[-1]} vs W_enc dim {W_enc.shape[-1]}"
                 )
 
-            pre_acts = layer_hidden @ W_enc.T + b_enc
+            # Dataset-wise activation normalization.
+            layer_hidden_for_sae = layer_hidden * norm_scale
 
-            # Llama-Scope hyperparams say act_fn = jumprelu.
-            # So we keep features whose pre-activation is above the learned threshold.
-            feature_acts = torch.relu(pre_acts) * (pre_acts > threshold)
+            pre_acts = layer_hidden_for_sae @ W_enc.T + b_enc
+
+            # Raw JumpReLU feature activations.
+            raw_feature_acts = torch.relu(pre_acts) * (pre_acts > threshold)
+
+            # Decoder-norm-scaled activations are used as the main interpretable
+            # activation magnitude. Raw activations are still saved separately.
+            if decoder_norm_scaling_applied:
+                feature_acts = raw_feature_acts * decoder_norms.unsqueeze(0)
+            else:
+                feature_acts = raw_feature_acts
 
             for row_i in tqdm(range(feature_acts.shape[0]), desc=f"Layer {layer}"):
                 meta = metadata.iloc[row_i].to_dict()
 
-                row_id = meta.get("row_id", row_i)
-                fact_id = meta.get("fact_id", "")
-                variant_id = meta.get("variant_id", "")
-                pair_type = meta.get("pair_type", "")
-                is_correct = meta.get("is_correct", "")
+                row_id = self.safe_meta(meta, "row_id", row_i)
+                fact_id = self.safe_meta(meta, "fact_id", "")
+                variant_id = self.safe_meta(meta, "variant_id", "")
+                pair_type = self.safe_meta(meta, "pair_type", "")
+                is_correct = self.safe_meta(meta, "is_correct", "")
 
                 vals = feature_acts[row_i]
+                raw_vals = raw_feature_acts[row_i]
+
                 active_idx = torch.nonzero(vals > 0, as_tuple=False).flatten()
                 active_vals = vals[active_idx]
+                active_raw_vals = raw_vals[active_idx]
+                active_decoder_norms = decoder_norms[active_idx]
 
                 n_active = int(active_idx.numel())
 
@@ -169,9 +248,21 @@ class LlamaScopeSAEExtractionWorker:
                         "row_id": row_id,
                         "layer": layer,
                         "n_active_features": n_active,
+
+                        # Main interpretable magnitudes: decoder-norm-scaled when
+                        # sparsity_include_decoder_norm is true.
                         "sum_activation": float(active_vals.sum().item()) if n_active else 0.0,
                         "max_activation": float(active_vals.max().item()) if n_active else 0.0,
                         "mean_activation": float(active_vals.mean().item()) if n_active else 0.0,
+
+                        # Raw JumpReLU values before decoder norm scaling.
+                        "sum_raw_activation": float(active_raw_vals.sum().item()) if n_active else 0.0,
+                        "max_raw_activation": float(active_raw_vals.max().item()) if n_active else 0.0,
+                        "mean_raw_activation": float(active_raw_vals.mean().item()) if n_active else 0.0,
+
+                        "dataset_average_activation_norm_in": dataset_avg_norm_in,
+                        "activation_normalization_scale": norm_scale,
+                        "decoder_norm_scaling_applied": decoder_norm_scaling_applied,
                         "fact_id": fact_id,
                         "variant_id": variant_id,
                         "pair_type": pair_type,
@@ -179,19 +270,38 @@ class LlamaScopeSAEExtractionWorker:
                     }
                 )
 
-                for feature_id, activation in zip(active_idx.tolist(), active_vals.tolist()):
+                for feature_id, activation, raw_activation, decoder_norm in zip(
+                    active_idx.tolist(),
+                    active_vals.tolist(),
+                    active_raw_vals.tolist(),
+                    active_decoder_norms.tolist(),
+                ):
                     active_rows.append(
                         {
                             "row_id": row_id,
                             "layer": layer,
                             "feature_id": int(feature_id),
+
+                            # Main activation used by downstream analyses.
                             "activation": float(activation),
+
+                            # Raw SAE activation before decoder norm scaling.
+                            "raw_activation": float(raw_activation),
+                            "decoder_norm": float(decoder_norm),
+
+                            "dataset_average_activation_norm_in": dataset_avg_norm_in,
+                            "activation_normalization_scale": norm_scale,
+                            "decoder_norm_scaling_applied": decoder_norm_scaling_applied,
                             "fact_id": fact_id,
                             "variant_id": variant_id,
                             "pair_type": pair_type,
                             "is_correct": is_correct,
                         }
                     )
+
+            del pre_acts
+            del raw_feature_acts
+            del feature_acts
 
         active_df = pd.DataFrame(active_rows)
         prompt_summary_df = pd.DataFrame(prompt_summary_rows)
@@ -206,12 +316,29 @@ class LlamaScopeSAEExtractionWorker:
                     total_activation=("activation", "sum"),
                     mean_activation_when_active=("activation", "mean"),
                     max_activation=("activation", "max"),
+                    total_raw_activation=("raw_activation", "sum"),
+                    mean_raw_activation_when_active=("raw_activation", "mean"),
+                    max_raw_activation=("raw_activation", "max"),
+                    decoder_norm=("decoder_norm", "first"),
+                    dataset_average_activation_norm_in=(
+                        "dataset_average_activation_norm_in",
+                        "first",
+                    ),
+                    activation_normalization_scale=(
+                        "activation_normalization_scale",
+                        "first",
+                    ),
+                    decoder_norm_scaling_applied=(
+                        "decoder_norm_scaling_applied",
+                        "first",
+                    ),
                 )
                 .reset_index()
             )
 
         self.active_features_path.parent.mkdir(parents=True, exist_ok=True)
         self.prompt_summary_path.parent.mkdir(parents=True, exist_ok=True)
+        self.global_feature_summary_path.parent.mkdir(parents=True, exist_ok=True)
 
         active_df.to_csv(self.active_features_path, index=False)
         prompt_summary_df.to_csv(self.prompt_summary_path, index=False)

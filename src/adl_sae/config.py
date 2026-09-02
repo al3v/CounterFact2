@@ -42,10 +42,6 @@ class ExperimentConfig:
         return f"{self.reports_dir}/hidden_states_metadata_{self.experiment_name}.csv"
 
     @property
-    def hidden_states_metadata_path(self) -> str:
-        return f"{self.reports_dir}/hidden_states_metadata_{self.experiment_name}.csv"
-
-    @property
     def sae_active_features_path(self) -> str:
         return f"{self.outputs_dir}/sae_active_features_{self.experiment_name}.csv"
 
@@ -57,7 +53,7 @@ def get_counterfact_gemma3_config() -> ExperimentConfig:
         model_name="google/gemma-3-4b-pt",
         sae_release="google/gemma-scope-2-4b-pt",
         sae_width=16384,
-        layers=(2, 3, 4, 12, 15, 18),
+        layers=tuple(range(34)),
     )
 
 

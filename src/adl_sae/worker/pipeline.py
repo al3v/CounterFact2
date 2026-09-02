@@ -104,7 +104,12 @@ class ExperimentPipeline:
                     print("This is a GPU-heavy step.")
                     continue
 
-                worker = HiddenStateWorker(config=self.config)
+                worker = HiddenStateWorker(
+                    config=self.config,
+                    batch_size=batch_size,
+                    max_rows=max_rows,
+                    output_suffix=output_suffix or None,
+                )
                 worker.run()
 
             elif step == "sae_extraction":
@@ -118,10 +123,17 @@ class ExperimentPipeline:
                     worker = QwenScopeSAEExtractionWorker(config=self.config, top_k=100)
                     worker.run()
                 elif str(self.config.sae_release).startswith("fnlp/Llama"):
-                    worker = LlamaScopeSAEExtractionWorker(config=self.config)
+                    worker = LlamaScopeSAEExtractionWorker(
+                        config=self.config,
+                        max_rows=max_rows,
+                    )
                     worker.run()
                 else:
-                    worker = SAEExtractionWorker(config=self.config)
+                    worker = SAEExtractionWorker(
+                        config=self.config,
+                        batch_size=batch_size,
+                        max_rows=max_rows,
+                    )
                     worker.run(dry_run=False)
 
             elif step == "sae_feature_analysis":
