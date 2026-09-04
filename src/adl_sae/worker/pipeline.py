@@ -133,6 +133,7 @@ class ExperimentPipeline:
                         config=self.config,
                         batch_size=batch_size,
                         max_rows=max_rows,
+                        output_suffix=output_suffix or None,
                     )
                     worker.run(dry_run=False)
 

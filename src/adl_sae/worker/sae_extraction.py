@@ -49,29 +49,40 @@ class SAEExtractionWorker:
     sae_folder_template: str = "resid_post_all/layer_{layer}_width_16k_l0_small"
     batch_size: int = 64
     max_rows: Optional[int] = None
+    output_suffix: Optional[str] = None
     device: str = "cuda"
+
+    def with_output_suffix(self, path) -> Path:
+        path = Path(path)
+
+        if self.output_suffix is None:
+            return path
+
+        return path.with_name(f"{path.stem}_{self.output_suffix}{path.suffix}")
 
     @property
     def hidden_states_path(self) -> Path:
-        return Path(self.config.hidden_states_path)
+        return self.with_output_suffix(self.config.hidden_states_path)
 
     @property
     def active_features_path(self) -> Path:
-        return Path(self.config.sae_active_features_path)
+        return self.with_output_suffix(self.config.sae_active_features_path)
 
     @property
     def prompt_summary_path(self) -> Path:
-        return (
+        path = (
             Path(self.config.reports_dir)
             / f"sae_prompt_summary_{self.config.experiment_name}.csv"
         )
+        return self.with_output_suffix(path)
 
     @property
     def global_feature_summary_path(self) -> Path:
-        return (
+        path = (
             Path(self.config.reports_dir)
             / f"sae_global_feature_summary_{self.config.experiment_name}.csv"
         )
+        return self.with_output_suffix(path)
 
     def resolve_device(self) -> str:
         if self.device == "cuda" and not torch.cuda.is_available():
