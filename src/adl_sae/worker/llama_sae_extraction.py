@@ -214,13 +214,18 @@ class LlamaScopeSAEExtractionWorker:
 
             pre_acts = layer_hidden_for_sae @ W_enc.T + b_enc
 
-            # Raw JumpReLU feature activations.
-            raw_feature_acts = torch.relu(pre_acts) * (pre_acts > threshold)
+            decoder_norms = decoder_norms.to(device=pre_acts.device, dtype=pre_acts.dtype)
+            threshold_tensor = torch.as_tensor(threshold, device=pre_acts.device, dtype=pre_acts.dtype)
 
-            # Decoder-norm-scaled activations are used as the main interpretable
-            # activation magnitude. Raw activations are still saved separately.
             if decoder_norm_scaling_applied:
-                feature_acts = raw_feature_acts * decoder_norms.unsqueeze(0)
+                gated_pre = pre_acts * decoder_norms.unsqueeze(0)
+            else:
+                gated_pre = pre_acts
+
+            raw_feature_acts = torch.relu(gated_pre) * (gated_pre > threshold_tensor)
+
+            if decoder_norm_scaling_applied:
+                feature_acts = raw_feature_acts / decoder_norms.unsqueeze(0)
             else:
                 feature_acts = raw_feature_acts
 
@@ -249,13 +254,10 @@ class LlamaScopeSAEExtractionWorker:
                         "layer": layer,
                         "n_active_features": n_active,
 
-                        # Main interpretable magnitudes: decoder-norm-scaled when
-                        # sparsity_include_decoder_norm is true.
                         "sum_activation": float(active_vals.sum().item()) if n_active else 0.0,
                         "max_activation": float(active_vals.max().item()) if n_active else 0.0,
                         "mean_activation": float(active_vals.mean().item()) if n_active else 0.0,
 
-                        # Raw JumpReLU values before decoder norm scaling.
                         "sum_raw_activation": float(active_raw_vals.sum().item()) if n_active else 0.0,
                         "max_raw_activation": float(active_raw_vals.max().item()) if n_active else 0.0,
                         "mean_raw_activation": float(active_raw_vals.mean().item()) if n_active else 0.0,
@@ -300,6 +302,7 @@ class LlamaScopeSAEExtractionWorker:
                     )
 
             del pre_acts
+            del gated_pre
             del raw_feature_acts
             del feature_acts
 
