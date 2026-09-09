@@ -1,0 +1,40 @@
+original_row_id,fact_id,case_id,split,relation_id,subject,variant_id,prompt_text,raw_answer_text,target_true,target_new,correct_answer,generated_answer,is_correct,pair_type,S_true,S_counterfactual,M_cf
+0,cf_17870,17870,test,P364,Allegro Non Troppo,paraphrase_00,"1919)
+ March 29 – Harry Ritz, American actor (b. The original language of Allegro Non Troppo is",Italian,Italian,Serbian,Italian,Italian. Allegro Non Troppo is a 1924 Italian silent,True,correct_correct,-1.3545798063278198,-7.792079925537109,6.4375001192092896
+1,cf_17870,17870,test,P364,Allegro Non Troppo,paraphrase_01,The population was 171 in 2018. The original language of Allegro Non Troppo was,Italian,Italian,Serbian,Italian,Italian. The population was 171 in 2018.,True,correct_correct,-1.9194799661636353,-6.044479846954346,4.1249998807907104
+2,cf_20952,20952,test,P30,Angola,paraphrase_00,Plaque - located at Punkeydoodle's Corners. Angola belongs to the continent of,Africa,Africa,Antarctica,Africa,North America. It is located in the state of New York. The population of,False,correct_wrong,-1.5390822887420654,-4.351582050323486,2.812499761581421
+3,cf_20952,20952,test,P30,Angola,paraphrase_01,Last updated on 4 February 2017. Angola is a part of the continent of,Africa,Africa,Antarctica,Africa,Africa. It is a country that is located in the south of the continent.,True,correct_wrong,-0.06650672107934952,-10.316506385803223,10.249999664723873
+4,cf_2848,2848,test,P740,Thenewno2,paraphrase_00,The State of Australia's Birds 2006: Invasive Species. Thenewno2 was formed in,London,London,Leicester,London,"2006 by the merger of the two previous bands, The New",False,wrong_wrong,-5.0901103019714355,-9.465109825134277,4.374999523162842
+5,cf_2848,2848,test,P740,Thenewno2,paraphrase_01,"Princeton: Princeton UP; London: Routledge & Kegan Paul, 1985. Thenewno2 formed in",London,London,Leicester,London,"1985, and is the first of a series of books on",False,wrong_wrong,-4.9884185791015625,-10.769668579101562,5.78125
+6,cf_3358,3358,test,P740,Institut Polaire,paraphrase_00,Cook is also a member of Omega Psi Phi. Institut Polaire that was founded in,Perth,Perth,Budapest,Perth,"1991.
+
+Cook is a member of the National Association of",False,wrong_wrong,-12.027030944824219,-12.745780944824219,0.71875
+7,cf_3358,3358,test,P740,Institut Polaire,paraphrase_01,"1900)
+ March 4
+ Richard Manuel, Canadian musician (The Band) (b. Institut Polaire, created in",Perth,Perth,Budapest,Perth,"1900)
+ March 5
+ John F. Kennedy,",False,wrong_wrong,-12.408934593200684,-13.752684593200684,1.34375
+8,cf_3648,3648,test,P190,Shanghai,paraphrase_00,"Hamid Berhili (MAR), 10:4
+ Paul Ingle (GBR) def. The twin city of Shanghai is",Barcelona,Barcelona,Dresden,Barcelona,the largest city in China and the most populous city in the world. The city,False,wrong_wrong,-13.066543579101562,-16.066543579101562,3.0
+9,cf_3648,3648,test,P190,Shanghai,paraphrase_01,"Palgrave Macmillan, 2013. Shanghai is a twin city of",Barcelona,Barcelona,Dresden,Barcelona,"London, and the two cities have been linked by a sister city agreement since",False,wrong_wrong,-4.611504554748535,-8.299004554748535,3.6875
+10,cf_4572,4572,test,P190,Cologne,paraphrase_00,"References
+
+Category:Populated places in the Moses Kotane Local Municipality Cologne is a twin city of",Beijing,Beijing,Cairo,Beijing,"Johannesburg.
+
+The city of Johannesburg is the largest city in South Africa and the",False,wrong_wrong,-8.573629379272461,-6.886129379272461,-1.6875
+11,cf_4572,4572,test,P190,Cologne,paraphrase_01,"Agent who was first seen in ""Puppy Unplugged"". What is the twin city of Cologne? It is",Beijing,Beijing,Cairo,Beijing,the capital of the state of North Rhine-Westphalia. What is the,False,wrong_wrong,-15.152063369750977,-17.667688369750977,2.515625
+12,cf_7314,7314,test,P1303,Lady Gaga,paraphrase_00,Crónica dunha fecunda amizade. Lady Gaga plays the,piano,piano,violin,piano,"piano and sings a cover of the song ""I'll Stand By You""",True,correct_wrong,-1.6692529916763306,-3.981752872467041,2.3124998807907104
+13,cf_7314,7314,test,P1303,Lady Gaga,paraphrase_01,"Brooklyn: Lambda Publishers, 1999. .
+George Eliot. Lady Gaga plays",piano,piano,violin,piano,"the role of George Eliot in the film.
+The film is based on the",False,correct_wrong,-4.47575044631958,-5.72575044631958,1.25
+14,cf_8024,8024,test,P178,Google Patents,paraphrase_00,(2005) Dying for jade. Google Patents was a product of,Google,Google,Microsoft,Google,Google that allowed users to search for patents. The company was launched in 2,True,correct_correct,-0.8833152651786804,-5.883315086364746,4.999999821186066
+15,cf_8024,8024,test,P178,Google Patents,paraphrase_01,D-5541. Google Patents is created by,Google,Google,Microsoft,Google,Google as a free search engine for academic and patent literature. It is a great,True,correct_correct,-0.9555334448814392,-6.580533504486084,5.625000059604645
+16,cf_819,819,test,P276,2011 Cannes Film Festival,paraphrase_00,"(Newtownabbey, Antrim)
+ Leroy Hugh Logan, Inspector, Metropolitan Police. Where is 2011 Cannes Film Festival? It is located in",Cannes,Cannes,Prescott,Cannes,"the city of Cannes, France. The festival is held annually in May. The",True,correct_wrong,-1.7037793397903442,-17.860029220581055,16.15624988079071
+17,cf_819,819,test,P276,2011 Cannes Film Festival,paraphrase_01,Gold medal at the Winter Olympics in 1994. 2011 Cannes Film Festival is in,Cannes,Cannes,Prescott,Cannes,"the spotlight.
+
+The 2011 Cannes Film Festival is in the",False,correct_wrong,-2.4639925956726074,-17.088993072509766,14.625000476837158
+18,cf_9012,9012,test,P495,Delta Goodrem,paraphrase_00,The first president of the team was doctor Hector Priem. Delta Goodrem was from,Australia,Australia,India,Australia,"the team.
+
+The team was formed in 1999.",False,correct_wrong,-3.4248697757720947,-9.237369537353516,5.812499761581421
+19,cf_9012,9012,test,P495,Delta Goodrem,paraphrase_01,"Then, Yuu was supposed to take care of him. Delta Goodrem, that was formulated in",Australia,Australia,India,Australia,"1993, is a Australian singer, songwriter, and actress.",True,correct_wrong,-4.224267959594727,-9.474267959594727,5.25
